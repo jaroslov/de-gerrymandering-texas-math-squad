@@ -124,7 +124,14 @@ def EfficiencyGap(data, year, kind, Regress=None):
         #
         # District 23: I'm lookin' at you, bro.
         #
-        minToWin    = min(max(D, R, I), math.ceil(float(totalVotes) / 2))
+        ComputeType     = 'like-mcghee'
+        if ComputeType == 'like-mcghee':
+            minToWin    = min(max(D, R, I), math.ceil(float(totalVotes) / 2))
+        else:
+            allVotes    = [D, R, I, 0]
+            allVotes.sort()
+            allVotes.reverse()
+            minToWin    = allVotes[1]+1
         Dwasted     = D if D < R else D - minToWin
         Rwasted     = R if R < D else R - minToWin
         perDistrictGap.append({'D':D, 'R':R, 'I':I, 'Dwasted':Dwasted, 'Rwasted':Rwasted})
