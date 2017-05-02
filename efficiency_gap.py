@@ -98,7 +98,28 @@ DATA = {
     }
 }
 
-def EfficiencyGap(data, year, kind, Regress=None):
+def LikeMcGhee(D, R, I):
+    '''
+    XXX: Ignore independents, entirely.
+    '''
+    return math.floor(float(D + R) / 2)
+
+def PluralityDiff(D, R, I):
+    '''
+    XXX: In Texas, the candidate with the *most* votes, wins. This means
+    it's possible for (very close) races to have a candidate that doesn't
+    get a clear majority. We have to look for those cases and make sure
+    we don't assign 'negative' wasted votes to that winning candidate.
+
+    District 23: I'm lookin' at you, bro.
+    '''
+    allVotes    = [D, R, I, 0]
+    allVotes.sort()
+    allVotes.reverse()
+    minToWin    = allVotes[1]+1
+    return minToWin
+
+def EfficiencyGap(data, year, kind, ComputeType=None, Regress=None):
     '''
         Compute the efficiency gap. Arguments are:
 
@@ -116,22 +137,7 @@ def EfficiencyGap(data, year, kind, Regress=None):
     perDistrictGap  = []
 
     for D,R,I in newDistrictData:
-        totalVotes  = D + R + I
-        # XXX: In Texas, the candidate with the *most* votes, wins. This means
-        # it's possible for (very close) races to have a candidate that doesn't
-        # get a clear majority. We have to look for those cases and make sure
-        # we don't assign 'negative' wasted votes to that winning candidate.
-        #
-        # District 23: I'm lookin' at you, bro.
-        #
-        ComputeType     = 'like-mcghee'
-        if ComputeType == 'like-mcghee':
-            minToWin    = min(max(D, R, I), math.ceil(float(totalVotes) / 2))
-        else:
-            allVotes    = [D, R, I, 0]
-            allVotes.sort()
-            allVotes.reverse()
-            minToWin    = allVotes[1]+1
+        minToWin    = ComputeType(D, R, I)
         Dwasted     = D if D < R else D - minToWin
         Rwasted     = R if R < D else R - minToWin
         perDistrictGap.append({'D':D, 'R':R, 'I':I, 'Dwasted':Dwasted, 'Rwasted':Rwasted})
@@ -193,11 +199,11 @@ def LinearRegressInverse(data, year, kind):
     for D,R,I in data[year][kind]:
         Ik      = I if I is not None else 0
         if D is None:
-            Dk  = R / scipy.polyval([Ra_s, Rb_s], R)
+            Dk  = .75 * R / scipy.polyval([Ra_s, Rb_s], R)
         else:
             Dk  = D
         if R is None:
-            Rk  = D / scipy.polyval([Da_s, Db_s], D)
+            Rk  = .75 * D / scipy.polyval([Da_s, Db_s], D)
         else:
             Rk  = R
         results.append((Dk,Rk,Ik))
@@ -211,6 +217,11 @@ def LinearRegressInverse(data, year, kind):
 Methods     = {
     'ignore-uncontested'        : Ignore,
     'linear-regress-inverse'    : LinearRegressInverse,
+}
+
+GapType     = {
+    'like-mcghee'               : LikeMcGhee,
+    'plurality-diff'            : PluralityDiff,
 }
 
 ################################################
@@ -257,6 +268,7 @@ if __name__=='__main__':
     parser.add_argument('-y', '--year', default=2016, help="Which year to analyze.")
     parser.add_argument('-k', '--kind', default='CD', help="Which legislative branch to analyze: US congressional = 'CD'; TX House = 'house'; TX Senate = 'senate'.")
     parser.add_argument('-m', '--method', default='ignore-uncontested', help="Which method to use to analyze uncontested races: "+', '.join(Methods.keys()))
+    parser.add_argument('-c', '--gap-type', default='like-mcghee', help="Which method to use to compute the wasted votes: "+', '.join(GapType.keys()))
 
     args    = parser.parse_args()
 
@@ -269,7 +281,7 @@ if __name__=='__main__':
     print " Method :", args.method
     print
 
-    results = EfficiencyGap(DATA, int(args.year), args.kind, Methods[args.method])
+    results = EfficiencyGap(DATA, int(args.year), args.kind, GapType[args.gap_type], Methods[args.method])
 
     GenReport(results)
 
