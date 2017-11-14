@@ -1,0 +1,258 @@
+<html>
+<head>
+    <title>Gerrymandering: Chapter 1</title>
+    <style>
+        td {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        textarea {
+            resize: none;
+        }
+    </style>
+    <script>
+        var NUMFEDS     = 250;
+        var NUMD_RS     = 150;
+        var NUMTOTAL    = NUMFEDS + NUMD_RS;
+        var DISTMAX     = (NUMTOTAL) / 4 * 1.05;
+        var districts   = {
+            'A' : {
+                'Federalists' : 0,
+                'Democratic-Republicans' : 0,
+            },
+            'B' : {
+                'Federalists' : 0,
+                'Democratic-Republicans' : 0,
+            },
+            'C' : {
+                'Federalists' : 0,
+                'Democratic-Republicans' : 0,
+            },
+            'D' : {
+                'Federalists' : 0,
+                'Democratic-Republicans' : 0,
+            },
+        }
+
+        function loader()
+        {
+            results                     = document.getElementById('results');
+            results.innerHTML           = "There are "+NUMTOTAL+" people not accounted for: "+NUMFEDS+" Federalists, and "+NUMD_RS+" Democratic-Republicans."
+
+            stateinfo                   = document.getElementById('stateinfo');
+            stateinfo.innerHTML         = "East Tetralina has a " + NUMTOTAL + " people; there are " + NUMFEDS + " Federalists; and " + NUMD_RS + " Democratic-Republicans.<br/>"
+                                        + "Each district can have, at most " + DISTMAX + " people in it."
+                                        ;
+        }
+
+        function myFunction(district, party) {
+            input                       = document.getElementById(district+'-'+party);
+            districts[district][party]  = Number(input.value);
+
+            numFedWins                  = (districts['A']['Federalists'] > districts['A']['Democratic-Republicans'] ? 1 : 0)
+                                        + (districts['B']['Federalists'] > districts['B']['Democratic-Republicans'] ? 1 : 0)
+                                        + (districts['C']['Federalists'] > districts['C']['Democratic-Republicans'] ? 1 : 0)
+                                        + (districts['D']['Federalists'] > districts['D']['Democratic-Republicans'] ? 1 : 0)
+                                        ;
+
+            numD_RWins                  = (districts['A']['Federalists'] < districts['A']['Democratic-Republicans'] ? 1 : 0)
+                                        + (districts['B']['Federalists'] < districts['B']['Democratic-Republicans'] ? 1 : 0)
+                                        + (districts['C']['Federalists'] < districts['C']['Democratic-Republicans'] ? 1 : 0)
+                                        + (districts['D']['Federalists'] < districts['D']['Democratic-Republicans'] ? 1 : 0)
+                                        ;
+
+            numFeds                     = districts['A']['Federalists']
+                                        + districts['B']['Federalists']
+                                        + districts['C']['Federalists']
+                                        + districts['D']['Federalists']
+                                        ;
+            numD_Rs                     = districts['A']['Democratic-Republicans']
+                                        + districts['B']['Democratic-Republicans']
+                                        + districts['C']['Democratic-Republicans']
+                                        + districts['D']['Democratic-Republicans']
+                                        ;
+            accounts                    = document.getElementById('accounts');
+            accounts.innerHTML          = 'There are '
+                                        + (NUMTOTAL - (numFeds + numD_Rs))
+                                        + ' people not accounted for: '
+                                        + (NUMFEDS - numFeds)
+                                        + ' Federalists, and '
+                                        + (NUMD_RS - numD_Rs)
+                                        + ' Democratic-Republicans.'
+                                        ;
+
+            numErrors                   = 0;
+            errors                      = ''
+            if ((numFeds + numD_Rs) > NUMTOTAL)
+            {
+                numErrors               += 1;
+                if (numErrors > 1)
+                {
+                    errors              += "<br/>";
+                }
+                errors                  += "Sorry, you've allocated too many people for the state!";
+            }
+            if (numFeds > NUMFEDS)
+            {
+                numErrors               += 1;
+                if (numErrors > 1)
+                {
+                    errors              += "<br/>";
+                }
+                errors                  += "Sorry, you've allocated too many Federalists for the state!";
+            }
+            if (numD_Rs > NUMD_RS)
+            {
+                numErrors               += 1;
+                if (numErrors > 1)
+                {
+                    errors              += "<br/>";
+                }
+                errors                  += "Sorry, you've allocated too many Democratic-Republicans for the state!";
+            }
+            if ((districts['A']['Federalists'] + districts['A']['Democratic-Republicans']) > DISTMAX)
+            {
+                numErrors               += 1;
+                if (numErrors > 1)
+                {
+                    errors              += "<br/>";
+                }
+                errors                  += "Sorry, you can have, at most, "+DISTMAX+" people in district A.";
+            }
+            if ((districts['B']['Federalists'] + districts['B']['Democratic-Republicans']) > DISTMAX)
+            {
+                numErrors               += 1;
+                if (numErrors > 1)
+                {
+                    errors              += "<br/>";
+                }
+                errors                  += "Sorry, you can have, at most, "+DISTMAX+" people in district B.";
+            }
+            if ((districts['C']['Federalists'] + districts['C']['Democratic-Republicans']) > DISTMAX)
+            {
+                numErrors               += 1;
+                if (numErrors > 1)
+                {
+                    errors              += "<br/>";
+                }
+                errors                  += "Sorry, you can have, at most, "+DISTMAX+" people in district C.";
+            }
+            if ((districts['D']['Federalists'] + districts['D']['Democratic-Republicans']) > DISTMAX)
+            {
+                numErrors               += 1;
+                if (numErrors > 1)
+                {
+                    errors              += "<br/>";
+                }
+                errors                  += "Sorry, you can have, at most, "+DISTMAX+" people in district D.";
+            }
+
+            results                     = document.getElementById('results');
+            if (numErrors == 0)
+            {
+                if (numFedWins > numD_RWins)
+                {
+                    results.innerHTML       = "The Federalists have a majority of representatives for the state!";
+                }
+                else if (numFedWins < numD_RWins)
+                {
+                    results.innerHTML       = "The Democratic-Republicans have a majority of representatives for the state!";
+                }
+                else
+                {
+                    results.innerHTML       = "The parties are tied!";
+                }
+            }
+            else
+            {
+                results.innerHTML           = errors;
+            }
+
+        }
+    </script>
+</head>
+<body onload="loader();">
+    <p>
+        State of East Tetralina; 14th colony; Federalists vs. Democratic-Republicans; 1803.
+    </p>
+    <p id="stateinfo"/>
+    <form>
+        <table style="border:1px solid black; border-collapse:collapse;">
+            <tr>
+                <td colspan="2" style="text-align:center; border-right:1px solid black;">
+                    <p>A</p>
+                </td>
+                <td colspan="2" style="text-align:center;">
+                    <p>B</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Federalists:</p>
+                </td>
+                <td style="border-right:1px solid black;">
+                    <textarea onkeyup="myFunction('A', 'Federalists')" type="text" rows="1" cols="8" style="width:10em;" id="A-Federalists">0</textarea>
+                </td>
+                <td>
+                    <p>Federalists:</p>
+                </td>
+                <td>
+                    <textarea onkeyup="myFunction('B', 'Federalists')" type="text" rows="1" cols="8" style="width:10em;" id="B-Federalists">0</textarea>
+                </td>
+            </tr>
+            <tr style="border-bottom: 1px solid black;">
+                <td>
+                    <p>Democratic-Republicans:</p>
+                </td>
+                <td style="border-right:1px solid black;">
+                    <textarea onkeyup="myFunction('A', 'Democratic-Republicans')" type="text" rows="1" cols="8" style="width:10em;" id="A-Democratic-Republicans">0</textarea>
+                </td>
+                <td>
+                    <p>Democratic-Republicans:</p>
+                </td>
+                <td>
+                    <textarea onkeyup="myFunction('B', 'Democratic-Republicans')" type="text" rows="1" cols="8" style="width:10em;" id="B-Democratic-Republicans">0</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center; border-right:1px solid black;">
+                    <p>C</p>
+                </td>
+                <td colspan="2" style="text-align:center;">
+                    <p>D</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Federalists:</p>
+                </td>
+                <td style="border-right:1px solid black;">
+                    <textarea onkeyup="myFunction('C', 'Federalists')" type="text" rows="1" cols="8" style="width:10em;" id="C-Federalists">0</textarea>
+                </td>
+                <td>
+                    <p>Federalists:</p>
+                </td>
+                <td>
+                    <textarea onkeyup="myFunction('D', 'Federalists')" type="text" rows="1" cols="8" style="width:10em;" id="D-Federalists">0</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Democratic-Republicans:</p>
+                </td>
+                <td style="border-right:1px solid black;">
+                    <textarea onkeyup="myFunction('C', 'Democratic-Republicans')" type="text" rows="1" cols="8" style="width:10em;" id="C-Democratic-Republicans">0</textarea>
+                </td>
+                <td>
+                    <p>Democratic-Republicans:</p>
+                </td>
+                <td>
+                    <textarea onkeyup="myFunction('D', 'Democratic-Republicans')" type="text" rows="1" cols="8" style="width:10em;" id="D-Democratic-Republicans">0</textarea>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p id="accounts"/>
+    <p id="results"/>
+</body>
+</html>
