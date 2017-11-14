@@ -21,8 +21,8 @@ var TheReflector    = [...Array(CHEIGHT)].map(i => Array(CWIDTH));
 
 function GenerateRandomPopulation()
 {
-    var NumFeds     = Math.floor(Math.random() * 10) + 90;
-    var NumD_Rs     = Math.floor(Math.random() * 10) + 90;
+    var NumFeds     = Math.floor(Math.random() * 1) + 9;
+    var NumD_Rs     = Math.floor(Math.random() * 1) + 9;
 
     for (i = 0; i < NumFeds; ++i)
     {
@@ -308,7 +308,13 @@ function SimulateElection()
     for (PP = 0; PP < ThePopulation.length; PP++)
     {
         var Person  = ThePopulation[PP];
-        DISTRICTS[TheReflector[Person['y']][Person['x']]]['People'].push(Person);
+        var PInfo   = TheReflector[Person['y']][Person['x']]
+        if (PInfo < 2)
+        {
+            // Someone drew a line on top of this person!
+            continue;
+        }
+        DISTRICTS[PInfo]['People'].push(Person);
     }
 
     var DistrictsWon        = {};
