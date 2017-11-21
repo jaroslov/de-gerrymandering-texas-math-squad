@@ -153,7 +153,7 @@ function loader(setup)
     var legd_r      = document.getElementById('legend-d_rs');
     legd_r.setAttribute('style', 'background-color:' + D_RCOLOR + '; border: 1px solid ' + D_RBORDERCLR + ';');
 
-    Redraw();
+    Redraw(TheContext, true);
 }
 
 function AddLocation(mX, mY, dragging)
@@ -176,7 +176,7 @@ function Press(e)
     mouseY          -= this.offsetTop;
     Painting        = true;
     AddLocation(mouseX, mouseY, false);
-    Redraw();
+    Redraw(TheContext, true);
 }
 
 function Drag(e)
@@ -194,7 +194,7 @@ function Drag(e)
     if (Painting)
     {
         AddLocation(mouseX, mouseY, true);
-        Redraw();
+        Redraw(TheContext, true);
     }
 
     e.preventDefault();
@@ -203,7 +203,7 @@ function Drag(e)
 function Release()
 {
     Painting    = false;
-    Redraw();
+    Redraw(TheContext, true);
 }
 
 function Cancel()
@@ -238,35 +238,45 @@ function Population()
     }
 }
 
-function Redraw()
+function Redraw(AContext, RenderWithPop)
 {
     for (i = 0; i < Paths.length; i++)
     {
-        TheContext.beginPath();
+        AContext.beginPath();
         if (Paths[i]['drag'] && i)
         {
-            TheContext.moveTo(Paths[i-1]['x'], Paths[i-1]['y']);
+            AContext.moveTo(Paths[i-1]['x'], Paths[i-1]['y']);
         }
         else
         {
-            TheContext.moveTo(Paths[i]['x'], Paths[i]['y']);
+            AContext.moveTo(Paths[i]['x'], Paths[i]['y']);
         }
-        TheContext.lineTo(Paths[i]['x'], Paths[i]['y']);
-        TheContext.lineCap      = 'round';
-        TheContext.lineJoin     = 'round';
-        TheContext.lineWidth    = Paths[i]['color'] ? CRADIUS : ERADIUS;
-        TheContext.strokeStyle  = Paths[i]['color'] ? DISTRICTCOLOR : BKGDCOLOR;
-        TheContext.stroke();
+        AContext.lineTo(Paths[i]['x'], Paths[i]['y']);
+        AContext.lineCap        = 'round';
+        AContext.lineJoin       = 'round';
+        AContext.lineWidth      = Paths[i]['color'] ? CRADIUS : ERADIUS;
+        AContext.strokeStyle    = Paths[i]['color'] ? DISTRICTCOLOR : BKGDCOLOR;
+        AContext.stroke();
     }
 
-    TheContext.closePath();
+    AContext.closePath();
 
-    Population();
+    if (RenderWithPop)
+    {
+        Population();
+    }
 }
 
 function SimulateElection()
 {
-    var TheRawData              = TheContext.getImageData(0, 0, CWIDTH, CHEIGHT);
+    var OffCanvas               = document.createElement('canvas');
+    OffCanvas.width             = CWIDTH;
+    OffCanvas.height            = CHEIGHT;
+    OffContext                  = OffCanvas.getContext("2d");
+
+    Redraw(OffContext, false);
+
+    var TheRawData              = OffContext.getImageData(0, 0, CWIDTH, CHEIGHT);
 
     var BORDER                  = 1;
     var DISTRICTNAME            = 2;
