@@ -21,6 +21,46 @@ var D_RRndBase      = 10;
 var DRAWCOLOR       = DISTRICTCOLOR;
 var BKGDCOLOR       = "#FFFFFF";
 
+var PanX            = 0;
+var PanY            = 0;
+var Scale           = 1;
+
+var PanXStart       = 0;
+var PanYStart       = 0;
+var PanCurX         = 0;
+var PanCurY         = 0;
+var Panning         = false;
+
+var ActionState     = 'draw';
+
+function GetActionState()
+{
+    if (document.getElementById("boundary") && document.getElementById("boundary").checked)
+    {
+        ActionState = 'draw';
+    }
+    else if (document.getElementById("erase") && document.getElementById("erase").checked)
+    {
+        ActionState = 'erase';
+    }
+    else if (document.getElementById("pan") && document.getElementById("pan").checked)
+    {
+        ActionState = 'pan';
+    }
+    else if (document.getElementById("zoom-in") && document.getElementById("zoom-in").checked)
+    {
+        ActionState = 'zoom-in';
+    }
+    else if (document.getElementById("zoom-out") && document.getElementById("zoom-out").checked)
+    {
+        ActionState = 'zoom-out';
+    }
+    else
+    {
+        ActionState = 'draw';
+    }
+}
+
 function GenerateRandomPopulation()
 {
     var NumFeds     = Math.floor(Math.random() * FedRndRange) + FedRndBase;
@@ -158,8 +198,7 @@ function loader(setup)
 
 function AddLocation(mX, mY, dragging)
 {
-    var drawTool    = document.getElementById("boundary").checked;
-    Paths.push({'x':mX, 'y':mY, 'drag':dragging, 'color': drawTool});
+    Paths.push({'x':mX, 'y':mY, 'drag':dragging, 'color': ActionState == 'draw'});
 }
 
 function Press(e)
@@ -174,9 +213,23 @@ function Press(e)
                     : e.pageY
                     ;
     mouseY          -= this.offsetTop;
-    Painting        = true;
-    AddLocation(mouseX, mouseY, false);
-    Redraw(TheContext, true);
+    switch (ActionState)
+    {
+    case 'draw'     :
+    case 'erase'    :
+        Painting        = true;
+        AddLocation(mouseX, mouseY, false);
+        Redraw(TheContext, true);
+        break;
+    case 'zoom-in'      : break;
+    case 'zoom-out'     : break;
+    case 'pan'          :
+        Panning         = true;
+        PanXStart       = mouseX;
+        PanYStart       = mouseY;
+        Redraw(TheContext, true);
+        break;
+    }
 }
 
 function Drag(e)
@@ -191,17 +244,47 @@ function Drag(e)
                     : e.pageY
                     ;
     mouseY          -= this.offsetTop;
-    if (Painting)
+    switch (ActionState)
     {
-        AddLocation(mouseX, mouseY, true);
-        Redraw(TheContext, true);
-    }
+    case 'draw'     :
+    case 'erase'    :
+        if (Painting)
+        {
+            AddLocation(mouseX, mouseY, true);
+            Redraw(TheContext, true);
+        }
 
-    e.preventDefault();
+        e.preventDefault();
+        break;
+    case 'zoom-in'      : break;
+    case 'zoom-out'     : break;
+    case 'pan'          :
+        if (Panning)
+        {
+            PanCurX     = (mouseX - PanXStart);
+            PanCurY     = (mouseY - PanYStart);
+            Redraw(TheContext, true);
+        }
+        break;
+    }
 }
 
 function Release()
 {
+    switch (ActionState)
+    {
+    case 'draw'         : break;
+    case 'erase'        : break;
+    case 'zoom-in'      : break;
+    case 'zoom-out'     : break;
+    case 'pan'          :
+        Panning         = false;
+        PanX            = PanCurX;
+        PanY            = PanCurY;
+        PanCurX         = 0;
+        PanCurY         = 0;
+        break;
+    }
     Painting    = false;
     Redraw(TheContext, true);
 }
@@ -221,7 +304,7 @@ function Population()
     for (i = 0; i < ThePopulation.length; i++)
     {
         TheContext.beginPath();
-        TheContext.arc(ThePopulation[i]['x'], ThePopulation[i]['y'],5,0,6.2830);
+        TheContext.arc((ThePopulation[i]['x'] - PanX + PanCurX) / Scale, (ThePopulation[i]['y'] - PanY + PanCurY) / Scale,5,0,6.2830);
         if (ThePopulation[i]['Party'] == FEDNAME)
         {
             TheContext.strokeStyle  = FEDBORDERCLR;
@@ -240,18 +323,20 @@ function Population()
 
 function Redraw(AContext, RenderWithPop)
 {
+    Clear();
+
     for (i = 0; i < Paths.length; i++)
     {
         AContext.beginPath();
         if (Paths[i]['drag'] && i)
         {
-            AContext.moveTo(Paths[i-1]['x'], Paths[i-1]['y']);
+            AContext.moveTo((Paths[i-1]['x'] - PanX + PanCurX) / Scale, (Paths[i-1]['y'] - PanY + PanCurY) / Scale);
         }
         else
         {
-            AContext.moveTo(Paths[i]['x'], Paths[i]['y']);
+            AContext.moveTo((Paths[i]['x'] - PanX + PanCurX) / Scale, (Paths[i]['y'] - PanY + PanCurY) / Scale);
         }
-        AContext.lineTo(Paths[i]['x'], Paths[i]['y']);
+        AContext.lineTo((Paths[i]['x'] - PanX + PanCurX) / Scale, (Paths[i]['y'] - PanY + PanCurY) / Scale);
         AContext.lineCap        = 'round';
         AContext.lineJoin       = 'round';
         AContext.lineWidth      = Paths[i]['color'] ? CRADIUS : ERADIUS;
@@ -461,4 +546,6 @@ function SimulateElection()
     }
     footRow.appendChild(result);
     TheDistrictResults.appendChild(footR);
+
+    Redraw(TheContext, true);
 }
