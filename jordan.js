@@ -4,11 +4,12 @@ var CRADIUS         = 3;
 var ERADIUS         = 15;
 var DISTRICTCOLOR   = "#999999";
 var FEDCOLOR        = "#555555";
-var FEDBORDERCLR    = "#111111";
+var FEDBORDERCLR    = FEDCOLOR;//"#111111";
 var D_RCOLOR        = "#00ACEE";
-var D_RBORDERCLR    = "#00008F";
+var D_RBORDERCLR    = D_RCOLOR;//"#00008F";
 var FEDNAME         = 'Feds';
 var D_RNAME         = 'D_Rs';
+var PersonRadius    = 3;
 var Paths           = [];
 var Painting        = false;
 var TheContext;
@@ -32,6 +33,9 @@ var PanCurY         = 0;
 var Panning         = false;
 
 var ActionState     = 'draw';
+
+var NumFeds         = 100;
+var NumD_Rs         = 100;
 
 function GetActionState()
 {
@@ -63,8 +67,8 @@ function GetActionState()
 
 function GenerateRandomPopulation()
 {
-    var NumFeds     = Math.floor(Math.random() * FedRndRange) + FedRndBase;
-    var NumD_Rs     = Math.floor(Math.random() * D_RRndRange) + D_RRndBase;
+    NumFeds         = Math.floor(Math.random() * FedRndRange) + FedRndBase;
+    NumD_Rs         = Math.floor(Math.random() * D_RRndRange) + D_RRndBase;
 
     for (i = 0; i < NumFeds; ++i)
     {
@@ -87,6 +91,9 @@ function GenerateRandomPopulation()
 
 function GenerateEasyPopulation()
 {
+    NumFeds = 20;
+    NumD_Rs = 20;
+
     ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':15});
     ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':30});
     ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':45});
@@ -193,6 +200,11 @@ function loader(setup)
     var legd_r      = document.getElementById('legend-d_rs');
     legd_r.setAttribute('style', 'background-color:' + D_RCOLOR + '; border: 1px solid ' + D_RBORDERCLR + ';');
 
+    var legfed          = document.getElementById('legend-feds-pop');
+    legfed.innerHTML    = NumFeds;
+    var legd_r          = document.getElementById('legend-d_rs-pop');
+    legd_r.innerHTML    = NumD_Rs;
+
     Redraw(TheContext, true);
 }
 
@@ -218,7 +230,7 @@ function Press(e)
     case 'draw'     :
     case 'erase'    :
         Painting        = true;
-        AddLocation(mouseX, mouseY, false);
+        AddLocation(mouseX + PanX, mouseY + PanY, false);
         Redraw(TheContext, true);
         break;
     case 'zoom-in'      : break;
@@ -250,7 +262,7 @@ function Drag(e)
     case 'erase'    :
         if (Painting)
         {
-            AddLocation(mouseX, mouseY, true);
+            AddLocation(mouseX + PanX, mouseY + PanY, true);
             Redraw(TheContext, true);
         }
 
@@ -279,8 +291,8 @@ function Release()
     case 'zoom-out'     : break;
     case 'pan'          :
         Panning         = false;
-        PanX            = PanCurX;
-        PanY            = PanCurY;
+        PanX            -= PanCurX;
+        PanY            -= PanCurY;
         PanCurX         = 0;
         PanCurY         = 0;
         break;
@@ -304,7 +316,7 @@ function Population()
     for (i = 0; i < ThePopulation.length; i++)
     {
         TheContext.beginPath();
-        TheContext.arc((ThePopulation[i]['x'] - PanX + PanCurX) / Scale, (ThePopulation[i]['y'] - PanY + PanCurY) / Scale,5,0,6.2830);
+        TheContext.arc((ThePopulation[i]['x'] - PanX + PanCurX) / Scale, (ThePopulation[i]['y'] - PanY + PanCurY) / Scale, PersonRadius, 0, 6.2830);
         if (ThePopulation[i]['Party'] == FEDNAME)
         {
             TheContext.strokeStyle  = FEDBORDERCLR;
@@ -325,24 +337,50 @@ function Redraw(AContext, RenderWithPop)
 {
     Clear();
 
+    var OPX = - PanX + PanCurX;
+    var OPY = - PanY + PanCurY;
+    var SC  = Scale;
+
+    if (!RenderWithPop)
+    {
+        OPX = 0;
+        OPY = 0;
+        SC  = 1;
+    }
+
     for (i = 0; i < Paths.length; i++)
     {
         AContext.beginPath();
         if (Paths[i]['drag'] && i)
         {
-            AContext.moveTo((Paths[i-1]['x'] - PanX + PanCurX) / Scale, (Paths[i-1]['y'] - PanY + PanCurY) / Scale);
+            AContext.moveTo((Paths[i-1]['x'] + OPX) / SC, (Paths[i-1]['y'] + OPY) / SC);
         }
         else
         {
-            AContext.moveTo((Paths[i]['x'] - PanX + PanCurX) / Scale, (Paths[i]['y'] - PanY + PanCurY) / Scale);
+            AContext.moveTo((Paths[i]['x'] + OPX) / SC, (Paths[i]['y'] + OPY) / SC);
         }
-        AContext.lineTo((Paths[i]['x'] - PanX + PanCurX) / Scale, (Paths[i]['y'] - PanY + PanCurY) / Scale);
+        AContext.lineTo((Paths[i]['x'] + OPX) / SC, (Paths[i]['y'] + OPY) / SC);
         AContext.lineCap        = 'round';
         AContext.lineJoin       = 'round';
         AContext.lineWidth      = Paths[i]['color'] ? CRADIUS : ERADIUS;
         AContext.strokeStyle    = Paths[i]['color'] ? DISTRICTCOLOR : BKGDCOLOR;
         AContext.stroke();
     }
+
+    AContext.beginPath();
+    AContext.moveTo((0        + OPX) / SC, (0         + OPY) / SC);
+    AContext.lineCap        = 'round';
+    AContext.lineJoin       = 'round';
+    AContext.lineWidth      = CRADIUS;
+    AContext.strokeStyle    = DISTRICTCOLOR;
+    AContext.lineTo((CWIDTH-1 + OPX) / SC, (0         + OPY) / SC);
+    AContext.stroke();
+    AContext.lineTo((CWIDTH-1 + OPX) / SC, (CHEIGHT-1 + OPY) / SC);
+    AContext.stroke();
+    AContext.lineTo((0        + OPX) / SC, (CHEIGHT-1 + OPY) / SC);
+    AContext.stroke();
+    AContext.lineTo((0        + OPX) / SC, (0         + OPY) / SC);
+    AContext.stroke();
 
     AContext.closePath();
 
