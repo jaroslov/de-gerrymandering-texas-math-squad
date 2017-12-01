@@ -4,8 +4,8 @@
         <title>Gerrymandering: Chapter 3</title>
         <script type="text/javascript" src="jordan.js"></script>
     </head>
-    <body onload="loader({'width':512,'height':512,'population':'random','FedRndRange':100,'FedRndBase':100,'D_RRndRange':100,'D_RRndBase':100})">
-        <p><a href="ch2.html">prev</a></p>
+    <body onload="loader({'width':512,'height':512,'population':'random','FedRndRange':0,'FedRndBase':20,'D_RRndRange':0,'D_RRndBase':20,'PersonRadius':12})">
+        <p><a href="ch2.html">prev</a><a href="ch4.html">next</a></p>
         <table id="legend">
             <thead>
                 <th>Party</th>
@@ -24,6 +24,15 @@
             </tr>
         </table>
         <input type="button" value="Simulate Election" onclick="SimulateElection()">
+        <br/>
+        <table>
+            <tr><td><input id="boundary" type="radio" name="drawtool" value="boundary" checked onclick="GetActionState()">Boundary</td></tr>
+            <tr><td><input id="erase"    type="radio" name="drawtool" value="erase"            onclick="GetActionState()">Erase</td></tr>
+            <tr><td><input id="pan"      type="radio" name="drawtool" value="pan"              onclick="GetActionState()">Pan</td></tr>
+        </table>
+        <br/>
+        <canvas id="gerrycanvas"></canvas>
+        <br/>
         <table id="results-table">
             <thead>
                 <th>District</th>
@@ -36,16 +45,5 @@
                 <td colspan='5'><i>no data</i></td>
             </tr>
         </table>
-        <br/>
-        <table>
-            <tr><td><input id="boundary" type="radio" name="drawtool" value="boundary" checked onclick="GetActionState()">Boundary</td></tr>
-            <tr><td><input id="erase"    type="radio" name="drawtool" value="erase"            onclick="GetActionState()">Erase</td></tr>
-            <tr><td><input id="pan"      type="radio" name="drawtool" value="pan"              onclick="GetActionState()">Pan</td></tr>
-            <tr><td><input id="zoom-in"  type="radio" name="drawtool" value="zoom-in"          onclick="GetActionState()">Zoom-In</td></tr>
-            <tr><td><input id="zoom-out" type="radio" name="drawtool" value="zoom-out"         onclick="GetActionState()">Zoom-Out</td></tr>
-        </table>
-        <br/>
-        <canvas id="gerrycanvas"></canvas>
-        <br/>
     </body>
 </html>

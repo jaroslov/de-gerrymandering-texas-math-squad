@@ -3,10 +3,10 @@ var CHEIGHT         = 512;
 var CRADIUS         = 3;
 var ERADIUS         = 15;
 var DISTRICTCOLOR   = "#999999";
-var FEDCOLOR        = "#555555";
-var FEDBORDERCLR    = FEDCOLOR;//"#111111";
+var FEDCOLOR        = "#ff7f50";//"#555555";
+var FEDBORDERCLR    = "#190c08";//"#111111";
 var D_RCOLOR        = "#00ACEE";
-var D_RBORDERCLR    = D_RCOLOR;//"#00008F";
+var D_RBORDERCLR    = "#00008F";
 var FEDNAME         = 'Feds';
 var D_RNAME         = 'D_Rs';
 var PersonRadius    = 3;
@@ -14,13 +14,14 @@ var Paths           = [];
 var Painting        = false;
 var TheContext;
 var ThePopulation   = [];
-var TheReflector    = [...Array(CHEIGHT)].map(i => Array(CWIDTH));
+var TheReflector    = [];
 var FedRndRange     = 10;
 var FedRndBase      = 10;
 var D_RRndRange     = 10;
 var D_RRndBase      = 10;
 var DRAWCOLOR       = DISTRICTCOLOR;
 var BKGDCOLOR       = "#FFFFFF";
+var ONLINE          = true;
 
 var PanX            = 0;
 var PanY            = 0;
@@ -36,6 +37,7 @@ var ActionState     = 'draw';
 
 var NumFeds         = 100;
 var NumD_Rs         = 100;
+var DISTRICTS       = { };
 
 function GetActionState()
 {
@@ -74,8 +76,8 @@ function GenerateRandomPopulation()
     {
         ThePopulation.push({
             'Party' : FEDNAME,
-            'x'     : Math.floor(Math.random() * CWIDTH),
-            'y'     : Math.floor(Math.random() * CHEIGHT),
+            'x'     : Math.floor(((Math.random() * .9 + 0.05) * CWIDTH)),
+            'y'     : Math.floor(((Math.random() * .9 + 0.05) * CHEIGHT)),
         });
     }
 
@@ -83,8 +85,8 @@ function GenerateRandomPopulation()
     {
         ThePopulation.push({
             'Party' : D_RNAME,
-            'x'     : Math.floor(Math.random() * CWIDTH),
-            'y'     : Math.floor(Math.random() * CHEIGHT),
+            'x'     : Math.floor(((Math.random() * .9 + 0.05) * CWIDTH)),
+            'y'     : Math.floor(((Math.random() * .9 + 0.05) * CHEIGHT)),
         });
     }
 }
@@ -141,35 +143,44 @@ function GenerateEasyPopulation()
 
 function loader(setup)
 {
-    if (setup['width'])
+    if ('width' in setup)
     {
         CWIDTH      = setup['width'];
     }
-    if (setup['height'])
+    if ('height' in setup)
     {
         CHEIGHT     = setup['height'];
     }
-    if (setup['radius'])
+    if ('radius' in setup)
     {
         CRADIUS     = setup['radius'];
     }
-    if (setup['FedRndRange'])
+    if ('FedRndRange' in setup)
     {
         FedRndRange = setup['FedRndRange'];
     }
-    if (setup['FedRndBase'])
+    if ('FedRndBase' in setup)
     {
         FedRndBase  = setup['FedRndBase'];
     }
-    if (setup['D_RRndRange'])
+    if ('D_RRndRange' in setup)
     {
         D_RRndRange = setup['D_RRndRange'];
     }
-    if (setup['D_RRndBase'])
+    if ('D_RRndBase' in setup)
     {
         D_RRndBase  = setup['D_RRndBase'];
     }
-    if (setup['population'])
+    if ('PersonRadius' in setup)
+    {
+        PersonRadius    = setup['PersonRadius'];
+    }
+    if ('OnlineElections' in setup)
+    {
+        ONLINE      = setup['OnlineElections'];
+    }
+    TheReflector    = [...Array(CHEIGHT)].map(i => Array(CWIDTH));
+    if ('population' in setup)
     {
         switch (setup['population'])
         {
@@ -232,6 +243,10 @@ function Press(e)
         Painting        = true;
         AddLocation(mouseX + PanX, mouseY + PanY, false);
         Redraw(TheContext, true);
+        if (ONLINE)
+        {
+            SimulateElection();
+        }
         break;
     case 'zoom-in'      : break;
     case 'zoom-out'     : break;
@@ -265,8 +280,11 @@ function Drag(e)
             AddLocation(mouseX + PanX, mouseY + PanY, true);
             Redraw(TheContext, true);
         }
-
         e.preventDefault();
+        if (ONLINE)
+        {
+            SimulateElection();
+        }
         break;
     case 'zoom-in'      : break;
     case 'zoom-out'     : break;
@@ -285,8 +303,13 @@ function Release()
 {
     switch (ActionState)
     {
-    case 'draw'         : break;
-    case 'erase'        : break;
+    case 'draw'         :
+    case 'erase'        :
+        if (ONLINE)
+        {
+            SimulateElection();
+        }
+        break;
     case 'zoom-in'      : break;
     case 'zoom-out'     : break;
     case 'pan'          :
@@ -371,7 +394,7 @@ function Redraw(AContext, RenderWithPop)
     AContext.moveTo((0        + OPX) / SC, (0         + OPY) / SC);
     AContext.lineCap        = 'round';
     AContext.lineJoin       = 'round';
-    AContext.lineWidth      = CRADIUS;
+    AContext.lineWidth      = CRADIUS * 3;
     AContext.strokeStyle    = DISTRICTCOLOR;
     AContext.lineTo((CWIDTH-1 + OPX) / SC, (0         + OPY) / SC);
     AContext.stroke();
@@ -387,6 +410,20 @@ function Redraw(AContext, RenderWithPop)
     if (RenderWithPop)
     {
         Population();
+        AContext.lineWidth      = '1';
+        AContext.strokeStyle    = '#000000';
+        AContext.font           = '40px sans-serif';
+        AContext.textBaseline   = 'bottom';
+        var II = 0;
+        for (var key in DISTRICTS)
+        {
+            if (DISTRICTS[key]['People'].length == 0)
+            {
+                continue;
+            }
+            II += 1;
+            AContext.strokeText(''+II, DISTRICTS[key]['Centroid']['x'], DISTRICTS[key]['Centroid']['y']);
+        }
     }
 }
 
@@ -428,7 +465,7 @@ function SimulateElection()
 
     // Now, we flood-fill the entire image.
     var TheDistrict = DISTRICTNAME;
-    var DISTRICTS   = {};
+    DISTRICTS       = {};
     var BailOut     = false;
 
     for (RY = 0; (RY < CHEIGHT) && !BailOut; RY++)
@@ -475,7 +512,7 @@ function SimulateElection()
                     }
                 }
             }
-            DISTRICTS[TheDistrict]  = { 'People' : [] };
+            DISTRICTS[TheDistrict]  = { 'People' : [], 'Centroid' : {'x':0, 'y':0} };
             TheDistrict     += 1;
         }
     }
@@ -490,6 +527,13 @@ function SimulateElection()
             continue;
         }
         DISTRICTS[PInfo]['People'].push(Person);
+        DISTRICTS[PInfo]['Centroid']['x'] += Person['x'];
+        DISTRICTS[PInfo]['Centroid']['y'] += Person['y'];
+    }
+    for (var key in DISTRICTS)
+    {
+        DISTRICTS[key]['Centroid']['x'] /= DISTRICTS[key]['People'].length;
+        DISTRICTS[key]['Centroid']['y'] /= DISTRICTS[key]['People'].length;
     }
 
     var DistrictsWon        = {};
@@ -502,6 +546,7 @@ function SimulateElection()
         TheDistrictResults.removeChild(TheDistrictResults.children[TheDistrictResults.children.length-1]);
     }
 
+    var II = 0;
     for (var key in DISTRICTS)
     {
         var NumFeds         = 0;
@@ -510,6 +555,7 @@ function SimulateElection()
         {
             continue;
         }
+        II += 1;
         for (PP = 0; PP < DISTRICTS[key]['People'].length; PP++)
         {
             if (DISTRICTS[key]['People'][PP]['Party'] == 'Feds')
@@ -524,7 +570,7 @@ function SimulateElection()
         var tr              = document.createElement('TR');
 
         var disNum          = document.createElement('TD');
-        disNum.innerHTML    = key - 2;
+        disNum.innerHTML    = '' + II;
         tr.appendChild(disNum);
 
         var numFeds         = document.createElement('TD');
