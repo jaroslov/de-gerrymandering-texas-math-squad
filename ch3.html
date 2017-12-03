@@ -2,48 +2,79 @@
 <html>
     <head>
         <title>Gerrymandering: Chapter 3</title>
+        <style>
+            body {
+                border: 0;
+                margin: 0;
+                padding: 0;
+            }
+            .gcvs {
+                border: 0;
+                margin: 0;
+                padding: 0;
+                border-collapse: collapse;
+            } 
+        </style>
         <script type="text/javascript" src="jordan.js"></script>
     </head>
-    <body onload="loader({'width':512,'height':512,'population':'random','FedRndRange':0,'FedRndBase':20,'D_RRndRange':0,'D_RRndBase':20,'PersonRadius':12})">
-        <p><a href="ch2.html">prev</a><a href="ch4.html">next</a></p>
-        <table id="legend">
-            <thead>
-                <th>Party</th>
-                <th>Color</th>
-                <th>Population</th>
-            </thead>
+    <body onload="loader({'width':768,'height':768,'population':'random','FedRndRange':0,'FedRndBase':200,'D_RRndRange':0,'D_RRndBase':200,'PersonRadius':12})">
+        <!--<p><a href="ch2.html">prev</a><a href="ch4.html">next</a></p>-->
+        <table class="gcvs">
             <tr>
-                <td>Federalists</td>
-                <td id="legend-feds">&nbsp;</td>
-                <td id="legend-feds-pop"/>
-            </tr>
-            <tr>
-                <td>Democratic-Republicans</td>
-                <td id="legend-d_rs">&nbsp;</td>
-                <td id="legend-d_rs-pop"/>
-            </tr>
-        </table>
-        <input type="button" value="Simulate Election" onclick="SimulateElection()">
-        <br/>
-        <table>
-            <tr><td><input id="boundary" type="radio" name="drawtool" value="boundary" checked onclick="GetActionState()">Boundary</td></tr>
-            <tr><td><input id="erase"    type="radio" name="drawtool" value="erase"            onclick="GetActionState()">Erase</td></tr>
-            <tr><td><input id="pan"      type="radio" name="drawtool" value="pan"              onclick="GetActionState()">Pan</td></tr>
-        </table>
-        <br/>
-        <canvas id="gerrycanvas"></canvas>
-        <br/>
-        <table id="results-table">
-            <thead>
-                <th>District</th>
-                <th>Number of Feds</th>
-                <th>Number of D-Rs</th>
-                <th>Total voters</th>
-                <th>Expected winner</th>
-            </thead>
-            <tr>
-                <td colspan='5'><i>no data</i></td>
+                <td>
+                    <canvas id="gerrycanvas"></canvas>
+                </td>
+                <td style="vertical-align: top;">
+                    <table>
+                        <thead><th>Game Goal</th></thead>
+                        <tr>
+                            <td>
+                                <p>Draw district boundaries to split the 'state' into four districts, with equal population. There are twenty people in the state, and each district should have five people when you are done.</p>
+                                <p>You have won the game if the Federalists win more districts than the Democratic-Republicans.</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <thead><th>District boundary drawing tools</th></thead>
+                        <tr><td><input id="boundary" type="radio" name="drawtool" value="boundary" checked onclick="GetActionState()">Boundary</td></tr>
+                        <tr><td><input id="erase"    type="radio" name="drawtool" value="erase"            onclick="GetActionState()">Erase</td></tr>
+                        <tr><td><input id="pan"      type="radio" name="drawtool" value="pan"              onclick="GetActionState()">Pan</td></tr>
+                    </table>
+                    <br/>
+                    <table id="legend">
+                        <thead>
+                            <th>Party</th>
+                            <th>Color</th>
+                            <th>Population</th>
+                        </thead>
+                        <tr>
+                            <td>Federalists</td>
+                            <td id="legend-feds">&nbsp;</td>
+                            <td id="legend-feds-pop"/>
+                        </tr>
+                        <tr>
+                            <td>Democratic-Republicans</td>
+                            <td id="legend-d_rs">&nbsp;</td>
+                            <td id="legend-d_rs-pop"/>
+                        </tr>
+                    </table>
+                    <input type="button" value="Simulate Election" onclick="SimulateElection()">
+                    <br/>
+                    <table id="results-table">
+                        <thead>
+                            <th>District</th>
+                            <th>Number of Feds</th>
+                            <th>Number of D-Rs</th>
+                            <th>Total voters</th>
+                            <th>Expected winner</th>
+                        </thead>
+                        <tr>
+                            <td colspan='5'><i>no data</i></td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
         </table>
     </body>
 </html>
+
