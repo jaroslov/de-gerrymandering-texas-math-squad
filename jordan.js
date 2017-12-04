@@ -72,6 +72,8 @@ function GenerateRandomPopulation()
     NumFeds         = Math.floor(Math.random() * FedRndRange) + FedRndBase;
     NumD_Rs         = Math.floor(Math.random() * D_RRndRange) + D_RRndBase;
 
+    ThePopulation   = [];
+
     for (i = 0; i < NumFeds; ++i)
     {
         ThePopulation.push({
@@ -141,6 +143,30 @@ function GenerateEasyPopulation()
     ThePopulation.push({'Party':D_RNAME, 'x':445, 'y':475});
 }
 
+function foo()
+{
+    var legfed          = document.getElementById('fedpop');
+    var legd_r          = document.getElementById('d_rpop');
+    var reset           = false;
+    if ((FedRndRange != 0) || (D_RRndRange != 0))
+    {
+        reset           = true;
+    }
+    if ((FedRndBase != legfed.value) || (D_RRndBase != legd_r.value))
+    {
+        reset           = true;
+    }
+    FedRndRange         = 0;
+    FedRndBase          = legfed.value;
+    D_RRndRange         = 0;
+    D_RRndBase          = legd_r.value;
+    if (reset)
+    {
+        GenerateRandomPopulation();
+        Redraw(TheContext, true);
+    }
+}
+
 function loader(setup)
 {
     if ('width' in setup)
@@ -179,7 +205,8 @@ function loader(setup)
     {
         ONLINE      = setup['OnlineElections'];
     }
-    TheReflector    = [...Array(CHEIGHT)].map(i => Array(CWIDTH));
+
+    TheReflector            = [...Array(CHEIGHT)].map(i => Array(CWIDTH));
     if ('population' in setup)
     {
         switch (setup['population'])
@@ -211,12 +238,13 @@ function loader(setup)
     var legd_r      = document.getElementById('legend-d_rs');
     legd_r.setAttribute('style', 'background-color:' + D_RCOLOR + '; border: 1px solid ' + D_RBORDERCLR + ';');
 
-    var legfed          = document.getElementById('legend-feds-pop');
-    legfed.innerHTML    = NumFeds;
-    var legd_r          = document.getElementById('legend-d_rs-pop');
-    legd_r.innerHTML    = NumD_Rs;
+    var legfed          = document.getElementById('fedpop');
+    legfed.value        = NumFeds;
+    var legd_r          = document.getElementById('d_rpop');
+    legd_r.value        = NumD_Rs;
 
     Redraw(TheContext, true);
+    SimulateElection();
 }
 
 function AddLocation(mX, mY, dragging)
@@ -241,7 +269,7 @@ function Press(e)
     case 'draw'     :
     case 'erase'    :
         Painting        = true;
-        AddLocation(mouseX + PanX, mouseY + PanY, false);
+        AddLocation((mouseX + PanX) / Scale, (mouseY + PanY) / Scale, false);
         Redraw(TheContext, true);
         if (ONLINE)
         {
@@ -252,8 +280,8 @@ function Press(e)
     case 'zoom-out'     : break;
     case 'pan'          :
         Panning         = true;
-        PanXStart       = mouseX;
-        PanYStart       = mouseY;
+        PanXStart       = mouseX / Scale;
+        PanYStart       = mouseY / Scale;
         Redraw(TheContext, true);
         break;
     }
@@ -277,7 +305,7 @@ function Drag(e)
     case 'erase'    :
         if (Painting)
         {
-            AddLocation(mouseX + PanX, mouseY + PanY, true);
+            AddLocation((mouseX + PanX) / Scale, (mouseY + PanY) / Scale, true);
             Redraw(TheContext, true);
         }
         e.preventDefault();
@@ -291,8 +319,8 @@ function Drag(e)
     case 'pan'          :
         if (Panning)
         {
-            PanCurX     = (mouseX - PanXStart);
-            PanCurY     = (mouseY - PanYStart);
+            PanCurX     = (mouseX - PanXStart) / Scale;
+            PanCurY     = (mouseY - PanYStart) / Scale;
             Redraw(TheContext, true);
         }
         break;
@@ -314,8 +342,8 @@ function Release()
     case 'zoom-out'     : break;
     case 'pan'          :
         Panning         = false;
-        PanX            -= PanCurX;
-        PanY            -= PanCurY;
+        PanX            -= PanCurX / Scale;
+        PanY            -= PanCurY / Scale;
         PanCurX         = 0;
         PanCurY         = 0;
         break;
@@ -332,6 +360,26 @@ function Cancel()
 function Clear()
 {
     TheContext.clearRect(0, 0, CWIDTH, CHEIGHT);
+}
+
+function ZoomIn()
+{
+    Scale       /= 1.1;
+    if (Scale > 64)
+    {
+        Scale   = 64;
+    }
+    Redraw(TheContext, true);
+}
+
+function ZoomOut()
+{
+    Scale       *= 1.1;
+    if (Scale < 1/64.0)
+    {
+        Scale   = 1/64.0;
+    }
+    Redraw(TheContext, true);
 }
 
 function Population()
@@ -356,6 +404,18 @@ function Population()
     }
 }
 
+function ResetState()
+{
+    Paths                       = [];
+    PanX                        = 0;
+    PanCurX                     = 0;
+    PanY                        = 0;
+    PanCurY                     = 0;
+    Scale                       = 1;
+    Redraw(TheContext, true);
+    SimulateElection();
+}
+
 function Redraw(AContext, RenderWithPop)
 {
     Clear();
@@ -371,41 +431,47 @@ function Redraw(AContext, RenderWithPop)
         SC  = 1;
     }
 
+    var BndCanvas               = document.createElement('canvas');
+    BndCanvas.width             = CWIDTH;
+    BndCanvas.height            = CHEIGHT;
+    BndContext                  = BndCanvas.getContext("2d");
+
     for (i = 0; i < Paths.length; i++)
     {
-        AContext.beginPath();
+        BndContext.beginPath();
         if (Paths[i]['drag'] && i)
         {
-            AContext.moveTo((Paths[i-1]['x'] + OPX) / SC, (Paths[i-1]['y'] + OPY) / SC);
+            BndContext.moveTo((Paths[i-1]['x'] + OPX) / SC, (Paths[i-1]['y'] + OPY) / SC);
         }
         else
         {
-            AContext.moveTo((Paths[i]['x'] + OPX) / SC, (Paths[i]['y'] + OPY) / SC);
+            BndContext.moveTo((Paths[i]['x'] + OPX) / SC, (Paths[i]['y'] + OPY) / SC);
         }
-        AContext.lineTo((Paths[i]['x'] + OPX) / SC, (Paths[i]['y'] + OPY) / SC);
-        AContext.lineCap        = 'round';
-        AContext.lineJoin       = 'round';
-        AContext.lineWidth      = Paths[i]['color'] ? CRADIUS : ERADIUS;
-        AContext.strokeStyle    = Paths[i]['color'] ? DISTRICTCOLOR : BKGDCOLOR;
-        AContext.stroke();
+        BndContext.lineTo((Paths[i]['x'] + OPX) / SC, (Paths[i]['y'] + OPY) / SC);
+        BndContext.lineCap        = 'round';
+        BndContext.lineJoin       = 'round';
+        BndContext.lineWidth      = Paths[i]['color'] ? CRADIUS : ERADIUS;
+        BndContext.strokeStyle    = Paths[i]['color'] ? DISTRICTCOLOR : BKGDCOLOR;
+        BndContext.stroke();
     }
 
-    AContext.beginPath();
-    AContext.moveTo((0        + OPX) / SC, (0         + OPY) / SC);
-    AContext.lineCap        = 'round';
-    AContext.lineJoin       = 'round';
-    AContext.lineWidth      = CRADIUS * 3;
-    AContext.strokeStyle    = DISTRICTCOLOR;
-    AContext.lineTo((CWIDTH-1 + OPX) / SC, (0         + OPY) / SC);
-    AContext.stroke();
-    AContext.lineTo((CWIDTH-1 + OPX) / SC, (CHEIGHT-1 + OPY) / SC);
-    AContext.stroke();
-    AContext.lineTo((0        + OPX) / SC, (CHEIGHT-1 + OPY) / SC);
-    AContext.stroke();
-    AContext.lineTo((0        + OPX) / SC, (0         + OPY) / SC);
-    AContext.stroke();
+    BndContext.beginPath();
+    BndContext.moveTo((0        + OPX) / SC, (0         + OPY) / SC);
+    BndContext.lineCap          = 'round';
+    BndContext.lineJoin         = 'round';
+    BndContext.lineWidth        = CRADIUS * 3;
+    BndContext.strokeStyle      = DISTRICTCOLOR;
+    BndContext.lineTo((CWIDTH-1 + OPX) / SC, (0         + OPY) / SC);
+    BndContext.stroke();
+    BndContext.lineTo((CWIDTH-1 + OPX) / SC, (CHEIGHT-1 + OPY) / SC);
+    BndContext.stroke();
+    BndContext.lineTo((0        + OPX) / SC, (CHEIGHT-1 + OPY) / SC);
+    BndContext.stroke();
+    BndContext.lineTo((0        + OPX) / SC, (0         + OPY) / SC);
+    BndContext.stroke();
 
-    AContext.closePath();
+    BndContext.closePath();
+    AContext.drawImage(BndCanvas, 0, 0);
 
     if (RenderWithPop)
     {
@@ -422,7 +488,7 @@ function Redraw(AContext, RenderWithPop)
                 continue;
             }
             II += 1;
-            AContext.strokeText(''+II, DISTRICTS[key]['Centroid']['x'], DISTRICTS[key]['Centroid']['y']);
+            AContext.strokeText(''+II, (DISTRICTS[key]['Centroid']['x'] + OPX) / SC, (DISTRICTS[key]['Centroid']['y'] + OPY) / SC);
         }
     }
 }

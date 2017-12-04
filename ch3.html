@@ -13,11 +13,11 @@
                 margin: 0;
                 padding: 0;
                 border-collapse: collapse;
-            } 
+            }
         </style>
         <script type="text/javascript" src="jordan.js"></script>
     </head>
-    <body onload="loader({'width':768,'height':768,'population':'random','FedRndRange':0,'FedRndBase':200,'D_RRndRange':0,'D_RRndBase':200,'PersonRadius':12})">
+    <body onload="loader({'width':512,'height':512,'population':'random','FedRndRange':0,'FedRndBase':20,'D_RRndRange':0,'D_RRndBase':20,'PersonRadius':12})">
         <!--<p><a href="ch2.html">prev</a><a href="ch4.html">next</a></p>-->
         <table class="gcvs">
             <tr>
@@ -39,6 +39,9 @@
                         <tr><td><input id="boundary" type="radio" name="drawtool" value="boundary" checked onclick="GetActionState()">Boundary</td></tr>
                         <tr><td><input id="erase"    type="radio" name="drawtool" value="erase"            onclick="GetActionState()">Erase</td></tr>
                         <tr><td><input id="pan"      type="radio" name="drawtool" value="pan"              onclick="GetActionState()">Pan</td></tr>
+                        <!--<tr><td><input id="zoomin"   type="button"                value="zoom in"          onclick="ZoomIn()"></td></tr>-->
+                        <!--<tr><td><input id="zoomout"  type="button"                value="zoom out"         onclick="ZoomOut()"></td></tr>-->
+                        <tr><td><input id="reset"    type="button"                value="reset"            onclick="ResetState()"></td></tr>
                     </table>
                     <br/>
                     <table id="legend">
@@ -50,12 +53,12 @@
                         <tr>
                             <td>Federalists</td>
                             <td id="legend-feds">&nbsp;</td>
-                            <td id="legend-feds-pop"/>
+                            <td id="legend-feds-pop"><input id="fedpop" type="text" value="20" onkeydown="foo()" onkeyup="foo()" onkeypress="foo()"></td></td>
                         </tr>
                         <tr>
                             <td>Democratic-Republicans</td>
                             <td id="legend-d_rs">&nbsp;</td>
-                            <td id="legend-d_rs-pop"/>
+                            <td id="legend-d_rs-pop"><input id="d_rpop" type="text" value="20" onkeydown="foo()" onkeyup="foo()" onkeypress="foo()"></td></td>
                         </tr>
                     </table>
                     <input type="button" value="Simulate Election" onclick="SimulateElection()">
