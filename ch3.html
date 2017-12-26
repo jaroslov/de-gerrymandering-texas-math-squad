@@ -15,13 +15,759 @@
                 border-collapse: collapse;
             }
         </style>
-        <script type="text/javascript" src="jordan.js"></script>
+        <script type="text/javascript">
+var CWIDTH          = 512;
+var CHEIGHT         = 512;
+var CRADIUS         = 3;
+var ERADIUS         = 15;
+var DISTRICTCOLOR   = "#999999";
+var FEDCOLOR        = "#ff7f50";//"#555555";
+var FEDBORDERCLR    = "#190c08";//"#111111";
+var D_RCOLOR        = "#00ACEE";
+var D_RBORDERCLR    = "#00008F";
+var FEDNAME         = 'Feds';
+var D_RNAME         = 'D_Rs';
+var PersonRadius    = 3;
+var Paths           = [];
+var Painting        = false;
+var TheContext;
+var TheBorder;
+var ThePopulation   = [];
+var TheReflector    = [];
+var FedRndRange     = 10;
+var FedRndBase      = 10;
+var D_RRndRange     = 10;
+var D_RRndBase      = 10;
+var DRAWCOLOR       = DISTRICTCOLOR;
+var BKGDCOLOR       = "#FFFFFF";
+var ONLINE          = true;
+
+var PanX            = 0;
+var PanY            = 0;
+var Scale           = 1;
+
+var PanXStart       = 0;
+var PanYStart       = 0;
+var PanCurX         = 0;
+var PanCurY         = 0;
+var Panning         = false;
+
+var ActionState     = 'draw';
+
+var NumFeds         = 100;
+var NumD_Rs         = 100;
+var DISTRICTS       = { };
+
+function GetActionState()
+{
+    if (document.getElementById("boundary") && document.getElementById("boundary").checked)
+    {
+        ActionState = 'draw';
+    }
+    else if (document.getElementById("erase") && document.getElementById("erase").checked)
+    {
+        ActionState = 'erase';
+    }
+    else if (document.getElementById("pan") && document.getElementById("pan").checked)
+    {
+        ActionState = 'pan';
+    }
+    else if (document.getElementById("zoom-in") && document.getElementById("zoom-in").checked)
+    {
+        ActionState = 'zoom-in';
+    }
+    else if (document.getElementById("zoom-out") && document.getElementById("zoom-out").checked)
+    {
+        ActionState = 'zoom-out';
+    }
+    else
+    {
+        ActionState = 'draw';
+    }
+}
+
+function GenerateRandomPopulation()
+{
+    NumFeds         = Math.floor(Math.random() * FedRndRange) + FedRndBase;
+    NumD_Rs         = Math.floor(Math.random() * D_RRndRange) + D_RRndBase;
+
+    ThePopulation   = [];
+
+    for (i = 0; i < NumFeds; ++i)
+    {
+        ThePopulation.push({
+            'Party' : FEDNAME,
+            'x'     : Math.floor(((Math.random() * .9 + 0.05) * CWIDTH)),
+            'y'     : Math.floor(((Math.random() * .9 + 0.05) * CHEIGHT)),
+        });
+    }
+
+    for (i = 0; i < NumD_Rs; ++i)
+    {
+        ThePopulation.push({
+            'Party' : D_RNAME,
+            'x'     : Math.floor(((Math.random() * .9 + 0.05) * CWIDTH)),
+            'y'     : Math.floor(((Math.random() * .9 + 0.05) * CHEIGHT)),
+        });
+    }
+}
+
+function GenerateEasyPopulation()
+{
+    NumFeds = 20;
+    NumD_Rs = 20;
+
+    ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':15});
+    ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':30});
+    ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':45});
+    ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':60});
+    ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':75});
+    ThePopulation.push({'Party':FEDNAME, 'x':95, 'y':15});
+    ThePopulation.push({'Party':FEDNAME, 'x':95, 'y':30});
+    ThePopulation.push({'Party':FEDNAME, 'x':95, 'y':45});
+    ThePopulation.push({'Party':FEDNAME, 'x':95, 'y':60});
+    ThePopulation.push({'Party':FEDNAME, 'x':95, 'y':75});
+
+    ThePopulation.push({'Party':FEDNAME, 'x':415, 'y':15});
+    ThePopulation.push({'Party':FEDNAME, 'x':415, 'y':30});
+    ThePopulation.push({'Party':FEDNAME, 'x':415, 'y':45});
+    ThePopulation.push({'Party':D_RNAME, 'x':415, 'y':60});
+    ThePopulation.push({'Party':D_RNAME, 'x':415, 'y':75});
+    ThePopulation.push({'Party':D_RNAME, 'x':445, 'y':15});
+    ThePopulation.push({'Party':D_RNAME, 'x':445, 'y':30});
+    ThePopulation.push({'Party':D_RNAME, 'x':445, 'y':45});
+    ThePopulation.push({'Party':D_RNAME, 'x':445, 'y':60});
+    ThePopulation.push({'Party':D_RNAME, 'x':445, 'y':75});
+
+    ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':415});
+    ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':430});
+    ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':445});
+    ThePopulation.push({'Party':FEDNAME, 'x':55, 'y':460});
+    ThePopulation.push({'Party':D_RNAME, 'x':55, 'y':475});
+    ThePopulation.push({'Party':D_RNAME, 'x':95, 'y':415});
+    ThePopulation.push({'Party':D_RNAME, 'x':95, 'y':430});
+    ThePopulation.push({'Party':D_RNAME, 'x':95, 'y':445});
+    ThePopulation.push({'Party':D_RNAME, 'x':95, 'y':460});
+    ThePopulation.push({'Party':D_RNAME, 'x':95, 'y':475});
+
+    ThePopulation.push({'Party':FEDNAME, 'x':415, 'y':415});
+    ThePopulation.push({'Party':FEDNAME, 'x':415, 'y':430});
+    ThePopulation.push({'Party':FEDNAME, 'x':415, 'y':445});
+    ThePopulation.push({'Party':D_RNAME, 'x':415, 'y':460});
+    ThePopulation.push({'Party':D_RNAME, 'x':415, 'y':475});
+    ThePopulation.push({'Party':D_RNAME, 'x':445, 'y':415});
+    ThePopulation.push({'Party':D_RNAME, 'x':445, 'y':430});
+    ThePopulation.push({'Party':D_RNAME, 'x':445, 'y':445});
+    ThePopulation.push({'Party':D_RNAME, 'x':445, 'y':460});
+    ThePopulation.push({'Party':D_RNAME, 'x':445, 'y':475});
+}
+
+function foo()
+{
+    var legfed          = document.getElementById('fedpop');
+    var legd_r          = document.getElementById('d_rpop');
+    var reset           = false;
+    if ((FedRndRange != 0) || (D_RRndRange != 0))
+    {
+        reset           = true;
+    }
+    if ((FedRndBase != legfed.value) || (D_RRndBase != legd_r.value))
+    {
+        reset           = true;
+    }
+    FedRndRange         = 0;
+    FedRndBase          = legfed.value;
+    D_RRndRange         = 0;
+    D_RRndBase          = legd_r.value;
+    if (reset)
+    {
+        GenerateRandomPopulation();
+        Redraw(TheContext, TheBorder, true);
+    }
+}
+
+function loader(setup)
+{
+    if ('width' in setup)
+    {
+        CWIDTH      = setup['width'];
+    }
+    if ('height' in setup)
+    {
+        CHEIGHT     = setup['height'];
+    }
+    if ('radius' in setup)
+    {
+        CRADIUS     = setup['radius'];
+    }
+    if ('FedRndRange' in setup)
+    {
+        FedRndRange = setup['FedRndRange'];
+    }
+    if ('FedRndBase' in setup)
+    {
+        FedRndBase  = setup['FedRndBase'];
+    }
+    if ('D_RRndRange' in setup)
+    {
+        D_RRndRange = setup['D_RRndRange'];
+    }
+    if ('D_RRndBase' in setup)
+    {
+        D_RRndBase  = setup['D_RRndBase'];
+    }
+    if ('PersonRadius' in setup)
+    {
+        PersonRadius    = setup['PersonRadius'];
+    }
+    if ('OnlineElections' in setup)
+    {
+        ONLINE      = setup['OnlineElections'];
+    }
+
+    TheReflector            = [...Array(CHEIGHT)].map(i => Array(CWIDTH));
+    if ('population' in setup)
+    {
+        switch (setup['population'])
+        {
+        case 'random'   :
+            GenerateRandomPopulation();
+            break;
+        case 'easy'     :
+        default         :
+            GenerateEasyPopulation();
+            break;
+        }
+    }
+
+    var gcvs        = document.getElementById('gerrycanvas');
+    gcvs.setAttribute('style', 'border: 1px solid black');
+    gcvs.setAttribute('width',  CWIDTH);
+    gcvs.setAttribute('height', CHEIGHT);
+
+    TheContext      = gcvs.getContext("2d");
+
+    var bord        = document.createElement('canvas');
+    bord.setAttribute('width',  CWIDTH);
+    bord.setAttribute('height', CHEIGHT);
+
+    TheBorder       = bord.getContext("2d");
+
+    gcvs.addEventListener('mousedown',  Press,      false);
+    gcvs.addEventListener('mousemove',  Drag,       false);
+    gcvs.addEventListener('mouseup',    Release);
+    gcvs.addEventListener('mouseout',   Cancel,     false);
+
+    var legfed      = document.getElementById('legend-feds');
+    legfed.setAttribute('style', 'background-color:' + FEDCOLOR + '; border: 1px solid ' + FEDBORDERCLR + ';');
+    var legd_r      = document.getElementById('legend-d_rs');
+    legd_r.setAttribute('style', 'background-color:' + D_RCOLOR + '; border: 1px solid ' + D_RBORDERCLR + ';');
+
+    var legfed          = document.getElementById('fedpop');
+    legfed.value        = NumFeds;
+    var legd_r          = document.getElementById('d_rpop');
+    legd_r.value        = NumD_Rs;
+
+    Redraw(TheContext, TheBorder, true);
+    SimulateElection();
+}
+
+function AddLocation(mX, mY, dragging)
+{
+    Paths.push({'x':mX, 'y':mY, 'drag':dragging, 'color': ActionState == 'draw'});
+}
+
+function Press(e)
+{
+    var mouseX      = e.changedTouches
+                    ? e.changedTouches[0].pageX
+                    : e.pageX
+                    ;
+    mouseX          -= this.offsetLeft;
+    var mouseY      = e.changedTouches
+                    ? e.changedTouches[0].pageY
+                    : e.pageY
+                    ;
+    mouseY          -= this.offsetTop;
+    switch (ActionState)
+    {
+    case 'draw'     :
+    case 'erase'    :
+        Painting        = true;
+        AddLocation((mouseX + PanX) / Scale, (mouseY + PanY) / Scale, false);
+        Redraw(TheContext, TheBorder, true);
+        if (ONLINE)
+        {
+            SimulateElection();
+        }
+        break;
+    case 'zoom-in'      : break;
+    case 'zoom-out'     : break;
+    case 'pan'          :
+        Panning         = true;
+        PanXStart       = mouseX / Scale;
+        PanYStart       = mouseY / Scale;
+        Redraw(TheContext, TheBorder, true);
+        break;
+    }
+}
+
+function Drag(e)
+{
+    var mouseX      = e.changedTouches
+                    ? e.changedTouches[0].pageX
+                    : e.pageX
+                    ;
+    mouseX          -= this.offsetLeft;
+    var mouseY      = e.changedTouches
+                    ? e.changedTouches[0].pageY
+                    : e.pageY
+                    ;
+    mouseY          -= this.offsetTop;
+    switch (ActionState)
+    {
+    case 'draw'     :
+    case 'erase'    :
+        if (Painting)
+        {
+            AddLocation((mouseX + PanX) / Scale, (mouseY + PanY) / Scale, true);
+            Redraw(TheContext, TheBorder, true);
+        }
+        e.preventDefault();
+        if (ONLINE)
+        {
+            SimulateElection();
+        }
+        break;
+    case 'zoom-in'      : break;
+    case 'zoom-out'     : break;
+    case 'pan'          :
+        if (Panning)
+        {
+            PanCurX     = (mouseX - PanXStart) / Scale;
+            PanCurY     = (mouseY - PanYStart) / Scale;
+            Redraw(TheContext, TheBorder, true);
+        }
+        break;
+    }
+}
+
+function Release()
+{
+    switch (ActionState)
+    {
+    case 'draw'         :
+    case 'erase'        :
+        if (ONLINE)
+        {
+            SimulateElection();
+        }
+        break;
+    case 'zoom-in'      : break;
+    case 'zoom-out'     : break;
+    case 'pan'          :
+        Panning         = false;
+        PanX            -= PanCurX / Scale;
+        PanY            -= PanCurY / Scale;
+        PanCurX         = 0;
+        PanCurY         = 0;
+        break;
+    }
+    Painting    = false;
+    Redraw(TheContext, TheBorder, true);
+    Paths               = [];
+}
+
+function Cancel()
+{
+    Painting    = false;
+}
+
+function ZoomIn()
+{
+    Scale       /= 1.1;
+    if (Scale > 64)
+    {
+        Scale   = 64;
+    }
+    Redraw(TheContext, TheBorder, true);
+}
+
+function ZoomOut()
+{
+    Scale       *= 1.1;
+    if (Scale < 1/64.0)
+    {
+        Scale   = 1/64.0;
+    }
+    Redraw(TheContext, TheBorder, true);
+}
+
+function Population()
+{
+    for (i = 0; i < ThePopulation.length; i++)
+    {
+        TheContext.beginPath();
+        if (ThePopulation[i]['Party'] == FEDNAME)
+        {
+            TheContext.arc((ThePopulation[i]['x'] - PanX + PanCurX) / Scale, (ThePopulation[i]['y'] - PanY + PanCurY) / Scale, PersonRadius, 0, 6.2830);
+            TheContext.strokeStyle  = FEDCOLOR;//FEDBORDERCLR;
+            TheContext.fillStyle    = FEDCOLOR;
+        }
+        else
+        {
+            TheContext.rect((ThePopulation[i]['x'] - PanX + PanCurX) / Scale - PersonRadius, (ThePopulation[i]['y'] - PanY + PanCurY) / Scale - PersonRadius, PersonRadius*2, PersonRadius*2);
+            TheContext.strokeStyle  = D_RCOLOR;//D_RBORDERCLR;
+            TheContext.fillStyle    = D_RCOLOR;
+        }
+        TheContext.lineWidth    = 1;
+        TheContext.fill();
+        TheContext.stroke();
+    }
+}
+
+function ResetState()
+{
+    Paths                       = [];
+    PanX                        = 0;
+    PanCurX                     = 0;
+    PanY                        = 0;
+    PanCurY                     = 0;
+    Scale                       = 1;
+    Redraw(TheContext, TheBorder, true);
+    SimulateElection();
+}
+
+function RenderDistricts(AContext, which)
+{
+    switch (which)
+    {
+    case 'vertical-line'    :
+        AContext.moveTo(CWIDTH/2, 0);
+        AContext.lineTo(CWIDTH/2, CHEIGHT);
+        AContext.strokeStyle    = '#000000';
+        AContext.stroke();
+        AContext.closePath();
+        break
+    default                 :
+        break;
+    }
+}
+
+function Redraw(AContext, BndContext, RenderWithPop)
+{
+    AContext.clearRect(0, 0, CWIDTH, CHEIGHT);
+
+    var OPX = - PanX + PanCurX;
+    var OPY = - PanY + PanCurY;
+    var SC  = Scale;
+
+    if (!RenderWithPop)
+    {
+        OPX = 0;
+        OPY = 0;
+        SC  = 1;
+    }
+
+    var BndCanvas               = BndContext.canvas;
+
+    var DColor                  = DISTRICTCOLOR + 'FF';
+    var BkgdColor               = BKGDCOLOR + 'FF';
+
+    for (i = 0; i < Paths.length; i++)
+    {
+        BndContext.beginPath();
+        if (Paths[i]['drag'] && i)
+        {
+            BndContext.moveTo((Paths[i-1]['x'] + OPX) / SC, (Paths[i-1]['y'] + OPY) / SC);
+        }
+        else
+        {
+            BndContext.moveTo((Paths[i]['x'] + OPX) / SC, (Paths[i]['y'] + OPY) / SC);
+        }
+        BndContext.lineTo((Paths[i]['x'] + OPX) / SC, (Paths[i]['y'] + OPY) / SC);
+        BndContext.lineCap        = 'round';
+        BndContext.lineJoin       = 'round';
+        BndContext.lineWidth      = Paths[i]['color'] ? CRADIUS : ERADIUS;
+        BndContext.strokeStyle    = Paths[i]['color'] ? DColor : BkgdColor;
+        BndContext.stroke();
+    }
+
+    BndContext.beginPath();
+    BndContext.moveTo((0        + OPX) / SC, (0         + OPY) / SC);
+    BndContext.lineCap          = 'round';
+    BndContext.lineJoin         = 'round';
+    BndContext.lineWidth        = CRADIUS * 3;
+    BndContext.strokeStyle      = DColor;
+    BndContext.lineTo((CWIDTH-1 + OPX) / SC, (0         + OPY) / SC);
+    BndContext.stroke();
+    BndContext.lineTo((CWIDTH-1 + OPX) / SC, (CHEIGHT-1 + OPY) / SC);
+    BndContext.stroke();
+    BndContext.lineTo((0        + OPX) / SC, (CHEIGHT-1 + OPY) / SC);
+    BndContext.stroke();
+    BndContext.lineTo((0        + OPX) / SC, (0         + OPY) / SC);
+    BndContext.stroke();
+
+    BndContext.closePath();
+
+    if (RenderWithPop)
+    {
+        RenderDistricts(AContext, 'austin');
+
+        Population();
+        AContext.lineWidth      = '1';
+        AContext.strokeStyle    = '#000000';
+        AContext.font           = '40px sans-serif';
+        AContext.textBaseline   = 'bottom';
+        var II = 0;
+        for (var key in DISTRICTS)
+        {
+            if (DISTRICTS[key]['People'].length == 0)
+            {
+                continue;
+            }
+            II += 1;
+            AContext.strokeText(''+II, (DISTRICTS[key]['Centroid']['x'] + OPX) / SC, (DISTRICTS[key]['Centroid']['y'] + OPY) / SC);
+        }
+    }
+
+    var RawBndData      = BndContext.getImageData(0, 0, CWIDTH, CHEIGHT);
+    var RawAnxData      = AContext.getImageData(0, 0, CWIDTH, CHEIGHT);
+
+    for (var YY = 0, MM = 0; YY < CHEIGHT; ++YY)
+    {
+        for (var XX = 0; XX < CWIDTH; ++XX, MM += 4)
+        {
+            if ((RawAnxData.data[MM+0] == 0x0) &&
+                (RawAnxData.data[MM+1] == 0x0) &&
+                (RawAnxData.data[MM+2] == 0x0) &&
+                (RawAnxData.data[MM+3] == 0x0) &&
+                1)
+            {
+                RawAnxData.data[MM+0]   = RawBndData.data[MM+0];
+                RawAnxData.data[MM+1]   = RawBndData.data[MM+1];
+                RawAnxData.data[MM+2]   = RawBndData.data[MM+2];
+                RawAnxData.data[MM+3]   = RawBndData.data[MM+3];
+            }
+        }
+    }
+
+    AContext.putImageData(RawAnxData, 0, 0);
+}
+
+function SimulateElection()
+{
+    var OffCanvas               = document.createElement('canvas');
+    OffCanvas.width             = CWIDTH;
+    OffCanvas.height            = CHEIGHT;
+    OffContext                  = OffCanvas.getContext("2d");
+
+    Redraw(OffContext, TheBorder, false);
+
+    var TheRawData              = OffContext.getImageData(0, 0, CWIDTH, CHEIGHT);
+
+    var BORDER                  = 1;
+    var DISTRICTNAME            = 2;
+
+    var UnusedElements          = [];
+
+    // First, we copy over all of the canvas' #dddddd data!
+    for (YY = 0, MM = 0; YY < CHEIGHT; YY++)
+    {
+        for (XX = 0; XX < CWIDTH; XX++, MM+=4)
+        {
+            if ((TheRawData.data[MM+0] == 0x99)  &&
+                (TheRawData.data[MM+1] == 0x99)  &&
+                (TheRawData.data[MM+2] == 0x99)  &&
+                (TheRawData.data[MM+3] == 0xFF)  &&
+                1)
+            {
+                TheReflector[YY][XX]    = 1;
+            }
+            else
+            {
+                TheReflector[YY][XX]    = 0;
+            }
+        }
+    }
+
+    // Now, we flood-fill the entire image.
+    var TheDistrict = DISTRICTNAME;
+    DISTRICTS       = {};
+    var BailOut     = false;
+
+    for (RY = 0; (RY < CHEIGHT) && !BailOut; RY++)
+    {
+        for (RX = 0; (RX < CWIDTH) && !BailOut; RX++)
+        {
+            if (TheReflector[RY][RX] != 0)
+            {
+                continue;
+            }
+
+            var Exemplar    = {'y':RY, 'x':RX};
+
+            var WorkList    = [Exemplar];
+            var NumVals     = 0;
+            while (WorkList.length > 0)
+            {
+                var Item    = WorkList.pop();
+                for (YY = -1; YY <= 1; YY++)
+                {
+                    for (XX = -1; XX <= 1; XX++)
+                    {
+                        if ((YY == 0) && (XX == 0))
+                        {
+                            continue;
+                        }
+                        var whereY  = Item['y'] + YY;
+                        var whereX  = Item['x'] + XX;
+                        if ((whereY < 0) || (whereY >= CHEIGHT))
+                        {
+                            continue;
+                        }
+                        if ((whereX < 0) || (whereX >= CWIDTH))
+                        {
+                            continue;
+                        }
+                        if (TheReflector[whereY][whereX] > 0)
+                        {
+                            continue;
+                        }
+                        NumVals += 1;
+                        TheReflector[whereY][whereX]    = TheDistrict;
+                        WorkList.push({'x':whereX, 'y':whereY});
+                    }
+                }
+            }
+            DISTRICTS[TheDistrict]  = { 'People' : [], 'Centroid' : {'x':0, 'y':0} };
+            TheDistrict     += 1;
+        }
+    }
+
+    for (PP = 0; PP < ThePopulation.length; PP++)
+    {
+        var Person  = ThePopulation[PP];
+        var PInfo   = TheReflector[Person['y']][Person['x']]
+        if (PInfo < 2)
+        {
+            // Someone drew a line on top of this person!
+            continue;
+        }
+        DISTRICTS[PInfo]['People'].push(Person);
+        DISTRICTS[PInfo]['Centroid']['x'] += Person['x'];
+        DISTRICTS[PInfo]['Centroid']['y'] += Person['y'];
+    }
+    for (var key in DISTRICTS)
+    {
+        DISTRICTS[key]['Centroid']['x'] /= DISTRICTS[key]['People'].length;
+        DISTRICTS[key]['Centroid']['y'] /= DISTRICTS[key]['People'].length;
+    }
+
+    var DistrictsWon        = {};
+    DistrictsWon[FEDNAME]   = [];
+    DistrictsWon[D_RNAME]   = [];
+
+    var TheDistrictResults  = document.getElementById('results-table');
+    while (TheDistrictResults.children.length > 1)
+    {
+        TheDistrictResults.removeChild(TheDistrictResults.children[TheDistrictResults.children.length-1]);
+    }
+
+    var II = 0;
+    for (var key in DISTRICTS)
+    {
+        var NumFeds         = 0;
+        var NumD_Rs         = 0;
+        if (DISTRICTS[key]['People'].length == 0)
+        {
+            continue;
+        }
+        II += 1;
+        for (PP = 0; PP < DISTRICTS[key]['People'].length; PP++)
+        {
+            if (DISTRICTS[key]['People'][PP]['Party'] == 'Feds')
+            {
+                NumFeds     += 1;
+            }
+            else
+            {
+                NumD_Rs     += 1;
+            }
+        }
+        var tr              = document.createElement('TR');
+
+        var disNum          = document.createElement('TD');
+        disNum.innerHTML    = '' + II;
+        tr.appendChild(disNum);
+
+        var numFeds         = document.createElement('TD');
+        numFeds.innerHTML   = NumFeds;
+        tr.appendChild(numFeds);
+
+        var numD_Rs         = document.createElement('TD');
+        numD_Rs.innerHTML   = NumD_Rs;
+        tr.appendChild(numD_Rs);
+
+        var numTotal        = document.createElement('TD');
+        numTotal.innerHTML  = NumFeds + NumD_Rs;
+        tr.appendChild(numTotal);
+
+        var expected        = document.createElement('TD');
+        if (NumFeds > NumD_Rs)
+        {
+            expected.innerHTML  = 'Feds';
+            DistrictsWon[FEDNAME].push(key);
+        }
+        else if (NumFeds < NumD_Rs)
+        {
+            expected.innerHTML  = 'D-Rs';
+            DistrictsWon[D_RNAME].push(key);
+        }
+        else
+        {
+            expected.innerHTML  = 'tie';
+        }
+        tr.appendChild(expected);
+
+        TheDistrictResults.appendChild(tr);
+    }
+
+    //TheDistrictResults
+    var footR                   = document.createElement('TFOOT');
+    var footRow                 = document.createElement('TR');
+    footR.appendChild(footRow);
+    var emptyTD                 = document.createElement('TD');
+    emptyTD.setAttribute('colspan', '3');
+    footRow.appendChild(emptyTD);
+    var totalName               = document.createElement('TD');
+    totalName.innerHTML         = 'Total:';
+    footRow.appendChild(totalName);
+    var result                  = document.createElement('TD');
+    if (DistrictsWon[FEDNAME].length > DistrictsWon[D_RNAME].length)
+    {
+        result.innerHTML        = 'Feds won.';
+    }
+    else if (DistrictsWon[FEDNAME].length < DistrictsWon[D_RNAME].length)
+    {
+        result.innerHTML        = 'D-Rs won.';
+    }
+    else
+    {
+        result.innerHTML        = 'Tie.';
+    }
+    footRow.appendChild(result);
+    TheDistrictResults.appendChild(footR);
+
+    Redraw(TheContext, TheBorder, true);
+}
+        </script>
     </head>
-    <body onload="loader({'width':512,'height':512,'population':'random','FedRndRange':0,'FedRndBase':20,'D_RRndRange':0,'D_RRndBase':20,'PersonRadius':12})">
+    <body onload="loader({'width':512,'height':512,'population':'random','FedRndRange':0,'FedRndBase':20,'D_RRndRange':0,'D_RRndBase':20,'PersonRadius':4})">
         <!--<p><a href="ch2.html">prev</a><a href="ch4.html">next</a></p>-->
         <table class="gcvs">
             <tr>
-                <td>
+                <td style="vertical-align: top;">
                     <canvas id="gerrycanvas"></canvas>
                 </td>
                 <td style="vertical-align: top;">
@@ -29,8 +775,9 @@
                         <thead><th>Game Goal</th></thead>
                         <tr>
                             <td>
-                                <p>Draw district boundaries to split the 'state' into four districts, with equal population. There are twenty people in the state, and each district should have five people when you are done.</p>
-                                <p>You have won the game if the Federalists win more districts than the Democratic-Republicans.</p>
+                                <p><b>ATTENTION: DRAW SLOWLY TO THE EDGE OF BOX, OTHERWISE THE PROGRAM WILL NOT DRAW THE DISTRICT LINE PROPERLY.</b></p>
+                                <p>Draw district boundaries to split the 'state' into four districts, with equal population. There are forty people in the state, and each district should have ten people when you are done.</p>
+                                <p>You have won the game if the Democratic-Republicans win more districts than the Federalists.</p>
                             </td>
                         </tr>
                     </table>
