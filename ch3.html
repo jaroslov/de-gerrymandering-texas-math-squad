@@ -57,6 +57,8 @@ var ActionState     = 'draw';
 var NumFeds         = 100;
 var NumD_Rs         = 100;
 var DISTRICTS       = { };
+var NUMDISTRICTS    = 4;
+var DISTRICTPOPRNG  = [9,11];
 
 function GetActionState()
 {
@@ -240,6 +242,11 @@ function loader(setup)
         }
     }
 
+    if ('NumDistricts' in setup)
+    {
+        NUMDISTRICTS    = setup['NumDistricts']
+    }
+
     var gcvs        = document.getElementById('gerrycanvas');
     gcvs.setAttribute('style', 'border: 1px solid black');
     gcvs.setAttribute('width',  CWIDTH);
@@ -267,6 +274,10 @@ function loader(setup)
     legfed.value        = NumFeds;
     var legd_r          = document.getElementById('d_rpop');
     legd_r.value        = NumD_Rs;
+
+    TotalPop            = NumFeds + NumD_Rs;
+    ExpPopPerDistrict   = TotalPop / NUMDISTRICTS;
+    DISTRICTPOPRNG      = [Math.floor(ExpPopPerDistrict*.95), Math.ceil(ExpPopPerDistrict*1.05)];
 
     Redraw(TheContext, TheBorder, true);
     SimulateElection();
@@ -411,13 +422,13 @@ function Population()
         if (ThePopulation[i]['Party'] == FEDNAME)
         {
             TheContext.arc((ThePopulation[i]['x'] - PanX + PanCurX) / Scale, (ThePopulation[i]['y'] - PanY + PanCurY) / Scale, PersonRadius, 0, 6.2830);
-            TheContext.strokeStyle  = FEDCOLOR;//FEDBORDERCLR;
+            TheContext.strokeStyle  = FEDBORDERCLR;
             TheContext.fillStyle    = FEDCOLOR;
         }
         else
         {
             TheContext.rect((ThePopulation[i]['x'] - PanX + PanCurX) / Scale - PersonRadius, (ThePopulation[i]['y'] - PanY + PanCurY) / Scale - PersonRadius, PersonRadius*2, PersonRadius*2);
-            TheContext.strokeStyle  = D_RCOLOR;//D_RBORDERCLR;
+            TheContext.strokeStyle  = D_RBORDERCLR;
             TheContext.fillStyle    = D_RCOLOR;
         }
         TheContext.lineWidth    = 1;
@@ -434,6 +445,7 @@ function ResetState()
     PanY                        = 0;
     PanCurY                     = 0;
     Scale                       = 1;
+    TheBorder.clearRect(0, 0, CWIDTH, CHEIGHT);
     Redraw(TheContext, TheBorder, true);
     SimulateElection();
 }
@@ -714,19 +726,33 @@ function SimulateElection()
         tr.appendChild(numTotal);
 
         var expected        = document.createElement('TD');
-        if (NumFeds > NumD_Rs)
+        var DistrictPop     = NumFeds + NumD_Rs;
+        if (DistrictPop > DISTRICTPOPRNG[1])
+        {
+            expected.innerHTML  = 'Too many people';
+            tr.setAttribute('style', 'background-color:white;');
+        }
+        else if (DistrictPop < DISTRICTPOPRNG[0])
+        {
+            expected.innerHTML  = 'Too few people';
+            tr.setAttribute('style', 'background-color:white;');
+        }
+        else if (NumFeds > NumD_Rs)
         {
             expected.innerHTML  = 'Feds';
+            tr.setAttribute('style', 'background-color:' + FEDCOLOR + ';');
             DistrictsWon[FEDNAME].push(key);
         }
         else if (NumFeds < NumD_Rs)
         {
             expected.innerHTML  = 'D-Rs';
+            tr.setAttribute('style', 'background-color:' + D_RCOLOR + ';');
             DistrictsWon[D_RNAME].push(key);
         }
         else
         {
             expected.innerHTML  = 'tie';
+            tr.setAttribute('style', 'background-color:#EEE;');
         }
         tr.appendChild(expected);
 
@@ -744,17 +770,23 @@ function SimulateElection()
     totalName.innerHTML         = 'Total:';
     footRow.appendChild(totalName);
     var result                  = document.createElement('TD');
-    if (DistrictsWon[FEDNAME].length > DistrictsWon[D_RNAME].length)
+
+    var DistrictsFound          = DistrictsWon[FEDNAME].length +  DistrictsWon[D_RNAME].length;
+
+    if (DistrictsFound == 4)
     {
-        result.innerHTML        = 'Feds won.';
-    }
-    else if (DistrictsWon[FEDNAME].length < DistrictsWon[D_RNAME].length)
-    {
-        result.innerHTML        = 'D-Rs won.';
-    }
-    else
-    {
-        result.innerHTML        = 'Tie.';
+        if (DistrictsWon[FEDNAME].length > DistrictsWon[D_RNAME].length)
+        {
+            result.innerHTML        = 'Feds won&mdash;please try again.';
+        }
+        else if (DistrictsWon[FEDNAME].length < DistrictsWon[D_RNAME].length)
+        {
+            result.innerHTML        = 'D-Rs won&mdash;and so have you!';
+        }
+        else
+        {
+            result.innerHTML        = 'Tie.';
+        }
     }
     footRow.appendChild(result);
     TheDistrictResults.appendChild(footR);
@@ -763,7 +795,7 @@ function SimulateElection()
 }
         </script>
     </head>
-    <body onload="loader({'width':512,'height':512,'population':'random','FedRndRange':0,'FedRndBase':20,'D_RRndRange':0,'D_RRndBase':20,'PersonRadius':4})">
+    <body onload="loader({'width':512,'height':512,'population':'random','FedRndRange':0,'FedRndBase':20,'D_RRndRange':0,'D_RRndBase':20,'PersonRadius':8,'NumDistricts':4})">
         <!--<p><a href="ch2.html">prev</a><a href="ch4.html">next</a></p>-->
         <table class="gcvs">
             <tr>
