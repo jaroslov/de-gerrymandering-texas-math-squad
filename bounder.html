@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.4/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 100%;
+        width: 100%;
+        border: 3px solid black;
+      }
+    </style>
+    <script src="https://openlayers.org/en/v4.6.4/build/ol.js" type="text/javascript"></script>
+    <title>OpenLayers example</title>
+  </head>
+  <body>
+    <h2>BOUNDER</h2>
+    <table style="width:100%;height:100%;">
+      <tr>
+        <td style="vertical-align:top; width:10em;">INFO</td>
+        <td rowspan="2">
+          <div id="map" class="map"></div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div id="info">No counties selected.</div>
+        </td>
+      </tr>
+    </table>
+    <script type="text/javascript">
+      var Counties = {
+        'type': 'FeatureCollection',
+        'crs': {
+          'type': 'name',
+          'properties': {
+            'name': 'EPSG:3857'
+          }
+        },
+        'features': [
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Polygon',
+              'coordinates': [
+                [
+                  [ -97.9736, 30.6251 ],
+                  [ -97.9188, 30.6032 ],
+                  [ -97.9243, 30.5703 ],
+                  [ -97.8695, 30.5484 ],
+                  [ -97.8476, 30.4717 ],
+                  [ -97.7764, 30.4279 ],
+                  [ -97.5793, 30.4991 ],
+                  [ -97.3711, 30.417  ],
+                  [ -97.4916, 30.2089 ],
+                  [ -97.6505, 30.0719 ],
+                  [ -97.6669, 30.0665 ],
+                  [ -97.7107, 30.0226 ],
+                  [ -98.1708, 30.3567 ],
+                  [ -98.127, 30.4279  ],
+                  [ -98.0503, 30.6251 ],
+                ]
+              ]
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Polygon',
+              'coordinates': [
+                [
+                  [ -97.8312, 30.9044 ],
+                  [ -97.6231, 30.8716 ],
+                  [ -97.3164, 30.7511 ],
+                  [ -97.2726, 30.7346 ],
+                  [ -97.1575, 30.4553 ],
+                  [ -97.3328, 30.4005 ],
+                  [ -97.3711, 30.417  ],
+                  [ -97.5793, 30.4991 ],
+                  [ -97.7764, 30.4279 ],
+                  [ -97.8476, 30.4717 ],
+                  [ -97.8695, 30.5484 ],
+                  [ -97.9243, 30.5703 ],
+                  [ -97.9188, 30.6032 ],
+                  [ -97.9736, 30.6251 ],
+                  [ -98.0503, 30.6251 ],
+                  [ -97.9627, 30.7839 ]
+                ]
+              ]
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Polygon',
+              'coordinates': [
+                [
+                  [ -98.4118, 30.5046 ],
+                  [ -98.3515, 30.4882 ],
+                  [ -98.127, 30.4279  ],
+                  [ -98.1708, 30.3567 ],
+                  [ -98.2967, 30.0391 ],
+                  [ -98.4118, 29.935  ],
+                  [ -98.587, 30.1377  ],
+                  [ -98.5925, 30.4991 ]
+                ]
+              ]
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Polygon',
+              'coordinates': [
+                [
+                  [ -98.0174, 31.0359 ],
+                  [ -97.9134, 31.0359 ],
+                  [ -97.8312, 30.9044 ],
+                  [ -97.9627, 30.7839 ],
+                  [ -98.0503, 30.6251 ],
+                  [ -98.127, 30.4279  ],
+                  [ -98.3515, 30.4882 ],
+                  [ -98.3515, 30.5594 ],
+                  [ -98.4063, 30.5703 ],
+                  [ -98.4391, 30.6689 ],
+                  [ -98.4063, 30.6744 ],
+                  [ -98.4118, 30.7018 ],
+                  [ -98.3734, 30.7401 ],
+                  [ -98.4282, 30.7566 ],
+                  [ -98.4337, 30.7894 ],
+                  [ -98.3789, 30.8332 ],
+                  [ -98.4556, 30.877  ],
+                  [ -98.4446, 30.9209 ],
+                  [ -98.4172, 30.9428 ],
+                  [ -98.4501, 30.9647 ],
+                  [ -98.4391, 31.0304 ]
+                ]
+              ]
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Polygon',
+              'coordinates': [
+                [
+                  [ -97.3328, 30.4005 ],
+                  [ -97.0809, 30.2581 ],
+                  [ -97.0261, 30.05   ],
+                  [ -97.3164, 29.7871 ],
+                  [ -97.6505, 30.0719 ],
+                  [ -97.4916, 30.2089 ],
+                  [ -97.3711, 30.417  ]
+                ]
+              ]
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Polygon',
+              'coordinates': [
+                [
+                  [ -98.1708, 30.3567 ],
+                  [ -97.7107, 30.0226 ],
+                  [ -97.8915, 29.8857 ],
+                  [ -97.8969, 29.8583 ],
+                  [ -97.875, 29.8583  ],
+                  [ -98.001, 29.7543  ],
+                  [ -98.0284, 29.8474 ],
+                  [ -98.2967, 30.0391 ]
+                ]
+              ]
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Polygon',
+              'coordinates': [
+                [
+                  [ -97.1575, 30.4553 ],
+                  [ -96.9658, 30.5594 ],
+                  [ -96.922, 30.5375  ],
+                  [ -96.9001, 30.4608 ],
+                  [ -96.7906, 30.3896 ],
+                  [ -96.7413, 30.3184 ],
+                  [ -96.6427, 30.2965 ],
+                  [ -96.7961, 30.1596 ],
+                  [ -96.8015, 30.1541 ],
+                  [ -97.0261, 30.05   ],
+                  [ -97.0809, 30.2581 ],
+                  [ -97.3328, 30.4005 ]
+                ]
+              ]
+            }
+          },
+          {
+            'type': 'Feature',
+            'geometry': {
+              'type': 'Polygon',
+              'coordinates': [
+                [
+                  [ -97.6669, 30.0665  ],
+                  [ -97.6505, 30.0719  ],
+                  [ -97.3164, 29.7871  ],
+                  [ -97.3164, 29.7871  ],
+                  [ -97.5957, 29.6283  ],
+                  [ -97.634, 29.6502   ],
+                  [ -97.7983, 29.7543  ],
+                  [ -97.875, 29.8583   ],
+                  [ -97.8969, 29.8583  ],
+                  [ -97.8915, 29.8857  ],
+                  [ -97.7107, 30.0226  ]
+                ]
+              ]
+            }
+          }
+        ]
+      };
+
+      for (var FF = 0; FF < Counties['features'].length; FF++)
+      {
+        var transformedCoords = [];
+        for (var II = 0; II < Counties['features'][FF]['geometry']['coordinates'][0].length; II++)
+        {
+          var newCoord = ol.proj.transform(Counties['features'][FF]['geometry']['coordinates'][0][II], 'EPSG:4326', 'EPSG:3857');
+          transformedCoords.push(newCoord);
+        }
+        Counties['features'][FF]['geometry']['coordinates'][0] = transformedCoords;
+      }
+
+      var image = new ol.style.Circle({
+        radius: 5,
+        fill: null,
+        stroke: new ol.style.Stroke({color: 'red', width: 1})
+      });
+
+      var styles = {
+        'Point': new ol.style.Style({
+          image: image
+        }),
+        'LineString': new ol.style.Style({
+          stroke: new ol.style.Stroke({
+            color: 'green',
+            width: 1
+          })
+        }),
+        'MultiLineString': new ol.style.Style({
+          stroke: new ol.style.Stroke({
+            color: 'green',
+            width: 1
+          })
+        }),
+        'MultiPoint': new ol.style.Style({
+          image: image
+        }),
+        'MultiPolygon': new ol.style.Style({
+          stroke: new ol.style.Stroke({
+            color: 'blue',
+            width: 1
+          }),
+          fill: new ol.style.Fill({
+            color: 'rgba(255, 255, 0, 0.1)'
+          })
+        }),
+        'Polygon': new ol.style.Style({
+          stroke: new ol.style.Stroke({
+            color: 'blue',
+            width: 3
+          }),
+          fill: new ol.style.Fill({
+            color: 'rgba(0, 0, 255, 0.1)'
+          })
+        }),
+        'GeometryCollection': new ol.style.Style({
+          stroke: new ol.style.Stroke({
+            color: 'magenta',
+            width: 2
+          }),
+          fill: new ol.style.Fill({
+            color: 'magenta'
+          }),
+          image: new ol.style.Circle({
+            radius: 10,
+            fill: null,
+            stroke: new ol.style.Stroke({
+              color: 'magenta'
+            })
+          })
+        }),
+        'Circle': new ol.style.Style({
+          stroke: new ol.style.Stroke({
+            color: 'red',
+            width: 2
+          }),
+          fill: new ol.style.Fill({
+            color: 'rgba(255,0,0,0.2)'
+          })
+        })
+      };
+
+      var vectorSource = new ol.source.Vector({
+        features: (new ol.format.GeoJSON()).readFeatures(Counties)
+      });
+
+      var styleFunction = function(feature) {
+        return styles[feature.getGeometry().getType()];
+      };
+
+      var vectorLayer = new ol.layer.Vector({
+        source: vectorSource,
+        style: styleFunction
+      });
+
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          }),
+          vectorLayer
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([-100, 31]),
+          zoom: 6
+        })
+      });
+
+      var select = new ol.interaction.Select();
+      map.addInteraction(select);
+
+      var selectedFeatures = select.getFeatures();
+
+      // a DragBox interaction used to select features by drawing boxes
+      var dragBox = new ol.interaction.DragBox({
+        condition: ol.events.condition.platformModifierKeyOnly
+      });
+
+      map.addInteraction(dragBox);
+
+      dragBox.on('boxend', function() {
+        // features that intersect the box are added to the collection of
+        // selected features
+        var extent = dragBox.getGeometry().getExtent();
+        vectorSource.forEachFeatureIntersectingExtent(extent, function(feature) {
+          selectedFeatures.push(feature);
+        });
+      });
+
+      // clear selection when drawing a new box and when clicking on the map
+      dragBox.on('boxstart', function() {
+        selectedFeatures.clear();
+      });
+
+      var infoBox = document.getElementById('info');
+
+      selectedFeatures.on(['add', 'remove'], function() {
+        var names = selectedFeatures.getArray().map(function(feature) {
+          return feature.get('name');
+        });
+        if (names.length > 0) {
+          infoBox.innerHTML = names.join(', ');
+        } else {
+          infoBox.innerHTML = 'No countries selected';
+        }
+      });
+    </script>
+  </body>
+</html>
