@@ -25,6 +25,7 @@
 #
 
 import argparse
+import json
 import math
 import sys
 try:
@@ -97,6 +98,22 @@ DATA = {
         ]
     }
 }
+
+JHOUSE_DATA         = json.loads(open("state-rep-analysis/election-info.json").read())
+JHD_2016            = JHOUSE_DATA["2016"]
+JHD_2016_ARR        = [[None,None,None] for _ in xrange(150)]
+for district,values in JHD_2016.items():
+    for value in values:
+        if value['party'] == 'DEM':
+            JHD_2016_ARR[int(district)-1][0] = value['count']
+        elif value['party'] == 'REP':
+            JHD_2016_ARR[int(district)-1][1] = value['count']
+        elif value['party'] in ['IND', 'LIB', 'GRN', 'W']:
+            JHD_2016_ARR[int(district)-1][2] = value['count']
+        else:
+            print value
+            assert False
+DATA[2016]['house'] = JHD_2016_ARR
 
 def LikeMcGhee(D, R, I):
     '''
