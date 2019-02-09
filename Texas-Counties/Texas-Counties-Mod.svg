@@ -1,0 +1,1201 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" enable-background="new 0 0 321.782 314.67" height="314.67px" id="svg5598" version="1.1" viewBox="0 0 321.782 314.67" width="321.782px" x="0px" y="0px" xml:space="preserve">
+    <ns0:style type="text/css">
+        path {
+          fill          : #FFFFFF;
+          fill-opacity  : 1;
+          stroke        : #000000;
+          stroke-width  : 0.3;
+        }
+
+        text {
+          font: italic 5px sans-serif;
+        }
+
+        path:hover {
+          fill          : #EEE;
+        }
+    
+        #TX_Smith{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Smith:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Erath{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Erath:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Throckmorton{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Throckmorton:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Rusk{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Rusk:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Victoria{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Victoria:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Montague{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Montague:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Jack{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Jack:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Ector{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Ector:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Young{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Young:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Navarro{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Navarro:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Randall{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Randall:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_San_Jacinto{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_San_Jacinto:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Upshur{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Upshur:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Parker{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Parker:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Aransas{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Aransas:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Potter{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Potter:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Milam{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Milam:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Lampasas{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Lampasas:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Lubbock{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Lubbock:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Deaf_Smith{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Deaf_Smith:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Jefferson{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Jefferson:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Lee{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Lee:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_DeWitt{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_DeWitt:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Hopkins{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Hopkins:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Madison{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Madison:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Taylor{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Taylor:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Nueces{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Nueces:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Hidalgo{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Hidalgo:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Midland{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Midland:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Collin{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Collin:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Guadalupe{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Guadalupe:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Gaines{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Gaines:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_McLennan{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_McLennan:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Tom_Green{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Tom_Green:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Wichita{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Wichita:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Wharton{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Wharton:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Gregg{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Gregg:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Medina{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Medina:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Floyd{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Floyd:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Eastland{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Eastland:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Coryell{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Coryell:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Swisher{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Swisher:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Brazoria{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Brazoria:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Kaufman{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Kaufman:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_San_Patricio{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_San_Patricio:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Hood{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Hood:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Williamson{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Williamson:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Travis{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Travis:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Brazos{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Brazos:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Fort_Bend{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Fort_Bend:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Grayson{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Grayson:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Grimes{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Grimes:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Galveston{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Galveston:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Palo_Pinto{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Palo_Pinto:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+
+        #TX_Callahan{ fill:#80C3FC;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+        #TX_Callahan:hover { fill:#0061B6;fill-opacity:1;stroke:#000000;stroke-width:0.3; }
+</ns0:style>
+    <ns0:g id="layer1" transform="translate(-272.57928,-299.86126)">
+        <ns0:g>
+            <ns0:title id="title_TX_Bowie">Bowie</ns0:title>
+            <ns0:path d="m 561.48428,384.0758 0.21206,0.4697 0.20196,0.39816 0.16652,0.19785 0.98609,0.55382 0.35424,0.20519 1.29298,0.61347 2.18918,-1.27254 0.11078,-0.11249 0.33912,-0.0604 1.29414,-0.26301 2.27905,0.32292 0.44037,0.15221 0.58636,0.42935 0.61755,7.90568 -0.22276,-0.42903 -0.50359,-0.22473 -2.12475,-0.21653 -0.56968,0.16266 -0.71831,0.29633 -0.33552,0.68619 0.10033,0.58324 0.0944,0.25003 -0.0444,0.0827 -8.7906,0.4506 -0.79348,-0.10906 -0.20361,-0.14565 -0.0743,-0.26621 -2.32706,-1.53516 -0.71661,-10.52428 6.15951,1.39901z" id="TX_Bowie" ns1:label="Bowie, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Red_River">Red River</ns0:title>
+            <ns0:path d="m 545.36869,376.54 2.84681,2.16663 4.15884,2.95629 2.94732,1.01204 0.71661,10.52428 -1.51739,-0.87813 -7.42171,-0.22334 -4.19204,0.59334 -0.052,-0.0691 -0.93293,-13.8123 0.34122,-0.0585 0.18257,-0.0304 0.59408,-0.43749 0.12263,-0.13319 0.11059,-0.29176 0.0228,-0.28476 -0.0528,-0.24139 -0.002,-0.0409 -0.10055,-0.18258 -0.009,-0.0195 0.006,-0.0284 -0.003,-0.0499 0.01,-0.0396 0.45421,-0.78309 0.014,-8e-4 0.0195,-0.009 0.0756,-0.0444 0.16613,-0.002 1.49465,0.40867z" id="TX_Red_River" ns1:label="Red River, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Crosby">Crosby</ns0:title>
+            <ns0:path d="m 397.00412,384.49749 12.12208,-0.0975 0.10088,12.30518 -12.09297,0.0808 -0.12999,-12.28849z" id="TX_Crosby" ns1:label="Crosby, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Lubbock">Lubbock</ns0:title>
+            <ns0:path d="m 384.8839,384.60988 12.12122,-0.11244 0.13093,12.28743 -12.11098,0.0988 -0.14117,-12.27383z" id="TX_Lubbock" ns1:label="Lubbock, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hockley">Hockley</ns0:title>
+            <ns0:path d="m 372.59138,384.47566 12.29252,0.13422 0.14123,12.27483 -12.10236,-0.0839 -0.33139,-12.3251z" id="TX_Hockley" ns1:label="Hockley, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Cochran">Cochran</ns0:title>
+            <ns0:path d="m 362.57041,384.33928 10.02097,0.13638 0.33134,12.3241 -10.78067,-0.16223 0.18896,-5.14106 0.2394,-7.15719z" id="TX_Cochran" ns1:label="Cochran, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Floyd">Floyd</ns0:title>
+            <ns0:path d="m 399.14964,370.90449 9.91269,-0.0237 0.0639,13.51924 -12.12208,0.0975 -0.006,-13.59864 2.1518,0.006z" id="TX_Floyd" ns1:label="Floyd, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hale">Hale</ns0:title>
+            <ns0:path d="m 384.8768,370.82097 2.1334,0.0167 9.98764,0.0612 0.006,13.59864 -12.12122,0.11245 -0.006,-13.78897z" id="TX_Hale" ns1:label="Hale, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Lamb">Lamb</ns0:title>
+            <ns0:path d="m 372.78155,370.70357 2.0642,0.0327 10.03105,0.0847 0.007,13.78891 -12.29252,-0.13422 0.19017,-13.77209z" id="TX_Lamb" ns1:label="Lamb, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Bailey">Bailey</ns0:title>
+            <ns0:path d="m 372.78155,370.70357 -0.19017,13.77209 -10.02097,-0.13638 0.31389,-13.48167 0.003,-0.29466 9.894,0.14062z" id="TX_Bailey" ns1:label="Bailey, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Briscoe">Briscoe</ns0:title>
+            <ns0:path d="m 399.15706,358.61919 8.73504,-0.0368 3.34173,-0.012 0.031,12.29113 -2.20147,0.0192 -9.91269,0.0237 0.006,-12.28525z" id="TX_Briscoe" ns1:label="Briscoe, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Swisher">Swisher</ns0:title>
+            <ns0:path d="m 387.07547,358.54809 8.46604,0.0587 3.61555,0.0124 -0.007,12.2853 -2.1518,-0.006 -9.98764,-0.0612 0.0653,-12.28959z" id="TX_Swisher" ns1:label="Swisher, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Castro">Castro</ns0:title>
+            <ns0:path d="m 383.1661,358.54739 3.90943,0.002 -0.0653,12.28959 -2.1334,-0.0167 -10.03105,-0.0847 0.14829,-12.25627 8.172,0.0664z" id="TX_Castro" ns1:label="Castro, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Parmer">Parmer</ns0:title>
+            <ns0:path d="m 363.13218,358.29219 11.86187,0.18779 -0.1483,12.25626 -2.0642,-0.0327 -9.894,-0.14062 0.24463,-12.27076z" id="TX_Parmer" ns1:label="Parmer, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Armstrong">Armstrong</ns0:title>
+            <ns0:path d="m 395.71437,346.30704 12.23595,0.0202 -0.0582,12.25514 -8.73504,0.0368 -3.61555,-0.0124 0.17286,-12.29973z" id="TX_Armstrong" ns1:label="Armstrong, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Randall">Randall</ns0:title>
+            <ns0:path d="m 383.30024,346.23584 12.41513,0.0711 -0.17381,12.30079 -8.46603,-0.0587 -3.90943,-0.002 0.13414,-12.31155z" id="TX_Randall" ns1:label="Randall, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Deaf_Smith">Deaf Smith</ns0:title>
+            <ns0:path d="m 363.13218,358.29219 0.0995,-5.8331 0.12215,-6.47242 4.6629,0.0589 4.84105,-0.0313 10.44144,0.22062 -0.13413,12.31155 -8.172,-0.0664 -11.86087,-0.18784z" id="TX_Deaf_Smith" ns1:label="Deaf Smith, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Carson">Carson</ns0:title>
+            <ns0:path d="m 395.74776,333.95014 -0.006,-0.10582 12.17306,-0.0463 -9.7e-4,0.17634 0.0365,12.35291 -12.23595,-0.0202 0.0334,-12.3569z" id="TX_Carson" ns1:label="Carson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Potter">Potter</ns0:title>
+            <ns0:path d="m 383.49861,333.89159 12.24915,0.0585 -0.0334,12.3569 -12.41513,-0.0711 0.19937,-12.34431z" id="TX_Potter" ns1:label="Potter, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Oldham">Oldham</ns0:title>
+            <ns0:path d="m 383.50681,333.68378 -0.008,0.20781 -0.19937,12.34431 -10.44144,-0.22062 -4.84105,0.0313 -4.6629,-0.059 0.22651,-12.41296 19.92645,0.10907z" id="TX_Oldham" ns1:label="Oldham, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hutchinson">Hutchinson</ns0:title>
+            <ns0:path d="m 395.7541,321.64587 12.12742,-0.004 0.0343,12.15672 -12.17307,0.0463 0.0113,-12.19939z" id="TX_Hutchinson" ns1:label="Hutchinson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Moore">Moore</ns0:title>
+            <ns0:path d="m 383.59426,321.59024 12.15884,0.0557 -0.0124,12.19844 0.006,0.10583 -12.24915,-0.0586 0.008,-0.2078 0.0885,-12.0936z" id="TX_Moore" ns1:label="Moore, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hartley">Hartley</ns0:title>
+            <ns0:path d="m 363.80813,321.34196 19.78613,0.24828 -0.0875,12.09354 -19.9275,-0.11002 0.0676,-3.29817 0.16126,-8.93363z" id="TX_Hartley" ns1:label="Hartley, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hansford">Hansford</ns0:title>
+            <ns0:path d="m 407.84446,309.08605 0.0332,12.48831 0.004,0.0669 -12.12741,0.004 0.0218,-12.56057 12.06862,0.002z" id="TX_Hansford" ns1:label="Hansford, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Sherman">Sherman</ns0:title>
+            <ns0:path d="m 386.62486,309.02859 9.15003,0.0568 -0.0218,12.56056 -12.15884,-0.0557 0.10951,-12.58559 2.92109,0.0239z" id="TX_Sherman" ns1:label="Sherman, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Dallam">Dallam</ns0:title>
+            <ns0:path d="m 383.70377,309.00465 -0.10951,12.58559 -19.78613,-0.24828 0.10838,-7.43519 0.0842,-4.53513 0.89029,-0.6006 18.81272,0.23361z" id="TX_Dallam" ns1:label="Dallam, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hudspeth">Hudspeth</ns0:title>
+            <ns0:path d="m 317.27372,434.52223 -0.13557,3.96813 -0.16593,7.65582 -0.54212,18.5839 -0.1404,1.66768 -0.18023,0.82759 -0.19549,4.83294 -1.55033,0.91764 -0.1406,0.13421 -1.35461,-1.73077 -1.97972,-1.94357 -1.91015,-1.46074 -0.9351,-0.0279 -0.36958,-0.10515 -3.04531,-1.7126 -3.73771,-3.82765 -4.42807,-5.13351 -3.4119,-3.9634 -2.21568,-2.53411 1.08184,-0.98311 -0.0385,-1.55533 -0.75282,-0.97777 0.54023,-13.78102 25.60775,1.1487z" id="TX_Hudspeth" ns1:label="Hudspeth, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_El_Paso">El Paso</ns0:title>
+            <ns0:path d="m 291.66714,433.37647 -0.54023,13.78102 0.75282,0.97777 0.0385,1.55533 -1.08184,0.98311 -2.39136,-0.90548 -0.78771,-0.34176 -1.29143,-0.93809 -0.327,-0.23678 -0.0102,-0.0205 -0.0944,-0.0928 -0.0331,-0.0352 -0.21149,-0.30146 -0.75223,-1.95238 -2.23099,-4.47338 -0.51791,-0.86294 -0.85232,-0.61453 -2.58362,-1.02775 -1.95321,-1.86495 -0.24398,-0.2916 -0.0463,-0.12657 0.41033,-2.4503 0.0473,-0.20702 0.4426,-1.23317 -6.3e-4,-0.011 0.008,-4.5e-4 0.0795,0.006 5.18469,0.25158 8.98615,0.43271z" id="TX_El_Paso" ns1:label="El Paso, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Lynn">Lynn</ns0:title>
+            <ns0:path d="m 397.1361,396.78587 -0.0317,12.22759 -3.13454,-0.0258 -9.03101,0.0106 0.0863,-12.11351 12.11097,-0.0988z" id="TX_Lynn" ns1:label="Lynn, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Terry">Terry</ns0:title>
+            <ns0:path d="m 372.92272,396.79976 12.10235,0.084 -0.0863,12.11351 -3.10505,-4.3e-4 -9.06688,-0.0916 0.15589,-12.10546z" id="TX_Terry" ns1:label="Terry, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Yoakum">Yoakum</ns0:title>
+            <ns0:path d="m 372.92272,396.79976 -0.15689,12.10551 -11.01688,-0.17682 0.39304,-12.09191 10.78073,0.16322z" id="TX_Yoakum" ns1:label="Yoakum, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Dawson">Dawson</ns0:title>
+            <ns0:path d="m 384.93781,408.99828 9.03102,-0.0106 0.022,12.29164 -12.13004,-0.007 -0.028,-12.27427 3.10505,4.4e-4z" id="TX_Dawson" ns1:label="Dawson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Gaines">Gaines</ns0:title>
+            <ns0:path d="m 361.74901,408.72945 11.01688,0.17682 9.06687,0.0916 0.028,12.27427 -0.19431,5e-5 -20.1302,-0.23971 0.21275,-12.303z" id="TX_Gaines" ns1:label="Gaines, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Martin">Martin</ns0:title>
+            <ns0:path d="m 381.66646,421.27216 0.19431,-5e-5 12.13004,0.007 -0.18342,12.32537 -1.92646,0.0116 -10.32135,-0.0642 0.10688,-12.27995z" id="TX_Martin" ns1:label="Martin, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Andrews">Andrews</ns0:title>
+            <ns0:path d="m 361.53626,421.03245 20.1302,0.23971 -0.10788,12.28 -1.78877,-0.0153 -12.1542,-0.11504 -6.28818,-0.14066 0.20883,-12.2487z" id="TX_Andrews" ns1:label="Andrews, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Midland">Midland</ns0:title>
+            <ns0:path d="m 379.77081,433.5368 1.78877,0.0153 10.32135,0.0642 -0.0368,12.2449 -12.20219,-0.0783 0.12884,-12.24614z" id="TX_Midland" ns1:label="Midland, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Ector">Ector</ns0:title>
+            <ns0:path d="m 379.77081,433.5368 -0.12884,12.24614 -0.73714,9.2e-4 -10.70982,-0.14924 -0.75639,-0.003 0.17898,-12.20994 12.15321,0.11511z" id="TX_Ector" ns1:label="Ector, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Crane">Crane</ns0:title>
+            <ns0:path d="m 368.19501,445.63462 10.70982,0.14924 0.25708,15.87406 -2.10704,-0.0463 -0.92113,-2.8953 -0.24647,-0.52884 -0.0734,-0.11101 -0.32322,-0.27606 -1.21105,-0.93365 -0.32649,-0.2278 -3.03422,-1.51792 -0.30382,0.0293 -2.56307,0.54663 0.14304,-10.06241z" id="TX_Crane" ns1:label="Crane, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Presidio">Presidio</ns0:title>
+            <ns0:path d="m 342.68158,479.94193 -0.0222,3.05621 -0.20531,8.49442 -0.22928,14.08783 -0.15853,6.55462 -4.15941,-1.10226 -1.36195,-0.43526 -0.15101,-0.0485 -0.10239,-0.0743 -0.91122,-0.64623 -1.83325,-1.28884 -8.87915,-7.50524 -0.52889,-1.02057 -3.10081,-6.66146 -0.11616,-0.28085 -0.2351,-2.75609 0.2589,-2.04904 0.0463,-2.44058 -0.4644,-1.59417 -4.98428,-10.37937 -1.32022,-0.74012 0.14059,-0.13421 25.88749,6.9041 2.43033,0.0599z" id="TX_Presidio" ns1:label="Presidio, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Culberson">Culberson</ns0:title>
+            <ns0:path d="m 318.95001,434.58501 19.54277,0.63575 -2.56158,25.08725 -20.01611,11.75222 0.1955,-4.83294 0.18023,-0.82759 0.14039,-1.66768 0.54212,-18.5839 0.16593,-7.65582 0.13558,-3.96813 1.67517,0.0608z" id="TX_Culberson" ns1:label="Culberson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Ward">Ward</ns0:title>
+            <ns0:path d="m 367.43762,445.63168 0.7564,0.003 -0.14404,10.06247 -1.69799,0.20689 -1.0774,-0.96129 -0.71008,-0.56153 -0.77954,-0.40934 -1.53522,-0.54057 -1.39764,0.15172 -0.88171,0.0302 -0.5706,-0.0296 -1.23062,-0.20435 -6.68815,-1.7996 -0.31942,-0.29731 -0.30353,-0.47551 -0.3148,-1.39436 -0.0367,-1.68163 0.082,-0.96924 -0.17954,-0.58473 -0.4293,-0.60858 -1.89574,-0.3107 6.7527,0.15427 12.60089,0.21981z" id="TX_Ward" ns1:label="Ward, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Winkler">Winkler</ns0:title>
+            <ns0:path d="m 361.32843,433.28109 6.28817,0.14066 -0.17898,12.20993 -12.59977,-0.21788 0.22643,-9.81175 1.39705,0.0316 1.22885,0.0152 1.67458,0.0328 1.33587,0.0301 0.58245,0.009 0.0454,-2.43953z" id="TX_Winkler" ns1:label="Winkler, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Loving">Loving</ns0:title>
+            <ns0:path d="m 339.54514,435.24996 6.10054,0.15235 9.4186,0.19974 -0.22643,9.81175 -6.7527,-0.15426 -0.57175,-1.08725 -1.27328,-1.63924 -0.23735,-0.0346 -0.46366,0.12456 -0.0167,0.0581 -0.0561,0.0533 -0.21702,0.0234 -0.52382,-0.0874 -0.20068,-0.23497 -3.42084,-4.36655 -1.55882,-2.81892z" id="TX_Loving" ns1:label="Loving, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Reeves">Reeves</ns0:title>
+            <ns0:path d="m 338.49278,435.22076 1.05236,0.0292 1.55876,2.81793 3.42084,4.36654 0.20068,0.23497 0.52382,0.0874 0.21702,-0.0234 0.0561,-0.0533 0.0167,-0.058 0.46367,-0.12457 0.23734,0.0346 1.27328,1.63925 0.57175,1.08724 1.89574,0.31071 0.4293,0.60857 0.17954,0.58474 -0.082,0.96923 0.0367,1.68163 0.3148,1.39436 0.30353,0.47551 0.31942,0.29732 6.68816,1.79959 1.23061,0.20435 0.57061,0.0296 0.88171,-0.0302 1.39763,-0.15172 -14.12187,16.70606 -12.19673,-9.83035 2.56058,-25.0872z" id="TX_Reeves" ns1:label="Reeves, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Jeff_Davis">Jeff Davis</ns0:title>
+            <ns0:path d="m 348.12793,470.13836 3.43654,2.90128 -8.88283,6.90329 -2.43034,-0.0599 -25.88748,-6.90411 1.55033,-0.91764 20.01611,-11.75221 12.19767,9.82929z" id="TX_Jeff_Davis" ns1:label="Jeff Davis, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Brewster">Brewster</ns0:title>
+            <ns0:path d="m 351.56447,473.03964 20.86184,17.55211 6.06679,5.02916 -1.20813,0.87612 -2.99863,1.56905 -4.36621,1.31641 -0.54752,0.37574 -0.0566,0.0433 -2.98691,5.55584 -1.71673,4.69622 -6.06272,10.20126 -1.02362,0.33475 -0.17572,0.01 -2.90114,-0.55292 -2.47526,-1.00688 -8.04866,-4.65385 -0.23694,-0.22088 -1.0379,-0.95352 -0.58311,-1.07559 0.15854,-6.55462 0.22928,-14.08783 0.2053,-8.49442 0.0222,-3.05621 8.88183,-6.90323z" id="TX_Brewster" ns1:label="Brewster, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Terrell">Terrell</ns0:title>
+            <ns0:path d="m 392.11662,484.14565 -0.11774,14.32287 -0.43758,-0.10328 -0.18195,-0.0467 -2.37092,-0.40584 -1.49096,-0.15046 -2.34175,0.29965 -0.22746,0.13916 -1.61515,-0.22052 -4.84007,-2.36059 -6.06679,-5.02915 0.0851,-6.47132 5.4268,0.0355 0.0864,-8.82319 3.30339,-0.49164 1.66899,-1.06763 8.90927,0.12057 0.35032,-0.057 1.33944,0.19816 1.00451,0.71904 0.25757,1.7612 -0.0249,0.24782 -2.20789,6.30776 -0.50865,1.07566z" id="TX_Terrell" ns1:label="Terrell, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Pecos">Pecos</ns0:title>
+            <ns0:path d="m 368.04998,455.69715 2.56306,-0.54663 0.30382,-0.0293 3.03423,1.51792 0.32648,0.2278 1.21105,0.93365 0.32322,0.27607 0.0734,0.111 0.24647,0.52884 0.92113,2.89531 3.34699,1.29377 4.80405,1.20076 1.55776,0.39105 2.54567,1.89131 2.43008,6.7908 0.16691,0.71467 -8.90927,-0.12058 -1.66899,1.06763 -3.30339,0.49164 -0.0864,8.82319 -5.4268,-0.0355 -0.0851,6.47131 -20.86184,-17.55211 -3.43654,-2.90128 14.12188,-16.70606 1.53522,0.54057 0.77954,0.40934 0.71008,0.56153 1.0774,0.96129 1.69993,-0.208z" id="TX_Pecos" ns1:label="Pecos, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Upton">Upton</ns0:title>
+            <ns0:path d="m 378.90477,445.78286 0.73714,-9.2e-4 12.2022,0.0783 -0.0798,16.06153 -12.60245,-0.2648 -0.25708,-15.87407z" id="TX_Upton" ns1:label="Upton, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Reagan">Reagan</ns0:title>
+            <ns0:path d="m 391.84317,445.86126 12.12769,0.0364 -0.006,2.65365 -0.004,0.77547 -0.14606,12.62974 -12.05142,-0.0338 0.0798,-16.06152z" id="TX_Reagan" ns1:label="Reagan, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Glasscock">Glasscock</ns0:title>
+            <ns0:path d="m 393.80739,433.60473 10.21245,0.0163 -0.049,12.27664 -12.12769,-0.0364 0.0368,-12.24491 1.92746,-0.0116z" id="TX_Glasscock" ns1:label="Glasscock, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Howard">Howard</ns0:title>
+            <ns0:path d="m 406.11857,421.31678 -0.19378,12.30193 -1.90495,0.002 -10.21245,-0.0163 0.18342,-12.32537 12.12776,0.0374z" id="TX_Howard" ns1:label="Howard, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Borden">Borden</ns0:title>
+            <ns0:path d="m 397.10436,409.01346 9.01856,-0.0709 0.002,12.27375 -0.005,0.10047 -12.12675,-0.0375 -0.022,-12.29164 3.13354,0.0259z" id="TX_Borden" ns1:label="Borden, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Garza">Garza</ns0:title>
+            <ns0:path d="m 409.22808,396.70514 0.0466,12.03783 -3.15275,0.1996 -9.01855,0.071 0.0317,-12.22759 12.09297,-0.0808z" id="TX_Garza" ns1:label="Garza, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Scurry">Scurry</ns0:title>
+            <ns0:path d="m 409.27467,408.74297 8.98036,0.13756 -0.0141,12.34378 -12.11711,-0.009 -0.002,-12.27375 3.1528,-0.1986z" id="TX_Scurry" ns1:label="Scurry, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Mitchell">Mitchell</ns0:title>
+            <ns0:path d="m 406.12386,421.21632 12.11712,0.009 -0.012,12.38071 -3.70587,-0.0153 -8.59838,0.027 0.19378,-12.30192 0.005,-0.0995z" id="TX_Mitchell" ns1:label="Mitchell, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Sterling">Sterling</ns0:title>
+            <ns0:path d="m 404.01984,433.62104 1.90495,-0.002 8.59838,-0.027 -0.0242,10.98815 -0.84783,-0.2542 -0.0784,4.02297 -9.60802,0.20268 0.006,-2.65365 0.049,-12.27664z" id="TX_Sterling" ns1:label="Sterling, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Irion">Irion</ns0:title>
+            <ns0:path d="m 403.96184,449.32675 6.61415,0.008 7.11835,0.0673 0.18971,12.28209 -6.5666,0.15866 -7.50067,0.1137 0.14506,-12.62968z" id="TX_Irion" ns1:label="Irion, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Crockett">Crockett</ns0:title>
+            <ns0:path d="m 377.05487,461.61166 2.10704,0.0463 12.60245,0.26481 12.05142,0.0338 7.50067,-0.11371 0.0912,10.56992 0.0601,11.72956 -19.35111,0.003 0.50777,-1.07361 2.20788,-6.30775 0.0249,-0.24782 -0.25756,-1.76121 -1.00452,-0.71904 -1.33943,-0.19815 -0.35033,0.057 -0.1669,-0.71467 -2.43009,-6.7908 -2.54567,-1.8913 -1.55775,-0.39106 -4.80406,-1.20076 -3.34604,-1.29483z" id="TX_Crockett" ns1:label="Crockett, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Val_Verde">Val Verde</ns0:title>
+            <ns0:path d="m 392.11662,484.14565 19.35111,-0.003 6.30404,-0.0556 0.14692,18.61777 0.0467,5.14567 -0.15408,2.11318 -0.0983,0.6837 -0.84584,2.36592 -0.28927,0.47823 -0.0967,0.0255 -0.76157,-0.0938 -6.03472,-4.81763 -5.14686,-5.68954 -0.0679,-0.15539 -3.76054,-3.7362 -1.23897,-0.35112 -0.10945,-0.005 -3.51007,-0.0244 -0.55769,0.004 -3.2934,-0.17701 0.11663,-14.32481z" id="TX_Val_Verde" ns1:label="Val Verde, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Zapata">Zapata</ns0:title>
+            <ns0:path d="m 449.73087,568.11835 2.06258,-1.56082 0.95835,1.26255 9.52559,-0.11986 0.36191,13.44117 -5.36134,6.12578 -0.4553,-1.46949 -0.55399,-1.7954 -0.002,-0.028 -0.91275,-2.73052 -0.69364,-1.50399 -1.38713,-1.73894 -1.45751,-0.74131 -1.75979,-2.42586 -0.16085,-1.10064 0.0228,-0.11047 0.11235,-0.10255 0.40443,-0.67209 0.0464,-2.28033 -0.42975,-2.04086 -0.27762,-0.38985 -0.0214,-0.006 -0.0218,-0.0128z" id="TX_Zapata" ns1:label="Zapata, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Jim_Hogg">Jim Hogg</ns0:title>
+            <ns0:path d="m 466.14671,565.23922 6.16361,-0.32301 0.76889,0.41595 0.0382,2.18336 0.79136,0.81031 2.05179,4.9323 0.11435,7.56474 -13.43552,0.32052 -0.3619,-13.44117 3.8692,-2.463z" id="TX_Jim_Hogg" ns1:label="Jim Hogg, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Starr">Starr</ns0:title>
+            <ns0:path d="m 462.63936,581.14239 13.43551,-0.32052 2.57227,-0.0684 -1.77972,4.43438 -2.11209,4.71874 -2.39021,5.63904 -1.17652,0.23528 -1.86689,-0.70097 -8.78033,-3.36116 -1.49366,-0.84843 -1.66057,-3.26887 -0.062,-0.19078 -0.0472,-0.14355 5.3614,-6.12478z" id="TX_Starr" ns1:label="Starr, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Willacy">Willacy</ns0:title>
+            <ns0:path d="m 504.18609,584.86189 0.77388,-0.024 1.85541,5.15984 -0.4293,0.0245 -2.19999,-5.16025 m -16.18737,0.33102 13.06789,-0.21544 1.72228,5.19647 -0.91851,1.28331 -2.62985,1.97674 -8.54869,-1.01754 -0.0782,-2.05888 -1.18738,-0.30698 -2.44247,-0.29058 0.14658,-1.20729 0.26318,-1.25299 0.60518,-2.10682z" id="TX_Willacy" ns1:label="Willacy, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hidalgo">Hidalgo</ns0:title>
+            <ns0:path d="m 478.64714,580.75349 8.47716,-0.23843 0.87442,4.67785 -0.60612,2.10788 -0.26318,1.25299 -0.14658,1.20729 2.44247,0.29058 1.18738,0.30698 0.0782,2.05888 0.29584,7.95505 -0.17893,-0.0289 -0.50352,-0.0475 -2.28099,0.15296 -0.76296,0.0575 -0.0907,0.13136 -0.81571,0.38 -3.17942,-0.42689 -1.86965,-0.2571 -0.59686,-0.27952 -0.37628,-0.22296 -2.7971,-1.68066 -1.37132,-1.46139 -0.70343,-0.28646 -0.061,-0.0166 -3.01769,-0.84076 -0.018,0.001 2.39021,-5.63904 2.11209,-4.71874 1.78166,-4.43549z" id="TX_Hidalgo" ns1:label="Hidalgo, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Brooks">Brooks</ns0:title>
+            <ns0:path d="m 473.11743,567.51552 7.3206,-0.16255 4.37588,-0.109 1.86627,1.3761 0.44312,11.89505 -8.47716,0.23843 -2.57227,0.0684 -0.11435,-7.56474 -2.05179,-4.9323 -0.7903,-0.80937z" id="TX_Brooks" ns1:label="Brooks, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Kenedy">Kenedy</ns0:title>
+            <ns0:path d="m 502.00611,566.10751 0.64729,-0.0309 -0.0626,0.273 -0.26199,1.62553 -0.12605,1.37439 -0.083,1.67243 0.006,1.47405 0.0876,1.53851 0.28844,2.30332 0.17189,0.94276 0.0255,0.0967 0.40504,1.7478 0.55407,1.97268 0.93428,2.77436 0.0451,0.10661 0.045,0.10361 0.27735,0.75445 -0.77388,0.024 -2.0058,-6.04171 -0.19795,-3.47537 -0.14812,-2.95235 -0.0544,-1.1658 -0.0597,-1.73341 0.0299,-1.33887 0.0813,-0.68273 0.17477,-1.36314 m -15.32593,2.51256 8.67824,-2.26515 -0.0465,0.22101 0.0368,0.48769 0.1109,0.17097 0.1604,0.10806 2.17894,0.28856 0.56335,-0.0802 0.25948,-0.12196 0.16096,-0.12836 0.0707,-0.13123 0.37037,-0.19738 0.85368,-0.36413 0.66644,-0.064 0.0519,0.17333 -0.37795,3.95088 -0.8838,3.26454 -0.4241,5.49701 1.02094,1.20089 0.81651,3.45015 0.11724,0.89779 -13.06789,0.21544 -0.87442,-4.67785 -0.44218,-11.8961z" id="TX_Kenedy" ns1:label="Kenedy, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Kleberg">Kleberg</ns0:title>
+            <ns0:path d="m 502.00611,566.10751 2.77538,-8.58371 0.657,0.12184 -2.78509,8.43101 -0.64729,0.0309 m -14.65617,-9.3988 1.70612,0.97356 0.93585,1.07853 0.21516,-0.003 12.66385,-0.57405 -1.01039,4.48872 -0.65157,1.85505 -0.0688,0.16318 -0.19336,0.24539 -0.16952,0.11883 -2.16727,1.2703 -3.25162,0.029 -8.67823,2.26514 -1.86627,-1.3761 -0.40551,-10.42581 2.94159,-0.10845z" id="TX_Kleberg" ns1:label="Kleberg, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Jim_Wells">Jim Wells</ns0:title>
+            <ns0:path d="m 479.61955,545.20969 8.76909,-0.28311 2.17692,1.62484 -3.27808,3.20459 0.13285,3.01833 -0.0703,3.93537 -2.9416,0.10845 0.40551,10.42581 -4.37588,0.109 -0.81848,-22.14328z" id="TX_Jim_Wells" ns1:label="Jim Wells, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Nueces">Nueces</ns0:title>
+            <ns0:path d="m 509.51311,550.18987 -4.07462,7.45577 -0.657,-0.12184 4.58464,-7.68113 0.14698,0.3472 m -22.16317,6.51884 0.0703,-3.93537 -0.13285,-3.01833 3.27808,-3.20459 -0.23608,0.67352 0.30954,1.00302 3.39146,1.52962 0.66219,0.26578 1.30001,0.20941 1.79053,0.0463 0.17425,-0.7391 4.00256,-0.31512 1.72915,-0.0113 -0.44566,0.10651 -1.59404,0.836 -0.45268,0.37034 -0.29159,0.68369 -0.002,0.8655 0.20247,0.4422 0.4704,0.67935 0.55641,0.43106 0.7753,0.31743 1.2972,0.89869 -0.68211,1.82874 -0.6511,1.51147 -12.66385,0.57405 -0.21517,0.003 -0.93584,-1.07853 -1.70712,-0.9735z" id="TX_Nueces" ns1:label="Nueces, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_San_Patricio">San Patricio</ns0:title>
+            <ns0:path d="m 489.88575,541.52695 6.89374,0.0631 7.07893,2.189 3.34646,4.69631 -3.51671,0.73817 -1.72915,0.0113 -4.00256,0.31511 -0.17425,0.73911 -1.79053,-0.0463 -1.30001,-0.20942 -0.66219,-0.26577 -3.39147,-1.52962 -0.30953,-1.00303 0.23608,-0.67351 -2.17692,-1.62484 1.49811,-3.39969z" id="TX_San_Patricio" ns1:label="San Patricio, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Calhoun">Calhoun</ns0:title>
+            <ns0:path d="m 514.52638,542.279 0.26033,-1.30291 5.3747,-4.15034 0.28484,-0.15145 1.26406,-0.6329 1.90496,-0.51215 0.32563,0.49428 -2.29492,1.2976 -0.33657,0.17542 -0.0264,0.0296 -1.73884,1.21284 -1.74639,1.41459 -1.51751,1.33546 -2.1779,2.12127 -0.0472,0.0508 -0.0567,0.0603 0.52783,-1.44235 m 5.36583,-17.09078 6.3802,0.73639 0.0625,0.93996 -1.48681,0.80185 -2.37471,1.12786 -2.0796,-1.69249 -0.26371,-0.63803 -0.23792,-1.27554 m -7.40577,6.14106 -0.40062,-0.68533 -0.68552,-1.48442 1.83499,-1.44167 3.65046,-1.48499 1.28001,-0.81009 -0.34382,0.34711 1.48139,3.02465 0.0702,0.0721 1.09873,0.13975 0.71378,0.43311 3.01763,2.42232 0.23743,0.21185 0.22287,0.27276 -0.0283,0.18992 -4.53126,2.60388 -0.21053,0.10213 -1.77314,0.61082 -0.64058,-0.16785 -0.18527,-0.15772 -1.68361,-1.61587 -3.1249,-2.58249z" id="TX_Calhoun" ns1:label="Calhoun, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Refugio">Refugio</ns0:title>
+            <ns0:path d="m 505.74967,530.34677 6.73677,0.98251 3.12579,2.58043 -0.40453,2.55213 -8.17917,1.67181 0.0713,0.56686 0.59852,0.71312 0.98387,0.51489 0.54461,0.0481 0.51819,-0.0115 -0.12975,0.43007 -3.00986,2.55028 -2.16198,1.20489 -0.0785,-0.007 -0.50568,-0.36684 -7.07893,-2.18901 3.84861,-6.41222 5.12069,-4.829z" id="TX_Refugio" ns1:label="Refugio, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Bee">Bee</ns0:title>
+            <ns0:path d="m 490.34105,527.78482 2.16237,3.44462 3.65904,1.95409 4.46563,1.99429 -3.8486,6.41223 -6.89374,-0.0631 0.22315,-0.19701 -7.44703,-13.11876 2.05489,-0.8342 2.20129,-0.90163 0.33262,0.17737 0.21414,0.33036 0.89905,0.43258 0.79399,0.27629 1.1832,0.0929z" id="TX_Bee" ns1:label="Bee, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Live_Oak">Live Oak</ns0:title>
+            <ns0:path d="m 482.32754,524.75059 2.38828,2.62745 -2.05489,0.8342 7.44703,13.11876 -0.22221,0.19595 -1.49711,3.39963 -8.76909,0.28311 -2.46348,0.0792 -0.51685,-15.47565 5.68832,-5.06266z" id="TX_Live_Oak" ns1:label="Live Oak, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_McMullen">McMullen</ns0:title>
+            <ns0:path d="m 465.09179,529.44829 11.51921,-0.49984 0.54407,16.3405 -11.67322,0.36338 -0.39006,-16.20404z" id="TX_McMullen" ns1:label="McMullen, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Duval">Duval</ns0:title>
+            <ns0:path d="m 465.48284,545.65227 11.67323,-0.36337 2.46348,-0.0792 0.81948,22.14323 -7.3206,0.16254 -0.0382,-2.18336 -0.7689,-0.41595 -6.1636,0.32301 -0.66487,-19.58689z" id="TX_Duval" ns1:label="Duval, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Webb">Webb</ns0:title>
+            <ns0:path d="m 430.41365,542.46129 2.38457,-0.0577 17.88869,-0.49703 0.22521,4.85104 14.56978,-1.10428 0.66387,19.58694 -3.86932,2.46101 -9.5256,0.11986 -0.95834,-1.26255 -2.06258,1.56081 -0.42342,-0.0129 -0.5563,-0.30586 -0.0509,-0.0151 -0.89043,-0.77362 -0.11248,-0.11078 -0.0418,-0.0477 -0.0211,-0.0188 -0.035,-0.10518 0.10595,-0.16229 0.64276,-0.97212 0.34131,-0.95395 0.11611,-0.54649 0.14321,-2.11056 -1.0328,-2.4292 -0.57102,-0.88096 -0.34944,-0.22649 -1.15105,-0.74175 -0.57265,-0.0655 -0.0647,0.0428 -0.0231,0.12151 -0.97165,0.0163 -4.50752,-3.7147 -0.82606,-0.87444 -2.96049,-5.20007 -2.34623,-4.14028 -0.12538,-0.091 -3.03203,-1.33875z" id="TX_Webb" ns1:label="Webb, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_La_Salle">La Salle</ns0:title>
+            <ns0:path d="m 465.09526,529.19268 -0.003,0.25561 0.39105,16.20398 -14.56978,1.10429 -0.22521,-4.85105 -0.3015,-12.16954 14.70891,-0.54329z" id="TX_La_Salle" ns1:label="La Salle, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Dimmit">Dimmit</ns0:title>
+            <ns0:path d="m 432.6121,529.83284 17.44915,-0.0894 0.3241,-0.007 0.3015,12.16955 -17.88868,0.49703 -0.18607,-12.56976z" id="TX_Dimmit" ns1:label="Dimmit, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Maverick">Maverick</ns0:title>
+            <ns0:path d="m 432.51708,517.59544 0.0951,12.2384 0.18612,12.57076 -2.38458,0.0577 -0.0944,-0.0928 -1.12264,-1.10494 -0.84222,-0.96467 -1.42765,-3.66375 -4.06475,-9.27086 -3.53152,-6.76714 -0.52423,-2.80272 13.71082,-0.19998z" id="TX_Maverick" ns1:label="Maverick, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Kinney">Kinney</ns0:title>
+            <ns0:path d="m 417.91864,502.70347 14.37089,-0.12939 0.22755,15.02136 -13.71087,0.19898 -3.08764,-4.3725 0.76157,0.0938 0.0967,-0.0255 0.28927,-0.47823 0.84583,-2.36592 0.0983,-0.6837 0.15409,-2.11318 -0.0457,-5.14573z" id="TX_Kinney" ns1:label="Kinney, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Edwards">Edwards</ns0:title>
+            <ns0:path d="m 431.931,483.88122 8.78832,-0.13897 0.021,6.06563 -2.13898,0.0437 -2.96929,-0.18445 -1.14679,5.39994 -0.0353,4.05858 0.23312,3.40725 -2.39358,0.0402 -14.3709,0.12939 -0.14692,-18.61777 14.15934,-0.20348z" id="TX_Edwards" ns1:label="Edwards, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Real">Real</ns0:title>
+            <ns0:path d="m 440.74027,489.80788 1.65103,-0.0289 0.032,3.67412 0.54451,0.96059 1.62261,-2.7e-4 0.14113,7.84167 -10.04945,0.2779 -0.23313,-3.40726 0.0353,-4.05857 1.14679,-5.39995 2.96929,0.18445 2.13998,-0.0437z" id="TX_Real" ns1:label="Real, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Uvalade">Uvalade</ns0:title>
+            <ns0:path d="m 432.28953,502.57408 2.39359,-0.0402 10.04946,-0.2779 4.67083,-0.10077 0.26563,15.00418 -17.15196,0.43603 -0.22755,-15.02136z" id="TX_Uvalade" ns1:label="Uvalade, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Zavala">Zavala</ns0:title>
+            <ns0:path d="m 449.66904,517.15941 0.39227,12.58505 -17.44915,0.0894 -0.0951,-12.2384 17.15196,-0.43603z" id="TX_Zavala" ns1:label="Zavala, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Frio">Frio</ns0:title>
+            <ns0:path d="m 464.65773,516.81553 0.43653,12.37721 -14.70991,0.54334 -0.3241,0.007 -0.39227,-12.58505 14.98975,-0.34294z" id="TX_Frio" ns1:label="Frio, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Goliad">Goliad</ns0:title>
+            <ns0:path d="m 501.7852,521.83443 1.82054,-0.1127 0.73466,0.28969 0.39432,0.69771 0.53944,1.18825 0.4765,6.44934 -5.12257,4.8311 -4.46563,-1.99429 -3.65904,-1.95409 -2.16237,-3.44462 4.87903,-4.25332 3.74431,-3.28423 0.15475,-0.009 0.66088,0.20775 1.12076,0.54415 0.35234,0.27741 0.53208,0.56666z" id="TX_Goliad" ns1:label="Goliad, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Victoria">Victoria</ns0:title>
+            <ns0:path d="m 509.5897,514.78022 0.98562,1.09072 2.50046,0.93934 0.17238,0.10737 1.96172,3.38593 3.09877,5.04295 -0.14195,0.0752 -1.28001,0.8101 -3.65046,1.48498 -1.83499,1.44168 0.68552,1.48442 0.40062,0.68533 -6.73677,-0.98251 -0.47651,-6.44934 -0.53944,-1.18825 -0.39431,-0.69771 -0.73467,-0.28969 -1.82048,0.1137 7.8045,-7.05421z" id="TX_Victoria" ns1:label="Victoria, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_DeWitt">DeWitt</ns0:title>
+            <ns0:path d="m 502.77103,507.22474 6.81867,7.55548 -7.80444,7.05521 -0.53108,-0.56671 -0.35235,-0.27742 -1.12076,-0.54415 -0.66088,-0.20775 -0.15475,0.009 -3.7443,3.28423 -4.66308,-5.2323 3.37665,-3.00387 8.83632,-8.07153z" id="TX_DeWitt" ns1:label="DeWitt, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Karnes">Karnes</ns0:title>
+            <ns0:path d="m 490.98181,512.26928 2.95185,3.02604 -3.37665,3.00387 4.66307,5.23231 -4.87903,4.25332 -1.18314,-0.0919 -0.79399,-0.27629 -0.89906,-0.43258 -0.21413,-0.33036 -0.33262,-0.17737 -2.2013,0.90163 -2.38827,-2.62744 -2.37889,-2.58591 11.03216,-9.89535z" id="TX_Karnes" ns1:label="Karnes, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Wilson">Wilson</ns0:title>
+            <ns0:path d="m 488.06678,508.0432 2.91509,4.22708 -11.03216,9.89535 -5.54068,-6.30815 6.42353,-9.38846 0.22982,1.43225 0.10593,0.34754 0.22793,0.36163 0.68157,-0.43146 5.98897,-0.13578z" id="TX_Wilson" ns1:label="Wilson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Atascosa">Atascosa</ns0:title>
+            <ns0:path d="m 464.54016,512.34198 9.86782,3.51456 5.54067,6.30814 2.37889,2.58591 -5.68837,5.06166 -0.0282,-0.8638 -11.51921,0.49984 0.003,-0.25561 -0.43653,-12.3772 -0.11857,-4.4735z" id="TX_Atascosa" ns1:label="Atascosa, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Medina">Medina</ns0:title>
+            <ns0:path d="m 464.15443,500.02999 0.38667,12.31093 0.11763,4.47456 -14.98875,0.34287 -0.26563,-15.00417 10.46835,-0.13349 0.18145,0.24908 0.0277,0.13465 -0.0605,0.30894 -0.19535,0.33365 0.0419,0.56052 0.1637,0.32421 0.10368,0.0792 0.0896,0.008 1.08361,-0.31914 2.84593,-3.66977z" id="TX_Medina" ns1:label="Medina, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Bandera">Bandera</ns0:title>
+            <ns0:path d="m 444.59144,494.41434 7.5339,-0.0755 2.83996,0.19983 1.32079,0.59185 5.09098,2.42243 3.42434,1.63191 -0.64793,0.84622 -2.84897,3.66894 -1.08361,0.31913 -0.0896,-0.008 -0.10367,-0.0792 -0.1637,-0.32421 -0.0419,-0.56053 0.19534,-0.33364 0.0605,-0.30895 -0.0277,-0.13464 -0.18146,-0.24908 -10.46834,0.13349 -4.67083,0.10076 -0.13809,-7.84083z" id="TX_Bandera" ns1:label="Bandera, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Kerr">Kerr</ns0:title>
+            <ns0:path d="m 451.67972,483.63082 0.12583,4.26675 9.24828,-0.32843 0.32419,9.98272 -5.09099,-2.42243 -1.32079,-0.59185 -2.83996,-0.19983 -7.5339,0.0755 -1.62261,2.7e-4 -0.5445,-0.96059 -0.032,-3.67413 -1.65102,0.0289 -0.021,-6.06562 10.9584,-0.11132z" id="TX_Kerr" ns1:label="Kerr, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Gillespie">Gillespie</ns0:title>
+            <ns0:path d="m 451.50768,477.65593 8.21546,-0.15541 9.00733,-0.28566 0.38854,10.11027 -8.06512,0.24501 -9.24829,0.32843 -0.29792,-10.24264z" id="TX_Gillespie" ns1:label="Gillespie, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Blanco">Blanco</ns0:title>
+            <ns0:path d="m 474.59078,477.42296 5.47893,1.49586 -1.08514,1.99794 -2.72053,9.0193 -2.74273,2.89665 -4.4013,-5.50764 -0.38854,-10.11026 5.85931,0.20815z" id="TX_Blanco" ns1:label="Blanco, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Kendall">Kendall</ns0:title>
+            <ns0:path d="m 461.05383,487.56914 8.06512,-0.24501 4.40131,5.50764 -5.49265,5.56133 -3.22625,0.79074 -3.42434,-1.63192 -0.32319,-9.98278z" id="TX_Kendall" ns1:label="Kendall, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Bexar">Bexar</ns0:title>
+            <ns0:path d="m 468.02861,498.39304 2.20881,-0.40025 0.19831,-2.8e-4 3.12583,0.22462 1.56815,1.11864 1.21414,3.02786 0.28762,0.75887 0.72658,0.49949 1.20774,0.31283 2.41,1.42627 0.0864,0.83043 -0.23059,0.27756 -6.42352,9.38846 -9.86782,-3.51456 -0.38668,-12.31093 0.64793,-0.84622 3.22714,-0.79279z" id="TX_Bexar" ns1:label="Bexar, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Guadalupe">Guadalupe</ns0:title>
+            <ns0:path d="m 486.72156,494.60696 6.12717,5.59664 -4.78295,7.83966 -5.98797,0.13572 -0.68157,0.43146 -0.22793,-0.36163 -0.10593,-0.34754 -0.22982,-1.43225 0.23059,-0.27756 -0.0864,-0.83043 -2.41,-1.42627 -1.20775,-0.31282 -0.72657,-0.4995 -0.28762,-0.75887 7.45685,-4.6816 2.91986,-3.07501z" id="TX_Guadalupe" ns1:label="Guadalupe, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Comal">Comal</ns0:title>
+            <ns0:path d="m 476.26398,489.93506 6.67887,5.08344 0.85785,2.66353 -7.45685,4.6816 -1.21414,-3.02786 -1.56815,-1.11864 -3.12583,-0.22462 -0.19831,2.8e-4 -2.20881,0.40025 5.49265,-5.56133 2.74272,-2.89665z" id="TX_Comal" ns1:label="Comal, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hays">Hays</ns0:title>
+            <ns0:path d="m 478.98351,480.91582 11.57281,8.8823 -1.27524,1.28058 -3.04165,2.81853 -0.11444,0.75172 0.22802,0.0291 0.36955,-0.0711 -2.92192,3.07413 -0.85784,-2.66353 -6.67888,-5.08344 2.71959,-9.01824z" id="TX_Hays" ns1:label="Hays, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Caldwell">Caldwell</ns0:title>
+            <ns0:path d="m 490.55632,489.79812 1.38835,-1.31708 8.48204,7.58495 -0.0481,0.0528 -7.5299,4.08479 -6.12717,-5.59664 -0.36955,0.0711 -0.22802,-0.0291 0.11444,-0.75173 3.04165,-2.81852 1.27624,-1.28064z" id="TX_Caldwell" ns1:label="Caldwell, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Gonzales">Gonzales</ns0:title>
+            <ns0:path d="m 500.37863,496.11881 4.45695,4.19835 -1.42625,1.39035 0.13643,2.04355 -0.77467,3.47467 -8.83732,8.07159 -2.95185,-3.02604 -2.91508,-4.22708 4.78294,-7.83966 7.52885,-4.08573z" id="TX_Gonzales" ns1:label="Gonzales, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Lavaca">Lavaca</ns0:title>
+            <ns0:path d="m 504.83558,500.31716 6.55701,-0.43256 0.21002,0.0471 0.46685,0.24785 1.39214,1.15871 6.0185,6.46723 -2.29489,2.12494 -6.61095,5.93953 -7.80423,-8.64521 0.77467,-3.47467 -0.13642,-2.04355 1.4273,-1.38941z" id="TX_Lavaca" ns1:label="Lavaca, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Jackson">Jackson</ns0:title>
+            <ns0:path d="m 517.18527,509.93146 0.46593,0.4252 8.54669,7.52417 0.0735,8.04384 -6.3802,-0.73639 -1.58461,0.15736 -3.09878,-5.04295 -1.96171,-3.38593 -0.17238,-0.10737 -2.50046,-0.93933 6.612,-5.9386z" id="TX_Jackson" ns1:label="Jackson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Matagorda">Matagorda</ns0:title>
+            <ns0:path d="m 526.19889,517.88078 8.17014,-5.59364 2.10157,-2.44146 0.60939,0.51719 0.15612,0.13834 1.19949,3.29813 0.76456,2.39741 0.24624,0.6831 0.064,0.0855 5.06676,3.54462 0.0906,0.0429 1.49743,0.0529 -0.45244,0.33928 -0.99197,0.71456 -0.44368,0.29972 -5.36981,3.55009 c 0,0 -1.1323,0.67788 -1.71237,0.99198 -0.92231,0.49942 -2.80891,1.41802 -2.80891,1.41802 l -1.86063,0.99141 -3.42464,2.00298 -1.19445,0.90538 -0.0866,0.062 -1.60841,1.26951 -0.70348,0.59196 -0.18624,0.33514 -0.0706,-0.20132 0.13228,-0.24492 3.81484,-3.22414 0.31516,-5.1763 -0.12397,-0.11914 -0.16926,-0.0525 -0.49721,0.0984 -1.10905,0.3296 -0.47335,0.18321 -0.38315,0.34234 -0.42321,0.85245 -0.0625,-0.93996 -0.0726,-8.04489z" id="TX_Matagorda" ns1:label="Matagorda, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Wharton">Wharton</ns0:title>
+            <ns0:path d="m 530.61911,499.75109 2.26132,4.70703 1.55014,2.52594 1.86422,1.84998 0.76933,0.0543 -0.59258,0.95625 -2.10157,2.44145 -8.17014,5.59364 -8.54669,-7.52418 -1.79945,-0.54834 8.71656,-4.30685 0.33488,-1.18996 1.03864,-2.44502 2.50948,-2.89438 2.16586,0.7801z" id="TX_Wharton" ns1:label="Wharton, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Colorado">Colorado</ns0:title>
+            <ns0:path d="m 518.35793,490.31905 0.91109,1.47057 1.04791,0.84778 0.25822,0.20765 1.59941,0.98164 0.25026,0.10294 0.43824,0.0622 4.94487,4.35887 0.64338,0.62142 -2.50948,2.89438 -1.03864,2.44502 -0.33488,1.18997 -6.06491,4.30684 -0.8522,0.54835 -0.46593,-0.4252 2.29488,-2.12493 -6.01849,-6.46723 -1.39214,-1.15871 -0.46685,-0.24786 -0.21002,-0.0471 6.96528,-9.56655z" id="TX_Colorado" ns1:label="Colorado, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Bastrop">Bastrop</ns0:title>
+            <ns0:path d="m 499.23749,478.82672 3.3367,1.67597 2.95978,2.07505 1.65523,5.7602 -6.76255,7.72705 -8.48204,-7.58495 1.01249,-1.04026 2.67683,-3.05115 2.7314,-5.99702 0.87216,0.43511z" id="TX_Bastrop" ns1:label="Bastrop, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Fayette">Fayette</ns0:title>
+            <ns0:path d="m 512.63083,485.01113 0.65931,0.51434 0.79332,-0.21046 0.79531,-0.33376 0.35289,-0.2054 0.96563,0.564 0.41194,1.00721 0.2873,1.08742 0.0865,0.62109 1.37494,2.26348 -6.96434,9.5655 -6.55701,0.43255 -4.45695,-4.19835 0.0481,-0.0528 6.76255,-7.72705 5.44057,-3.32775z" id="TX_Fayette" ns1:label="Fayette, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Lee">Lee</ns0:title>
+            <ns0:path d="m 503.50279,477.1104 4.49726,-3.0076 2.99551,3.38815 2.35715,2.43289 2.81487,1.09571 -3.53669,3.99257 -5.44058,3.32776 -1.65522,-5.7602 -2.95979,-2.07505 -3.3367,-1.67597 4.26419,-1.71826z" id="TX_Lee" ns1:label="Lee, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Austin">Austin</ns0:title>
+            <ns0:path d="m 516.98199,488.05563 0.83875,-0.60868 7.07207,-1.25518 0.44534,0.0638 1.14489,0.42258 1.21923,0.35625 0.5693,0.007 0.23924,-0.31912 3.27724,9.4249 -1.17099,3.60341 -2.16681,-0.77904 -0.64338,-0.62142 -4.94486,-4.35887 -0.43825,-0.0622 -0.25025,-0.10294 -1.59941,-0.98164 -0.25823,-0.20765 -1.0489,-0.84773 -0.9101,-1.47062 -1.37488,-2.26248z" id="TX_Austin" ns1:label="Austin, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Washington">Washington</ns0:title>
+            <ns0:path d="m 524.30462,478.25638 0.28564,0.3373 0.2837,0.18016 0.17708,0.049 1.29027,-0.52422 0.38385,-0.52367 0.15757,-0.13518 0.32569,0.0205 0.7175,0.67429 -0.0437,1.11429 1.64609,2.87405 -1.01639,4.40091 -0.23924,0.31912 -0.5693,-0.007 -1.21923,-0.35625 -1.14488,-0.42258 -0.44535,-0.0638 -7.07207,1.25518 -0.83874,0.60868 -0.0865,-0.62109 -0.2873,-1.08742 -0.41194,-1.00721 -0.96564,-0.564 -0.35289,0.2054 -0.79531,0.33376 -0.79331,0.21045 -0.65932,-0.51434 3.53669,-3.99257 3.52406,-1.08415 0.69559,-0.23793 3.58715,-1.54148 0.21653,0.0207 0.11366,0.0787z" id="TX_Washington" ns1:label="Washington, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Waller">Waller</ns0:title>
+            <ns0:path d="m 529.52825,482.32192 6.96973,-0.97691 0.28658,4.34574 -1.3192,-0.24739 -1.35467,-0.65903 -0.51659,-0.43533 -0.74604,-0.48937 0.39599,1.0612 3.4855,9.24776 -4.93945,1.97908 -3.27724,-9.42489 1.01539,-4.40086z" id="TX_Waller" ns1:label="Waller, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Fort_Bend">Fort Bend</ns0:title>
+            <ns0:path d="m 531.7901,496.14767 4.93945,-1.97908 10.15321,5.21909 -0.68574,3.99847 -2.98461,3.34513 -0.80814,0.47772 -2.15422,0.0926 -0.96052,-0.28083 -1.07837,0.53418 -1.14593,1.33532 -0.76933,-0.0543 -1.86421,-1.84998 -1.55015,-2.52594 -2.26132,-4.70703 1.16988,-3.60536z" id="TX_Fort_Bend" ns1:label="Fort Bend, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Brazoria">Brazoria</ns0:title>
+            <ns0:path d="m 546.88176,499.38774 5.11151,0.35591 -0.2364,2.54957 3.07879,4.55129 1.73822,2.59236 -1.59016,3.29575 0.27734,0.19154 -0.13053,0.31093 -5.84365,5.72956 -3.12073,1.64111 -1.49743,-0.0529 -0.0906,-0.0429 -5.06676,-3.54462 -0.064,-0.0855 -0.24624,-0.6831 -0.76456,-2.3974 -1.19949,-3.29813 -0.15612,-0.13835 -0.60939,-0.51718 0.59258,-0.95625 1.14592,-1.33532 1.07837,-0.53419 0.96052,0.28084 2.15422,-0.0926 0.80814,-0.47772 2.98462,-3.34513 0.68579,-3.99747z" id="TX_Brazoria" ns1:label="Brazoria, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Galveston">Galveston</ns0:title>
+            <ns0:path d="m 572.6388,498.32136 -0.70871,0.37691 -2.11556,1.12312 -0.16329,0.0874 -0.10348,0.065 -1.90596,1.02203 -0.29626,0.16211 -0.85274,0.52133 -0.15411,0.10794 -0.48128,0.34292 -0.28351,0.19244 -0.083,0.0718 -0.27215,0.23385 -0.19836,0.15753 -0.0912,0.12239 -0.0665,0.0629 -0.16502,0.19771 -0.054,0.0902 -0.19523,0.33565 -0.0924,0.1535 -0.10072,0.2892 -0.0437,0.11266 -0.73163,0.25602 -0.42012,0.045 -0.0913,-0.0729 -0.0387,-0.32733 0.36304,-0.51948 1.93311,-2.32168 0.2049,-0.16592 1.82019,-0.99812 1.22934,-0.50372 0.31222,-0.0579 0.22705,-0.11109 -0.14314,-0.29734 -0.0229,-0.40135 3.78506,-0.35281 m -15.79747,1.12714 1.19868,1.20879 4.2624,4.07121 1.98077,0.46712 -1.26537,1.24297 -0.40089,0.34736 -2.23337,1.72779 -2.80685,2.17513 -0.16918,0.12482 -0.29839,0.2654 -0.84219,0.72406 -0.14841,0.13766 -0.0859,0.074 -0.3335,0.35253 -0.24858,0.26056 -0.19046,0.29631 -0.27734,-0.19154 1.59016,-3.29576 -1.73822,-2.59235 -3.07879,-4.55129 0.2364,-2.54957 1.24308,1.10911 2.36652,-1.39483 1.23946,-0.009z" id="TX_Galveston" ns1:label="Galveston, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Montgomery">Montgomery</ns0:title>
+            <ns0:path d="m 535.23823,470.60527 5.78605,3.07195 2.59716,-0.15894 1.57694,-0.0988 1.63239,0.0132 4.95368,4.16205 1.99701,4.86732 -2.3084,2.45023 -1.50097,1.59092 -0.71129,0.12065 -0.43353,-0.0675 -0.29043,-0.54437 -0.73922,-0.61596 -1.8191,-0.84693 -3.15761,-1.45079 -1.08934,1.06266 -1.66893,0.91038 -1.58697,0.41491 -0.52742,0.0781 -1.16275,0.12532 -0.28658,-4.34574 -1.26069,-10.73868z" id="TX_Montgomery" ns1:label="Montgomery, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Harris">Harris</ns0:title>
+            <ns0:path d="m 536.78462,485.69174 1.16275,-0.12532 0.52741,-0.0781 1.58698,-0.41491 1.66893,-0.91037 1.08933,-1.06267 3.15761,1.4508 1.8191,0.84692 0.73923,0.61597 0.29042,0.54436 0.43354,0.0675 0.71129,-0.12064 1.50096,-1.59093 2.30841,-2.45023 3.35945,7.72046 1.57473,5.75377 -1.87343,3.51021 -1.23747,0.009 -2.36651,1.39483 -1.24308,-1.10911 -5.11151,-0.35592 -10.15321,-5.21909 -3.4855,-9.24776 -0.39599,-1.0612 0.74604,0.48937 0.51659,0.43533 1.35467,0.65903 1.31926,0.24838z" id="TX_Harris" ns1:label="Harris, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Chambers">Chambers</ns0:title>
+            <ns0:path d="m 570.20834,489.11467 2.05769,-0.0992 0.76547,8.7266 7e-5,0.37059 -0.39071,0.20956 -3.78301,0.35369 -5.14902,-0.52205 0.55027,-1.18922 0.24294,-1.95998 -0.007,-0.25504 -0.1092,-0.54568 -0.8052,-1.38746 -0.2824,-0.28039 -0.13963,-0.0421 -1.21356,0.64004 -0.55773,0.33726 -2.67099,2.46788 -1.57473,-5.75376 13.06626,-1.07074z" id="TX_Chambers" ns1:label="Chambers, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hardin">Hardin</ns0:title>
+            <ns0:path d="m 566.41213,471.475 11.43045,-0.82732 -0.52334,1.52122 -0.17581,0.65906 -0.2037,1.10137 0.0902,0.3885 0.49632,0.97635 0.0803,0.0215 0.25922,0.24265 -0.28571,2.75671 -0.2314,0.36875 0.21583,2.25939 -0.16574,-0.14882 -1.82815,-0.49585 -0.33672,0.0673 -1.55132,0.60119 -0.0545,0.0812 -0.002,0.31363 0.0842,0.43992 -0.0569,0.17953 -0.29687,0.48566 -0.17108,0.10891 -2.41935,0.66064 -0.38747,-0.05 -0.69498,-0.31398 -3.66961,0.28713 -4.04904,-10.33147 4.44725,-1.35308z" id="TX_Hardin" ns1:label="Hardin, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Liberty">Liberty</ns0:title>
+            <ns0:path d="m 559.14509,472.92959 2.8219,-0.0996 4.04904,10.33147 3.66961,-0.28713 0.52276,6.24137 -13.06737,1.06879 -3.35945,-7.72046 -1.99701,-4.86731 7.36052,-4.6671z" id="TX_Liberty" ns1:label="Liberty, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Jefferson">Jefferson</ns0:title>
+            <ns0:path d="m 569.68558,482.8733 0.69498,0.31399 0.38748,0.05 2.41934,-0.66065 0.17109,-0.1089 0.29686,-0.48567 0.0569,-0.17952 -0.0842,-0.43993 0.002,-0.31363 0.0545,-0.0812 1.55132,-0.60119 0.33672,-0.0673 1.82816,0.49584 0.16573,0.14882 0.0793,0.33804 0.6086,1.73419 0.0712,0.0721 3.49858,2.0033 2.0554,0.40578 0.32028,0.11898 0.40721,0.55474 0.10276,0.22151 0.0626,0.27289 -0.005,0.63929 0.57256,6.23654 -2.24169,0.49126 -0.60165,0.0233 -1.11382,0.0524 -1.32391,0.39091 -1.80122,0.83878 -5.22773,2.77376 -8e-5,-0.37059 -0.76547,-8.7266 -2.05769,0.0992 -0.5217,-6.24043z" id="TX_Jefferson" ns1:label="Jefferson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Orange">Orange</ns0:title>
+            <ns0:path d="m 587.04634,477.83795 0.29041,5.41525 -2.57082,4.05074 0.005,-0.6393 -0.0626,-0.27288 -0.10276,-0.22152 -0.4072,-0.55474 -0.32029,-0.11898 -2.0554,-0.40578 -3.49857,-2.00329 -0.0712,-0.0721 -0.60859,-1.7342 -0.0793,-0.33803 -0.21583,-2.25939 5.22156,-0.43762 4.47603,-0.40819z" id="TX_Orange" ns1:label="Orange, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Travis">Travis</ns0:title>
+            <ns0:path d="m 480.06866,478.91788 1.63623,-5.61713 2.23856,-0.19461 0.98884,0.61978 1.24148,1.59098 0.54556,2.03426 0.93648,0.70289 0.78026,0.21097 0.55496,-0.0516 1.60454,-0.66932 2.19148,-1.21458 0.4892,-0.0279 1.56421,0.3987 3.52593,1.69224 -2.7314,5.99702 -2.67683,3.05115 -1.01249,1.04026 -1.38835,1.31708 -11.57281,-8.88229 1.08415,-1.99789z" id="TX_Travis" ns1:label="Travis, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Kent">Kent</ns0:title>
+            <ns0:path d="m 421.38897,396.60346 0.0793,12.26033 -3.2132,0.0177 -8.98035,-0.13756 -0.0466,-12.03783 12.16083,-0.10268z" id="TX_Kent" ns1:label="Kent, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Kimble">Kimble</ns0:title>
+            <ns0:path d="m 447.0285,471.83622 0.10983,5.92034 4.3683,-0.10157 0.17209,5.97589 -10.9604,0.11143 -8.78832,0.13896 -0.1489,-11.77658 15.2474,-0.26847z" id="TX_Kimble" ns1:label="Kimble, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Sutton">Sutton</ns0:title>
+            <ns0:path d="m 431.78215,472.10563 0.14891,11.77659 -14.15929,0.20448 -6.30404,0.0556 -0.0601,-11.72956 20.3745,-0.30707z" id="TX_Sutton" ns1:label="Sutton, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Schleicher">Schleicher</ns0:title>
+            <ns0:path d="m 417.88305,461.68412 13.77679,-0.1847 0.12231,10.60621 -20.3745,0.30707 -0.0912,-10.56992 6.5666,-0.15866z" id="TX_Schleicher" ns1:label="Schleicher, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Menard">Menard</ns0:title>
+            <ns0:path d="m 431.65984,461.49942 12.29364,-0.18036 2.92367,4.06132 0.15141,6.45684 -15.24741,0.26846 -0.12131,-10.60626z" id="TX_Menard" ns1:label="Menard, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Mason">Mason</ns0:title>
+            <ns0:path d="m 446.8771,465.37938 9.44203,-0.21526 3.08192,0.47352 0.32098,11.86094 -8.21546,0.15541 -4.36829,0.10157 -0.10983,-5.92034 -0.15135,-6.45584z" id="TX_Mason" ns1:label="Mason, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Llano">Llano</ns0:title>
+            <ns0:path d="m 459.4021,465.63858 12.48193,-0.35635 1.73837,2.41906 0.52353,7.31006 0.44491,2.41261 -5.86037,-0.2091 -9.00733,0.28566 -0.32104,-11.86194z" id="TX_Llano" ns1:label="Llano, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Burnet">Burnet</ns0:title>
+            <ns0:path d="m 484.61856,461.65823 2.12833,3.53269 -5.04094,8.11077 -1.63624,5.61713 -5.47893,-1.49586 -0.44491,-2.41261 -0.52352,-7.31005 -1.73837,-2.41907 0.0523,-3.03789 12.68225,-0.58511z" id="TX_Burnet" ns1:label="Burnet, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Williamson">Williamson</ns0:title>
+            <ns0:path d="m 486.74689,465.19092 4.21591,0.68738 0.72385,0.13506 7.58262,2.99567 4.23352,8.10137 -4.26425,1.71726 -0.87209,-0.43411 -3.52594,-1.69224 -1.5642,-0.3987 -0.48921,0.0279 -2.19148,1.21459 -1.60453,0.66932 -0.55496,0.0516 -0.78026,-0.21097 -0.93649,-0.70289 -0.54556,-2.03427 -1.24147,-1.59098 -0.98885,-0.61977 -2.23855,0.19461 5.04194,-8.11083z" id="TX_Williamson" ns1:label="Williamson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Burleson">Burleson</ns0:title>
+            <ns0:path d="m 516.02476,468.83997 1.34721,0.91487 -0.1266,0.1865 -0.61237,1.32997 0.004,0.0779 2.26469,0.40487 2.11125,0.84131 2.80876,3.55604 0.48148,2.10502 -0.11377,-0.0807 -0.21653,-0.0207 -3.58715,1.54148 -0.6956,0.23793 -3.52405,1.08415 -2.81486,-1.09571 -2.35716,-2.4329 -2.99551,-3.38814 8.02577,-5.26189z" id="TX_Burleson" ns1:label="Burleson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_San_Jacinto">San Jacinto</ns0:title>
+            <ns0:path d="m 546.94784,463.44182 3.13183,0.78718 1.75252,1.62999 6.44783,5.51126 0.86407,1.55939 -7.36058,4.66611 -4.95368,-4.16205 0.11801,-9.99188z" id="TX_San_Jacinto" ns1:label="San Jacinto, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Walker">Walker</ns0:title>
+            <ns0:path d="m 544.02846,458.0491 2.91838,5.39278 -0.11795,9.99287 -1.6324,-0.0132 -1.57693,0.0988 -2.59716,0.15894 -5.78605,-3.07195 -1.16546,-6.49925 5.77939,-2.21522 4.17818,-3.84381z" id="TX_Walker" ns1:label="Walker, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Grimes">Grimes</ns0:title>
+            <ns0:path d="m 526.79196,465.67057 7.28087,-1.56355 1.16546,6.49924 1.25875,10.73981 -6.96973,0.9769 -1.64609,-2.87404 1.54978,-2.61536 -0.89466,-0.54902 -0.19551,-0.30237 -0.30339,-0.49054 -1.34018,-3.7108 0.0395,-2.91096 0.0552,-3.19931z" id="TX_Grimes" ns1:label="Grimes, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Brazos">Brazos</ns0:title>
+            <ns0:path d="m 526.79196,465.67057 -0.0543,3.19726 -0.0395,2.91096 1.34018,3.7108 0.30338,0.49054 0.19551,0.30237 0.89467,0.54901 -1.54979,2.61536 0.0437,-1.11429 -0.7175,-0.67429 -0.3257,-0.0205 -0.15757,0.13518 -0.38384,0.52367 -1.29028,0.52422 -0.17707,-0.049 -0.2837,-0.18016 -0.28565,-0.3373 -0.48148,-2.10503 -2.80875,-3.55603 -2.11126,-0.84131 -2.26469,-0.40488 -0.004,-0.0779 0.61236,-1.32997 0.1266,-0.1865 2.5898,-1.5017 0.59071,-1.1825 0.41511,-1.13545 0.48172,-1.0561 0.58935,-1.04821 0.28011,-0.41059 0.37391,-0.36385 0.68687,-0.53192 0.94356,-0.70279 0.4953,-0.27261 1.97267,4.1235z" id="TX_Brazos" ns1:label="Brazos, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Madison">Madison</ns0:title>
+            <ns0:path d="m 524.81841,461.54913 1.63137,-0.67286 2.08361,-1.56101 2.45321,-1.43782 5.07085,-0.35793 3.79482,4.37329 -5.77938,2.21522 -7.28087,1.56355 -1.97361,-4.12244z" id="TX_Madison" ns1:label="Madison, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Leon">Leon</ns0:title>
+            <ns0:path d="m 535.95848,445.98648 0.26903,0.39734 0.49658,0.96332 1.24022,2.99332 -0.4584,1.39533 -0.10098,-0.0143 -0.19801,0.12847 -0.50461,0.63673 -0.98717,3.8764 0.0487,0.36282 0.29143,0.79071 -5.07085,0.35793 -2.45321,1.43782 -2.0836,1.56101 -1.63138,0.67286 -2.45712,-10.65953 1.89046,-1.68122 10.38932,-6.35707 1.31958,3.13805z" id="TX_Leon" ns1:label="Leon, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Robertson">Robertson</ns0:title>
+            <ns0:path d="m 515.91793,455.05874 6.4433,-4.17014 2.45712,10.65953 -0.4953,0.2726 -0.94356,0.7028 -0.68687,0.53191 -0.37391,0.36386 -0.28011,0.41059 -0.58935,1.04821 -0.48172,1.0561 -0.41511,1.13544 -0.59071,1.1825 -2.5898,1.5017 -1.3472,-0.91487 -1.32177,-2.84244 -2.21729,-2.52701 -1.63493,-4.01452 -0.33639,-0.89432 5.4036,-3.50194z" id="TX_Robertson" ns1:label="Robertson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Milam">Milam</ns0:title>
+            <ns0:path d="m 510.51338,458.56173 0.3364,0.89432 1.63493,4.01453 2.21728,2.527 1.32178,2.84244 -8.02572,5.26289 -4.49725,3.0076 -4.23353,-8.10137 1.19198,-3.9031 4.42461,-2.91131 5.62952,-3.633z" id="TX_Milam" ns1:label="Milam, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Bell">Bell</ns0:title>
+            <ns0:path d="m 496.11556,453.18876 3.40768,0.98782 5.36262,8.01804 -4.42461,2.91131 -1.19198,3.9031 -7.58262,-2.99567 -0.72385,-0.13506 -4.21591,-0.68738 -2.12833,-3.53269 0.0741,-0.96778 11.42291,-7.50169z" id="TX_Bell" ns1:label="Bell, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Coryell">Coryell</ns0:title>
+            <ns0:path d="m 491.35375,445.85367 4.76181,7.33509 -11.42291,7.50169 -6.92922,-10.85053 9.65199,-6.21892 3.93833,2.23267z" id="TX_Coryell" ns1:label="Coryell, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Lampasas">Lampasas</ns0:title>
+            <ns0:path d="m 475.63313,451.24934 2.1303,-1.40942 6.92922,10.85053 -0.0741,0.96778 -12.68225,0.58511 -3.11685,-5.55375 6.81367,-5.44025z" id="TX_Lampasas" ns1:label="Lampasas, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Mills">Mills</ns0:title>
+            <ns0:path d="m 470.79123,443.87974 4.84196,7.37059 -6.81367,5.44026 -0.0799,-0.33099 -1.0238,-1.93692 -3.30213,-2.5814 -0.72248,0.76833 -4.73078,-1.47939 -0.66528,-0.77742 0.0604,-0.50525 1.18988,-0.84503 3.77021,-2.847 0.41598,-2.17517 2.16575,-0.41783 4.89395,0.31722z" id="TX_Mills" ns1:label="Mills, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_San_Saba">San Saba</ns0:title>
+            <ns0:path d="m 458.35541,449.84655 -0.0604,0.50525 0.66528,0.77743 4.73078,1.47938 0.72248,-0.76833 3.30213,2.58141 1.0238,1.93691 0.0799,0.33099 3.11685,5.55375 -0.0523,3.03789 -12.48194,0.35635 -3.08191,-0.47351 -0.312,-14.60489 2.34728,-0.71263z" id="TX_San_Saba" ns1:label="San Saba, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_McCulloch">McCulloch</ns0:title>
+            <ns0:path d="m 453.3194,450.44689 2.68879,0.11328 0.312,14.60489 -9.44204,0.21527 -2.92367,-4.06132 -0.18567,-11.36684 1.56572,0.21432 2.18354,0.21117 4.61008,-0.14738 1.19125,0.21661z" id="TX_McCulloch" ns1:label="McCulloch, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Concho">Concho</ns0:title>
+            <ns0:path d="m 440.86441,447.61855 2.90335,2.33268 0.18566,11.36683 -12.29363,0.18036 -0.0897,-13.83128 9.29427,-0.0486z" id="TX_Concho" ns1:label="Concho, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Tom_Green">Tom Green</ns0:title>
+            <ns0:path d="m 414.49896,444.57988 14.05317,-0.0452 3.01707,3.13351 0.0896,13.83128 -13.77679,0.1847 -0.18971,-12.28208 -7.11835,-0.0673 -6.61415,-0.008 0.004,-0.77548 9.60802,-0.20268 0.0784,-4.02296 0.84882,0.25414z" id="TX_Tom_Green" ns1:label="Tom Green, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Coke">Coke</ns0:title>
+            <ns0:path d="m 414.52317,433.59173 3.70586,0.0153 10.20924,-0.0226 0.11386,10.95025 -14.05317,0.0452 0.0242,-10.98815z" id="TX_Coke" ns1:label="Coke, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Runnels">Runnels</ns0:title>
+            <ns0:path d="m 430.41163,433.55218 10.37981,-0.14047 0.073,14.20684 -9.29521,0.0496 -3.01707,-3.13351 -0.11386,-10.95025 1.97336,-0.0323z" id="TX_Runnels" ns1:label="Runnels, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Coleman">Coleman</ns0:title>
+            <ns0:path d="m 442.75583,433.39799 10.32947,-0.16264 0.2331,17.21159 -1.1923,-0.21755 -4.61008,0.14739 -2.18354,-0.21118 -1.56572,-0.21431 -2.90335,-2.33268 -0.073,-14.20684 1.96539,-0.0138z" id="TX_Coleman" ns1:label="Coleman, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Brown">Brown</ns0:title>
+            <ns0:path d="m 454.91952,433.18697 4.60724,-0.0741 6.3704,10.44766 -2.16574,0.41783 -0.41599,2.17517 -3.77021,2.847 -1.18987,0.84503 -2.34822,0.71368 -2.68879,-0.11328 -0.2331,-17.2116 1.83428,-0.0474z" id="TX_Brown" ns1:label="Brown, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Comanche">Comanche</ns0:title>
+            <ns0:path d="m 468.2183,427.70488 5.58564,8.83868 1.77244,-1.15065 1.07892,1.72644 1.30074,2.08641 -7.16481,4.67398 -4.89407,-0.31922 -6.3704,-10.44766 8.69154,-5.40798z" id="TX_Comanche" ns1:label="Comanche, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hamilton">Hamilton</ns0:title>
+            <ns0:path d="m 476.6553,437.11935 4.72448,-2.9925 6.03564,9.49415 -9.65199,6.21892 -2.1303,1.40942 -4.84195,-7.3706 7.16481,-4.67398 -1.30069,-2.08541z" id="TX_Hamilton" ns1:label="Hamilton, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Bosque">Bosque</ns0:title>
+            <ns0:path d="m 490.42942,428.55223 3.32194,0.71326 -0.1668,1.74931 -0.0847,1.46819 0.19635,1.17874 4.14801,6.56475 0.3095,0.42209 0.81969,0.44611 -7.62082,4.75705 -3.93833,-2.23267 -6.03565,-9.49415 3.25248,-2.0713 5.79828,-3.50138z" id="TX_Bosque" ns1:label="Bosque, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Falls">Falls</ns0:title>
+            <ns0:path d="m 510.61295,446.8391 5.30498,8.21964 -5.4046,3.502 -5.62753,3.63288 -5.36261,-8.01804 11.08976,-7.33648z" id="TX_Falls" ns1:label="Falls, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_McLennan">McLennan</ns0:title>
+            <ns0:path d="m 507.23843,441.75577 3.37458,5.08433 -11.08977,7.33648 -3.40768,-0.98782 -4.76181,-7.33509 7.62083,-4.75705 5.56661,-3.5593 2.69724,4.21845z" id="TX_McLennan" ns1:label="McLennan, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hill">Hill</ns0:title>
+            <ns0:path d="m 493.75236,429.26543 9.10501,-2.98458 4.7589,5.17376 4.551,7.08067 -4.92884,3.22049 -2.69724,-4.21845 -5.56661,3.5593 -0.8197,-0.44611 -0.3095,-0.42209 -4.14801,-6.56475 -0.19635,-1.17874 0.0847,-1.46819 0.16669,-1.75131z" id="TX_Hill" ns1:label="Hill, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Limestone">Limestone</ns0:title>
+            <ns0:path d="m 512.16628,438.53534 5.31029,0.25845 6.77512,10.41359 -1.89046,1.68122 -6.4433,4.17014 -5.30498,-8.21964 -3.37458,-5.08433 4.92791,-3.21943z" id="TX_Limestone" ns1:label="Limestone, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Freestone">Freestone</ns0:title>
+            <ns0:path d="m 527.70232,432.32585 -0.13899,1.32304 2.32615,3.78786 1.60571,1.44403 0.82153,0.24969 2.02653,2.13221 0.29782,1.58864 -10.38933,6.35706 -6.77512,-10.41359 10.1652,-6.6518 0.0605,0.18286z" id="TX_Freestone" ns1:label="Freestone, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Navarro">Navarro</ns0:title>
+            <ns0:path d="m 507.61627,431.45461 11.76135,-7.76736 2.28396,0.90158 1.36101,1.1044 0.89807,0.96048 2.14721,2.31665 1.1913,1.5718 0.38459,1.59972 -10.1652,6.6518 -5.31029,-0.25845 -4.552,-7.08062z" id="TX_Navarro" ns1:label="Navarro, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Somervell">Somervell</ns0:title>
+            <ns0:path d="m 482.57539,428.01898 7.71794,-2.70024 0.13609,3.23349 -5.79716,3.50332 -2.05687,-4.03657z" id="TX_Somervell" ns1:label="Somervell, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Ellis">Ellis</ns0:title>
+            <ns0:path d="m 502.48145,418.2913 1.14953,-0.0234 11.9818,-0.48512 2.10906,5.1464 1.65378,0.75818 -11.76134,7.76737 -4.7589,-5.17376 -0.37393,-7.98967z" id="TX_Ellis" ns1:label="Ellis, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Johnson">Johnson</ns0:title>
+            <ns0:path d="m 489.98528,418.66148 1.56517,-0.0591 10.93105,-0.31009 0.37593,7.98955 -9.10502,2.98458 -3.32193,-0.71326 -0.13609,-3.23349 -0.30911,-6.6582z" id="TX_Johnson" ns1:label="Johnson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hood">Hood</ns0:title>
+            <ns0:path d="m 479.38708,418.95962 10.5982,-0.29814 0.30905,6.6572 -7.71794,2.70025 -3.18217,-7.72055 -0.007,-1.33876z" id="TX_Hood" ns1:label="Hood, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Erath">Erath</ns0:title>
+            <ns0:path d="m 479.39322,420.29844 3.18217,7.72054 2.05687,4.03657 -3.25248,2.0713 -4.72448,2.9925 -1.07892,-1.72644 -1.77244,1.15065 -5.58564,-8.83868 1.57876,-7.13632 9.59616,-0.27012z" id="TX_Erath" ns1:label="Erath, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Eastland">Eastland</ns0:title>
+            <ns0:path d="m 455.15633,420.91965 12.25481,-0.3344 2.38586,-0.0177 -1.57876,7.13632 -8.69054,5.40793 -4.60724,0.0741 -0.19623,-12.25567 0.4321,-0.0106z" id="TX_Eastland" ns1:label="Eastland, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Callahan">Callahan</ns0:title>
+            <ns0:path d="m 442.98402,421.19026 11.73827,-0.25891 0.19623,12.25568 -1.83328,0.0473 -10.32946,0.16264 -0.18323,-12.20333 0.41147,-0.003z" id="TX_Callahan" ns1:label="Callahan, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Taylor">Taylor</ns0:title>
+            <ns0:path d="m 442.57261,421.19466 0.18322,12.20333 -1.96439,0.0137 -10.37981,0.14047 -0.0376,-12.38991 12.19858,0.0324z" id="TX_Taylor" ns1:label="Taylor, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Nolan">Nolan</ns0:title>
+            <ns0:path d="m 430.37403,421.16227 0.0376,12.38991 -1.97342,0.0313 -10.20923,0.0226 0.012,-12.38071 12.13305,-0.063z" id="TX_Nolan" ns1:label="Nolan, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Fisher">Fisher</ns0:title>
+            <ns0:path d="m 421.46828,408.86379 8.79565,-0.0102 0.1101,12.30866 -12.13305,0.063 0.0141,-12.34378 3.2132,-0.0177z" id="TX_Fisher" ns1:label="Fisher, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Jones">Jones</ns0:title>
+            <ns0:path d="m 430.26393,408.85361 3.64153,-0.0592 8.84079,-0.0618 0.23772,12.45664 -0.41148,0.003 -12.19858,-0.0324 -0.10998,-12.30666z" id="TX_Jones" ns1:label="Jones, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Shackelford">Shackelford</ns0:title>
+            <ns0:path d="m 442.7463,408.73362 3.30848,-0.0682 8.796,-0.1975 0.30655,12.45172 -0.43404,0.0117 -11.73827,0.2589 -0.23872,-12.45658z" id="TX_Shackelford" ns1:label="Shackelford, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Stephens">Stephens</ns0:title>
+            <ns0:path d="m 458.25592,408.39113 8.80308,-0.17887 0.35214,12.37299 -12.25481,0.3344 -0.30655,-12.45171 3.40614,-0.0768z" id="TX_Stephens" ns1:label="Stephens, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Palo_Pinto">Palo Pinto</ns0:title>
+            <ns0:path d="m 470.50604,406.60264 8.68889,-0.16135 0.19215,12.51833 0.006,1.33882 -9.59616,0.27012 -2.38586,0.0177 -0.35215,-12.37299 3.44699,-1.61062z" id="TX_Palo_Pinto" ns1:label="Palo Pinto, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Parker">Parker</ns0:title>
+            <ns0:path d="m 479.19493,406.44129 3.15212,-0.0523 8.85576,-0.15082 0.34864,12.36418 -1.56517,0.0591 -10.5982,0.29814 -0.19315,-12.51828z" id="TX_Parker" ns1:label="Parker, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Tarrant">Tarrant</ns0:title>
+            <ns0:path d="m 491.20281,406.23815 3.41697,-0.0274 8.58612,-0.2246 0.42613,12.28264 -1.14953,0.0234 -10.93105,0.31009 -0.34864,-12.36418z" id="TX_Tarrant" ns1:label="Tarrant, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Dallas">Dallas</ns0:title>
+            <ns0:path d="m 503.20584,405.9852 4.38679,-0.28692 7.69221,-0.23278 0.19123,4.7468 0.13671,7.57048 -11.9818,0.48512 -0.42514,-12.2827z" id="TX_Dallas" ns1:label="Dallas, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Rockwall">Rockwall</ns0:title>
+            <ns0:path d="m 520.43172,405.21141 0.21018,3.93642 -5.16583,1.06447 -0.19123,-4.7468 5.14688,-0.25409z" id="TX_Rockwall" ns1:label="Rockwall, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Kaufman">Kaufman</ns0:title>
+            <ns0:path d="m 520.64195,409.14883 5.18136,-0.19395 0.77944,13.52657 -8.87986,0.44867 -2.10906,-5.1464 -0.13671,-7.57048 5.16483,-1.06441z" id="TX_Kaufman" ns1:label="Kaufman, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Rains">Rains</ns0:title>
+            <ns0:path d="m 530.61021,404.7018 4.65358,0.2648 1.10835,6.70984 -7.20802,-2.87277 1.44609,-4.10187z" id="TX_Rains" ns1:label="Rains, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Van_Zandt">Van Zandt</ns0:title>
+            <ns0:path d="m 529.16306,408.80272 7.20802,2.87278 1.01455,0.87772 0.37268,5.82223 3.07313,2.92198 0.55311,0.37315 -14.78386,0.80998 -0.77943,-13.52656 3.3418,-0.15128z" id="TX_Van_Zandt" ns1:label="Van Zandt, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Henderson">Henderson</ns0:title>
+            <ns0:path d="m 526.60169,422.48051 14.78386,-0.80999 0.13494,6.18534 0.83416,1.38581 -14.65333,3.08424 -0.0596,-0.18491 -0.38459,-1.59972 -1.19131,-1.5718 -2.14721,-2.31665 -0.89807,-0.96049 -1.361,-1.10439 -2.28396,-0.90159 -1.65379,-0.75818 8.87991,-0.44767z" id="TX_Henderson" ns1:label="Henderson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Anderson">Anderson</ns0:title>
+            <ns0:path d="m 542.35465,429.24167 -0.20222,3.8357 0.49759,2.00095 1.06345,3.12558 1.74874,1.42286 0.3274,0.0505 0.57948,0.62506 0.3711,0.67699 0.40332,1.06679 0.0856,0.27158 -0.30568,0.48917 -5.18712,1.11276 -3.742,0.88021 -2.03587,1.18569 -1.31747,-3.13616 -0.29782,-1.58864 -2.02652,-2.13221 -0.82153,-0.24969 -1.60571,-1.44403 -2.32616,-3.78785 0.13899,-1.32305 14.65245,-3.08218z" id="TX_Anderson" ns1:label="Anderson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Houston">Houston</ns0:title>
+            <ns0:path d="m 535.95848,445.98648 2.03587,-1.18569 3.742,-0.88021 5.18712,-1.11276 1.56107,0.50204 2.50745,2.29313 2.6768,1.45013 1.16025,1.02669 -10.80046,9.97129 -4.17725,3.84275 -3.79482,-4.37329 -0.29144,-0.7907 -0.0487,-0.36282 0.98717,-3.87641 0.50461,-0.63672 0.19802,-0.12847 0.10097,0.0143 0.4584,-1.39532 -1.24022,-2.99332 -0.49658,-0.96332 -0.27025,-0.40128z" id="TX_Houston" ns1:label="Houston, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Trinity">Trinity</ns0:title>
+            <ns0:path d="m 558.04335,454.62362 -7.96368,9.60538 -3.13183,-0.78718 -2.91838,-5.39278 10.80047,-9.97129 3.21342,6.54587z" id="TX_Trinity" ns1:label="Trinity, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Polk">Polk</ns0:title>
+            <ns0:path d="m 564.94493,456.60036 -2.21478,1.49136 3.68193,13.38228 -4.44615,1.35502 -2.8219,0.0996 -0.86407,-1.55938 -6.44782,-5.51127 -1.75253,-1.62998 7.96369,-9.60539 2.78647,0.98414 2.11363,0.32033 2.00153,0.67327z" id="TX_Polk" ns1:label="Polk, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Newton">Newton</ns0:title>
+            <ns0:path d="m 587.72454,451.54885 1.09847,-0.35704 0.59589,8.87948 -0.32622,1.90463 -3.06867,6.67029 -0.21877,0.99505 6.2e-4,0.011 0.0741,0.0699 0.7233,0.77613 0.44096,1.72772 -0.002,0.14633 -0.084,0.24918 -0.88032,0.8284 -0.0235,0.0274 0.99146,4.35867 -4.47398,0.40907 -0.31535,-11.92035 -0.38867,-7.86162 -1.55179,-5.80816 7.4081,-1.10604z" id="TX_Newton" ns1:label="Newton, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Jasper">Jasper</ns0:title>
+            <ns0:path d="m 577.30185,453.55677 3.01471,-0.89988 1.55178,5.80815 0.38868,7.86162 0.31535,11.92036 -5.22157,0.43763 0.23141,-0.36876 0.2857,-2.7567 -0.25922,-0.24266 -0.0804,-0.0215 -0.49632,-0.97636 -0.0902,-0.3885 0.20371,-1.10136 0.1758,-0.65907 0.52335,-1.52122 -0.39597,-0.5684 -0.2995,-0.80928 0.0526,-0.21935 0.48182,-1.07213 -0.18178,-1.11647 -1.90579,-3.30097 -0.22823,-0.1733 -0.54556,-0.0471 -0.14747,-0.0217 -0.0597,-0.0637 -1.88594,-4.62324 0.11228,-0.94792 -0.1006,-0.21863 -0.30137,-0.27932 -1.14176,-0.36767 -1.41847,0.11986 -2.38527,0.20396 7.72503,-2.43521 2.0829,-1.15131z" id="TX_Jasper" ns1:label="Jasper, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Tyler">Tyler</ns0:title>
+            <ns0:path d="m 567.49293,457.14335 2.38526,-0.20396 1.41848,-0.11986 1.14175,0.36767 0.30137,0.27932 0.1006,0.21863 -0.11228,0.94792 1.88595,4.62324 0.0597,0.0637 0.14747,0.0216 0.54556,0.0471 0.22823,0.1733 1.90579,3.30097 0.18178,1.11647 -0.48182,1.07213 -0.0526,0.21935 0.29951,0.80928 0.39596,0.5684 -11.43045,0.82732 -3.68193,-13.38228 2.21478,-1.49136 2.54689,0.54105z" id="TX_Tyler" ns1:label="Tyler, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Angelina">Angelina</ns0:title>
+            <ns0:path d="m 556.76054,444.00638 1.08144,1.06723 4.49259,0.88497 1.05826,-0.23656 0.96188,0.33985 1.30271,0.59088 0.32304,0.30813 4.24904,4.59281 4.98845,3.15444 -7.72502,2.43522 -2.548,-0.54299 -2.00247,-0.67222 -2.11363,-0.32033 -2.78648,-0.98414 -3.21442,-6.5458 -1.16026,-1.02669 3.09287,-3.0448z" id="TX_Angelina" ns1:label="Angelina, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Sabine">Sabine</ns0:title>
+            <ns0:path d="m 581.17719,440.50929 2.72998,2.55991 2.37673,3.05779 0.89337,3.07618 0.2161,0.91019 0.33017,1.43554 -7.40792,1.10904 -3.01471,0.89989 -0.24203,-0.64428 -0.31042,-3.90267 -0.16024,-3.165 0.95591,-1.15423 0.37024,-0.53392 -0.26035,-2.88286 3.52317,-0.76558z" id="TX_Sabine" ns1:label="Sabine, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_San_Augustine">San Augustine</ns0:title>
+            <ns0:path d="m 577.65502,441.27482 0.26035,2.88286 -0.37024,0.53391 -0.95591,1.15423 0.16023,3.16501 0.31043,3.90266 0.24203,0.64428 -2.08396,1.15036 -4.98845,-3.15444 -0.062,-3.3569 -0.18867,-6.40764 -1.77124,-1.76514 -0.58855,-0.36212 7.40078,0.36576 2.63518,1.24717z" id="TX_San_Augustine" ns1:label="San Augustine, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Shelby">Shelby</ns0:title>
+            <ns0:path d="m 564.28774,430.8701 11.73028,-1.04973 3.55315,3.54168 1.60602,7.14724 -3.52317,0.76558 -2.63624,-1.24811 -7.40077,-0.36575 -1.66684,-5.26073 -1.66243,-3.53018z" id="TX_Shelby" ns1:label="Shelby, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Nacogdoches">Nacogdoches</ns0:title>
+            <ns0:path d="m 554.45121,435.18543 11.50001,-0.78421 1.66684,5.26073 0.58855,0.36212 1.77124,1.76513 0.18867,6.40764 0.062,3.35691 -4.24904,-4.59281 -0.32304,-0.30813 -1.30271,-0.59088 -0.96188,-0.33985 -1.05826,0.23656 -4.49259,-0.88497 -1.08144,-1.06723 -1.36857,-1.20212 -0.12534,-0.17817 -0.67791,-1.56197 -0.52642,-1.59265 -0.3986,-2.49637 0.78851,-1.78973z" id="TX_Nacogdoches" ns1:label="Nacogdoches, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Cherokee">Cherokee</ns0:title>
+            <ns0:path d="m 541.52049,427.85586 11.22864,-0.8008 1.70108,8.13042 -0.78645,1.79062 0.3986,2.49638 0.52641,1.59264 0.67792,1.56198 0.12533,0.17816 1.36858,1.20212 -3.09187,3.04474 -2.67679,-1.45013 -2.50746,-2.29313 -1.56107,-0.50204 0.30568,-0.48917 -0.0856,-0.27158 -0.40332,-1.06679 -0.3711,-0.67699 -0.57948,-0.62506 -0.3274,-0.0505 -1.74874,-1.42286 -1.06345,-3.12558 -0.49759,-2.00095 0.20222,-3.8357 -0.83416,-1.38581z" id="TX_Cherokee" ns1:label="Cherokee, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Panola">Panola</ns0:title>
+            <ns0:path d="m 574.47851,418.30127 0.43287,5.5073 1.10759,6.01074 -11.73029,1.04973 -2.09376,0.16934 -0.25058,-2.9926 0.26071,-3.49448 0.44635,-1.32552 0.67804,-1.37278 0.61215,-1.75565 -0.0438,-1.06824 0.71002,0.56054 2.61935,0.95159 0.19879,0.0257 7.05257,-2.26571z" id="TX_Panola" ns1:label="Panola, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Rusk">Rusk</ns0:title>
+            <ns0:path d="m 561.83021,419.16591 2.06563,-0.13568 0.0438,1.06823 -0.61215,1.75565 -0.67804,1.37278 -0.44635,1.32553 -0.26071,3.49448 0.25058,2.99259 2.09376,-0.16933 1.66348,3.53112 -11.50001,0.7842 -1.70108,-8.13042 -0.46027,-6.49834 4.15919,-0.32604 3.90645,-0.26156 1.47571,-0.80321z" id="TX_Rusk" ns1:label="Rusk, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Gregg">Gregg</ns0:title>
+            <ns0:path d="m 551.93004,415.83949 0.38116,-0.0608 3.46076,-1.72057 1.28785,-2.02651 0.17228,-0.0879 1.11337,0.0628 0.0767,0.13285 0.40609,5.59997 0.0789,0.83988 1.44022,0.59606 1.25132,0.093 0.22961,-0.10122 -1.47566,0.80421 -3.90644,0.26156 -4.15919,0.32604 -0.35694,-4.71934z" id="TX_Gregg" ns1:label="Gregg, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Smith">Smith</ns0:title>
+            <ns0:path d="m 537.38663,412.55317 2.23611,1.78473 0.69074,0.25714 6.86359,1.30983 0.16858,-0.0296 0.43776,-0.24529 0.18975,-0.44951 3.95776,0.657 0.35882,4.71723 0.46027,6.49834 -11.22863,0.80081 -0.13494,-6.18534 -0.55312,-0.37315 -3.07312,-2.92198 -0.37357,-5.82017z" id="TX_Smith" ns1:label="Smith, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Wood">Wood</ns0:title>
+            <ns0:path d="m 547.17624,402.71858 0.20482,3.1214 0.59121,9.3425 -0.18974,0.44952 -0.43776,0.24529 -0.16859,0.0296 -6.86359,-1.30983 -0.69074,-0.25714 -2.2361,-1.78473 -1.01456,-0.87773 -1.10834,-6.70983 8.33945,-0.58116 3.57394,-1.66792z" id="TX_Wood" ns1:label="Wood, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Harrison">Harrison</ns0:title>
+            <ns0:path d="m 558.13933,408.19403 4.77752,2.45831 2.88085,-0.19013 0.75134,-0.43743 2.77195,-0.51946 1.64348,-0.23183 1.20536,0.0776 1.64046,0.50654 0.66722,8.44372 -7.05457,2.26582 -0.19878,-0.0257 -2.61935,-0.95159 -0.71003,-0.56054 -2.06562,0.13568 -0.22962,0.10123 -1.25131,-0.093 -1.44023,-0.59607 -0.0789,-0.83987 -0.4061,-5.59997 -0.28369,-3.94325z" id="TX_Harrison" ns1:label="Harrison, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Upshur">Upshur</ns0:title>
+            <ns0:path d="m 547.38206,405.83992 10.11841,-0.75559 0.38421,0.69628 0.25571,2.41436 0.28369,3.94325 -0.0767,-0.13285 -1.11337,-0.0628 -0.17228,0.0879 -1.28785,2.02652 -3.46076,1.72057 -0.38116,0.0608 -3.95777,-0.65701 -0.59215,-9.34145z" id="TX_Upshur" ns1:label="Upshur, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Camp">Camp</ns0:title>
+            <ns0:path d="m 547.17624,402.71858 0.57184,-0.63455 1.93473,-1.20296 0.51441,-0.13046 0.42197,-0.0301 1.38096,-0.0576 0.32052,0.0879 1.33061,1.46771 1.36411,0.82477 2.48297,2.0391 -10.11841,0.7556 -0.20371,-3.11946z" id="TX_Camp" ns1:label="Camp, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Marion">Marion</ns0:title>
+            <ns0:path d="m 559.09718,405.6845 14.31494,-1.1118 0.39917,5.28485 -1.64046,-0.50653 -1.20536,-0.0776 -1.64348,0.23183 -2.77195,0.51947 -0.75134,0.43743 -2.88085,0.19012 -4.77752,-2.45831 -0.2557,-2.41436 1.21255,-0.0951z" id="TX_Marion" ns1:label="Marion, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Cass">Cass</ns0:title>
+            <ns0:path d="m 558.36539,394.7354 0.0743,0.26621 0.20362,0.14566 0.79348,0.10905 8.7906,-0.4506 0.0444,-0.0827 -0.0944,-0.25004 -0.10032,-0.58324 0.33552,-0.68619 0.71831,-0.29633 0.56967,-0.16265 2.12475,0.21652 0.5036,0.22473 0.22275,0.42903 0.55022,7.07516 0.30934,3.88369 -14.31494,1.11181 -0.73085,-10.95016z" id="TX_Cass" ns1:label="Cass, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Morris">Morris</ns0:title>
+            <ns0:path d="m 554.52094,392.32211 1.51739,0.87813 2.32706,1.53516 0.73085,10.95016 -1.21355,0.0952 -0.38422,-0.69628 -2.48297,-2.03911 -0.49456,-10.72322z" id="TX_Morris" ns1:label="Morris, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Titus">Titus</ns0:title>
+            <ns0:path d="m 554.52094,392.32211 0.49556,10.72317 -1.36411,-0.82477 -1.33061,-1.46771 -0.32052,-0.0879 -1.38095,0.0576 -0.42198,0.03 -0.51441,0.13046 -1.93473,1.20296 -0.64985,-9.9852 7.4216,0.22134z" id="TX_Titus" ns1:label="Titus, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Franklin">Franklin</ns0:title>
+            <ns0:path d="m 547.09923,392.09877 0.64985,9.98521 -0.57184,0.63454 -3.573,1.66687 -0.74188,-11.65367 0.0458,-0.0397 4.19105,-0.59328z" id="TX_Franklin" ns1:label="Franklin, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hopkins">Hopkins</ns0:title>
+            <ns0:path d="m 530.23585,397.95317 1.856,-1.24856 0.97759,-1.28367 2.8239,-1.48899 0.54673,-0.26652 1.19284,-0.107 5.22945,-0.82671 0.74188,11.65367 -8.33945,0.58116 -4.65358,-0.26481 -0.37536,-6.74857z" id="TX_Hopkins" ns1:label="Hopkins, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Delta">Delta</ns0:title>
+            <ns0:path d="m 529.93638,391.13016 1.76401,-0.94685 0.42465,-0.14137 3.24407,0.0496 0.45625,0.0441 2.60251,0.65608 0.46242,0.16998 2.45161,1.47097 1.51315,0.18826 0.052,0.0691 -0.0458,0.0397 -5.22945,0.82671 -1.19285,0.107 -0.54672,0.26652 -2.8239,1.48899 -0.97759,1.28367 -1.85601,1.24856 -0.24423,-5.36079 -0.0541,-1.46028z" id="TX_Delta" ns1:label="Delta, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hunt">Hunt</ns0:title>
+            <ns0:path d="m 529.99062,392.59244 0.24423,5.36078 0.37436,6.74864 -1.44709,4.10192 -3.34081,0.15122 -5.18135,0.19394 -0.21018,-3.93641 -0.51767,-10.42544 10.07851,-2.19465z" id="TX_Hunt" ns1:label="Hunt, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Collin">Collin</ns0:title>
+            <ns0:path d="m 507.27454,393.92332 10.49012,-0.31402 2.14939,1.17668 0.51767,10.42543 -5.14589,0.25403 -7.6922,0.23279 -0.31909,-11.77491z" id="TX_Collin" ns1:label="Collin, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Denton">Denton</ns0:title>
+            <ns0:path d="m 494.45368,393.79816 10.25705,-0.0624 2.56381,0.18752 0.31809,11.77496 -4.38679,0.28692 -8.58612,0.2246 -0.16604,-12.41164z" id="TX_Denton" ns1:label="Denton, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Wise">Wise</ns0:title>
+            <ns0:path d="m 481.98406,394.19488 10.04226,-0.38667 2.42741,-0.009 0.16605,12.41164 -3.41697,0.0274 -8.85576,0.15082 -0.36299,-12.19409z" id="TX_Wise" ns1:label="Wise, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Jack">Jack</ns0:title>
+            <ns0:path d="m 470.22294,393.66581 10.30768,-0.35171 1.45344,0.88078 0.36299,12.19409 -3.15212,0.0523 -8.68889,0.16135 -0.19966,-10.94435 -0.0834,-1.99248z" id="TX_Jack" ns1:label="Jack, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Young">Young</ns0:title>
+            <ns0:path d="m 457.86205,395.97143 12.44333,-0.31309 0.19967,10.94436 -3.44705,1.60962 -8.80308,0.17886 -0.39287,-12.41975z" id="TX_Young" ns1:label="Young, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Throckmorton">Throckmorton</ns0:title>
+            <ns0:path d="m 445.76702,396.20959 12.09503,-0.23816 0.39387,12.4197 -3.40514,0.0768 -8.796,0.1975 -0.28776,-12.45579z" id="TX_Throckmorton" ns1:label="Throckmorton, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Haskell">Haskell</ns0:title>
+            <ns0:path d="m 433.67553,396.47459 12.09249,-0.26506 0.28676,12.45585 -3.30848,0.0682 -8.84079,0.0618 -0.22998,-12.32085z" id="TX_Haskell" ns1:label="Haskell, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Stonewall">Stonewall</ns0:title>
+            <ns0:path d="m 421.38897,396.60346 12.28556,-0.12882 0.22993,12.31986 -3.64153,0.0592 -8.79565,0.0102 -0.0783,-12.26038z" id="TX_Stonewall" ns1:label="Stonewall, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Dickens">Dickens</ns0:title>
+            <ns0:path d="m 409.12719,384.39997 12.11963,-0.1404 0.14215,12.34389 -12.16089,0.10168 -0.10089,-12.30517z" id="TX_Dickens" ns1:label="Dickens, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Motley">Motley</ns0:title>
+            <ns0:path d="m 409.06333,370.88072 2.20147,-0.0192 9.89106,-0.10462 0.0909,13.50168 -12.11962,0.1404 -0.0638,-13.51825z" id="TX_Motley" ns1:label="Motley, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hall">Hall</ns0:title>
+            <ns0:path d="m 420.49764,358.51451 2.86867,-0.0171 0.0788,12.25134 -2.28918,0.009 -9.89105,0.10462 -0.031,-12.29113 9.26376,-0.0569z" id="TX_Hall" ns1:label="Hall, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Donley">Donley</ns0:title>
+            <ns0:path d="m 420.42511,346.21474 0.0725,12.29977 -9.26381,0.0559 -3.34173,0.012 0.0582,-12.25514 12.47479,-0.11254z" id="TX_Donley" ns1:label="Donley, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Gray">Gray</ns0:title>
+            <ns0:path d="m 407.91383,333.97437 12.36921,-0.0845 0.14207,12.32487 -12.47479,0.11254 -0.0365,-12.35291z" id="TX_Gray" ns1:label="Gray, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Roberts">Roberts</ns0:title>
+            <ns0:path d="m 407.88146,321.64126 -0.004,-0.0669 12.1531,-0.0451 0.14827,5.7e-4 0.10402,12.36008 -12.36921,0.0845 9.7e-4,-0.17634 -0.0333,-12.15677z" id="TX_Roberts" ns1:label="Roberts, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Ochiltree">Ochiltree</ns0:title>
+            <ns0:path d="m 410.78207,309.06597 9.14533,-0.0611 0.10241,12.52544 -12.1531,0.0452 -0.0332,-12.48832 2.93855,-0.0211z" id="TX_Ochiltree" ns1:label="Ochiltree, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Lipscomb">Lipscomb</ns0:title>
+            <ns0:path d="m 419.92839,309.00477 12.15817,-0.1496 0.25239,12.55596 -12.15987,0.11966 -0.14827,-5.7e-4 -0.10242,-12.52545z" id="TX_Lipscomb" ns1:label="Lipscomb, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hemphill">Hemphill</ns0:title>
+            <ns0:path d="m 432.33895,321.41113 0.0739,4.93779 0.11917,7.4032 -12.24898,0.13775 -0.10402,-12.36008 12.15993,-0.11866z" id="TX_Hemphill" ns1:label="Hemphill, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Wheeler">Wheeler</ns0:title>
+            <ns0:path d="m 420.28304,333.88987 12.24898,-0.13775 0.18064,12.33369 -12.28755,0.12893 -0.14207,-12.32487z" id="TX_Wheeler" ns1:label="Wheeler, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Collingsworth">Collingsworth</ns0:title>
+            <ns0:path d="m 420.42511,346.21474 12.28755,-0.12893 0.0576,4.30068 0.12336,8.02196 -9.52836,0.089 -2.86867,0.0172 -0.0715,-12.29983z" id="TX_Collingsworth" ns1:label="Collingsworth, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Childress">Childress</ns0:title>
+            <ns0:path d="m 423.36625,358.49636 9.52836,-0.089 0.14108,5.22042 0.0951,7.051 -9.6857,0.0699 -0.0788,-12.25234z" id="TX_Childress" ns1:label="Childress, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Cottle">Cottle</ns0:title>
+            <ns0:path d="m 421.15486,370.75695 2.28918,-0.009 9.6857,-0.0699 0.0423,2.46559 -0.28519,-0.48757 -0.64143,0.0986 -0.21264,0.25851 0.12167,11.10505 -10.9086,0.14154 -0.091,-13.50268z" id="TX_Cottle" ns1:label="Cottle, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_King">King</ns0:title>
+            <ns0:path d="m 421.24682,384.25957 10.9086,-0.14154 1.21052,-0.008 0.30859,12.36446 -12.28556,0.12882 -0.14215,-12.34389z" id="TX_King" ns1:label="King, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Knox">Knox</ns0:title>
+            <ns0:path d="m 445.52526,386.77707 0.24176,9.43252 -12.09249,0.26505 -0.30859,-12.36446 3.72989,-0.0552 3.1604,0.42698 3.59993,0.58223 1.22352,0.76567 0.36797,0.58702 0.0776,0.36017z" id="TX_Knox" ns1:label="Knox, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Foard">Foard</ns0:title>
+            <ns0:path d="m 433.17307,373.14441 4.37678,3.00197 6.06481,1.5827 1.36874,-0.30733 0.24799,-0.28857 0.0743,-0.27868 0.13737,7.08966 0.0833,2.83385 -0.0795,-0.35906 -0.36798,-0.58702 -1.22352,-0.76566 -3.59993,-0.58224 -3.16039,-0.42698 -3.7299,0.0552 -1.21051,0.008 -0.12168,-11.10505 0.21265,-0.25851 0.64143,-0.0986 0.28613,0.48652z" id="TX_Foard" ns1:label="Foard, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Hardeman">Hardeman</ns0:title>
+            <ns0:path d="m 436.48761,365.11093 1.28332,1.48142 0.61607,0.65203 1.69346,1.43702 0.71535,0.12653 0.19568,-0.0111 0.89005,-0.0597 0.83029,-1.17912 0.12307,-0.0551 0.25669,0.0224 1.10555,0.0662 0.36079,0.12669 0.58802,0.30005 0.15866,8.83527 -0.0743,0.27868 -0.24799,0.28856 -1.36874,0.30733 -6.06481,-1.58269 -4.37679,-3.00197 -0.0423,-2.46559 -0.0951,-7.051 3.45297,1.48405z" id="TX_Hardeman" ns1:label="Hardeman, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Archer">Archer</ns0:title>
+            <ns0:path d="m 457.56574,383.66436 12.27785,-0.40482 0.3793,10.40527 0.0834,1.99248 -12.44333,0.31308 -0.29725,-12.30601z" id="TX_Archer" ns1:label="Archer, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Baylor">Baylor</ns0:title>
+            <ns0:path d="m 457.56574,383.66436 0.29731,12.30701 -12.09503,0.23816 -0.24176,-9.43252 -0.0833,-2.83385 12.12276,-0.2788z" id="TX_Baylor" ns1:label="Baylor, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Wilbarger">Wilbarger</ns0:title>
+            <ns0:path d="m 451.25123,369.62572 0.009,0.64854 0.0147,0.60915 0.52314,2.15073 5.1e-4,0.009 0.0118,0.0134 0.29847,0.0701 0.47754,0.11904 0.87475,0.1465 0.42917,-0.0445 0.92946,-0.071 2.13506,0.0457 0.0299,-0.002 0.3328,0.14531 0.24832,10.19838 -12.12276,0.2788 -0.13737,-7.08966 -0.15867,-8.83527 0.79555,0.67285 0.77656,0.0229 0.17239,-0.0859 0.02,-0.001 0.0271,-0.0516 0.008,-0.0225 0.88758,-1.82643 1.03953,0.48968 1.18328,0.55161 1.194,1.83007 0.002,0.0279z" id="TX_Wilbarger" ns1:label="Wilbarger, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Wichita">Wichita</ns0:title>
+            <ns0:path d="m 465.25236,374.224 0.23465,0.005 0.53033,0.30734 0.55379,0.42019 1.19665,1.70071 0.67141,0.19914 0.009,0.007 0.0188,-0.0211 1.17088,-1.17849 0.2053,7.59662 -12.27784,0.40482 -0.24832,-10.19838 2.20815,1.1533 2.15518,0.3991 1.5118,-0.029 2.05975,-0.76636z" id="TX_Wichita" ns1:label="Wichita, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Clay">Clay</ns0:title>
+            <ns0:path d="m 477.01064,377.44659 0.44818,0.78178 0.0623,0.0556 0.0404,0.007 0.99514,0.23779 0.50118,-0.0285 0.0265,-0.0105 0.79355,-0.24152 0.88205,0.29232 0.01,0.0105 -0.12137,1.50934 -0.52433,1.32797 0.40594,11.92821 -10.30768,0.35171 -0.3793,-10.40527 -0.20531,-7.59661 0.86351,-1.2291 0.43583,-0.27923 0.89383,0.14741 3.65027,0.92092 1.52975,2.22061z" id="TX_Clay" ns1:label="Clay, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Montague">Montague</ns0:title>
+            <ns0:path d="m 491.53768,380.217 0.48864,13.59121 -10.04226,0.38667 -1.45344,-0.88078 -0.40594,-11.92822 0.27106,0.22195 2.0978,0.81603 0.27703,0.0103 0.71154,-0.25687 1.10427,-0.97638 1.1431,-1.33215 0.73673,-1.04559 2.44997,1.44202 0.86469,0.53269 1.75681,-0.58084z" id="TX_Montague" ns1:label="Montague, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Cooke">Cooke</ns0:title>
+            <ns0:path d="m 503.9832,378.72889 0.72747,15.00592 -10.25705,0.0624 -2.42741,0.009 -0.48864,-13.5912 0.57861,2.06944 0.0702,0.14224 0.0229,0.0498 6.2e-4,0.011 0.14617,0.15695 0.21251,0.12612 6.91904,2.5647 0.32961,0.0894 0.37313,0.0268 0.32743,-0.12482 0.22293,-0.20101 0.10053,-0.15196 3.14198,-6.24477z" id="TX_Cooke" ns1:label="Cooke, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Fannin">Fannin</ns0:title>
+            <ns0:path d="m 529.64071,380.43466 0.29567,10.6955 0.0552,1.46222 -10.07757,2.1936 -2.14939,-1.17668 -0.37209,-9.29388 0.24109,0.29377 3.40978,-1.0506 0.47189,-0.15608 0.41102,-0.20471 0.027,-0.0356 0.20374,-0.23897 0.0268,-0.0386 0.009,-0.0205 0.0492,-0.19111 0.0546,-0.21946 0.0155,-0.079 0.008,-0.0696 0.10627,-0.68415 0.15656,-0.69803 1.16068,-0.33755 2.59338,-0.36606 0.49709,-0.0654 0.31361,-0.0509 1.35695,0.18915 1.13595,0.14263z" id="TX_Fannin" ns1:label="Fannin, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Grayson">Grayson</ns0:title>
+            <ns0:path d="m 504.20167,378.59025 1.31376,2.35009 0.40466,0.40465 0.24289,0.14943 2.22356,0.54444 1.11648,-0.2519 0.0195,-0.0101 2.26053,-1.18045 -0.0522,0.4547 0.0396,0.3443 0.0276,0.13365 0.0238,0.0657 2.47118,1.46285 0.22401,0.13448 0.03,-0.002 1.17323,-0.29319 0.27526,0.0144 0.31008,0.0805 5.1e-4,0.009 1.0875,1.31428 0.37209,9.29388 -10.49012,0.31402 -2.56381,-0.18751 -0.72748,-15.00592 0.21742,-0.13958z" id="TX_Grayson" ns1:label="Grayson, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Lamar">Lamar</ns0:title>
+            <ns0:path d="m 541.92223,378.81066 0.93294,13.8123 -1.51316,-0.18826 -2.45161,-1.47098 -0.46241,-0.16998 -2.60252,-0.65607 -0.45625,-0.0441 -3.24407,-0.0496 -0.42465,0.14138 -1.76401,0.94684 -0.29567,-10.69549 1.9463,-0.85907 0.007,-0.009 1.8843,-1.12096 1.6441,-0.97707 0.755,-0.004 0.1797,0.0599 0.28125,0.612 0.004,0.18709 -0.0576,0.20161 0.0142,0.14342 0.001,0.02 0.10077,0.15151 0.0913,0.0729 2.31063,0.17389 0.87251,0.0194 1.56502,-0.16727 0.011,-6.2e-4 0.67073,-0.12935z" id="TX_Lamar" ns1:label="Lamar, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Aransas">Aransas</ns0:title>
+            <ns0:path d="m 503.85842,543.77905 0.50568,0.36684 0.0785,0.007 2.16198,-1.20489 3.00985,-2.55028 0.12975,-0.43008 -0.51818,0.0115 -0.54462,-0.0481 -0.98387,-0.51489 -0.59852,-0.71312 -0.0713,-0.56686 8.17917,-1.6718 -0.13214,1.30262 0.31942,0.45557 0.009,0.15575 -0.29117,0.74376 -0.23397,0.20063 -2.97774,2.74477 -0.69536,0.0486 -2.00676,2.92785 -1.99396,3.43394 -3.34558,-4.69836 m 10.66796,-1.50005 -0.52778,1.44335 -4.48549,6.46752 -0.14798,-0.34714 5.16125,-7.56373z" id="TX_Aransas" ns1:label="Aransas, TX" />
+        </ns0:g>
+        <ns0:g>
+            <ns0:title id="title_TX_Cameron">Cameron</ns0:title>
+            <ns0:path d="m 490.69089,592.41751 8.5487,1.01753 2.62985,-1.97674 0.91851,-1.28331 0.12327,0.0541 1.26681,1.57852 0.068,2.35494 1.12835,4.31783 2.05811,3.02085 0.0657,0.0634 -0.24093,0.97528 -4.47341,3.03929 -2.29359,-0.56048 -0.36671,-0.19547 -0.36484,-0.25066 -1.51798,-1.0644 -2.26911,-2.25863 -0.10776,-0.30937 -2.92819,-0.34204 -1.94892,-0.22454 -0.2959,-7.95605 m 15.69513,-2.39637 0.42931,-0.0245 0.86214,2.87964 0.2802,1.08582 0.41123,2.04993 0.63891,3.46227 -0.118,-0.0143 -0.0704,-0.005 -0.21988,-0.27294 -0.33322,-1.87609 -0.0222,-0.86414 -0.1755,-1.02367 -0.33584,-1.57045 -0.61914,-2.25344 -0.34331,-0.87489 -0.38433,-0.69828z" id="TX_Cameron" ns1:label="Cameron, TX" />
+        </ns0:g>
+    </ns0:g>
+</ns0:svg>

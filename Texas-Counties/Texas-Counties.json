@@ -1,0 +1,819 @@
+{
+    "Anderson" :
+        {
+        },
+    "Andrews" :
+        {
+        },
+    "Angelina" :
+        {
+        },
+    "Aransas" :
+        {
+            "county-wide-polling" : 2016
+        },
+    "Archer" :
+        {
+        },
+    "Armstrong" :
+        {
+        },
+    "Atascosa" :
+        {
+        },
+    "Austin" :
+        {
+        },
+    "Bailey" :
+        {
+        },
+    "Bandera" :
+        {
+        },
+    "Bastrop" :
+        {
+        },
+    "Baylor" :
+        {
+        },
+    "Bee" :
+        {
+        },
+    "Bell" :
+        {
+        },
+    "Bexar" :
+        {
+        },
+    "Blanco" :
+        {
+        },
+    "Borden" :
+        {
+        },
+    "Bosque" :
+        {
+        },
+    "Bowie" :
+        {
+        },
+    "Brazoria" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "Brazos" :
+        {
+            "county-wide-polling" : 2016
+        },
+    "Brewster" :
+        {
+        },
+    "Briscoe" :
+        {
+        },
+    "Brooks" :
+        {
+        },
+    "Brown" :
+        {
+        },
+    "Burleson" :
+        {
+        },
+    "Burnet" :
+        {
+        },
+    "Caldwell" :
+        {
+        },
+    "Calhoun" :
+        {
+        },
+    "Callahan" :
+        {
+            "county-wide-polling" : 2014
+        },
+    "Cameron" :
+        {
+        },
+    "Camp" :
+        {
+        },
+    "Carson" :
+        {
+        },
+    "Cass" :
+        {
+        },
+    "Castro" :
+        {
+        },
+    "Chambers" :
+        {
+        },
+    "Cherokee" :
+        {
+        },
+    "Childress" :
+        {
+        },
+    "Clay" :
+        {
+        },
+    "Cochran" :
+        {
+        },
+    "Coke" :
+        {
+        },
+    "Coleman" :
+        {
+        },
+    "Collin" :
+        {
+            "county-wide-polling" : 2013
+        },
+    "Collingsworth" :
+        {
+        },
+    "Colorado" :
+        {
+        },
+    "Comal" :
+        {
+        },
+    "Comanche" :
+        {
+        },
+    "Concho" :
+        {
+        },
+    "Cooke" :
+        {
+        },
+    "Coryell" :
+        {
+            "county-wide-polling" : 2014
+        },
+    "Cottle" :
+        {
+        },
+    "Crane" :
+        {
+        },
+    "Crockett" :
+        {
+        },
+    "Crosby" :
+        {
+        },
+    "Culberson" :
+        {
+        },
+    "Dallam" :
+        {
+        },
+    "Dallas" :
+        {
+        },
+    "Dawson" :
+        {
+        },
+    "Deaf Smith" :
+        {
+            "county-wide-polling" : 2018
+        },
+    "Delta" :
+        {
+        },
+    "Denton" :
+        {
+        },
+    "DeWitt" :
+        {
+            "county-wide-polling" : 2018
+        },
+    "Dickens" :
+        {
+        },
+    "Dimmit" :
+        {
+        },
+    "Donley" :
+        {
+        },
+    "Duval" :
+        {
+        },
+    "Eastland" :
+        {
+            "county-wide-polling" : 2013
+        },
+    "Ector" :
+        {
+            "county-wide-polling" : 2016
+        },
+    "Edwards" :
+        {
+        },
+    "El Paso" :
+        {
+        },
+    "Ellis" :
+        {
+        },
+    "Erath" :
+        {
+            "county-wide-polling" : 2012
+        },
+    "Falls" :
+        {
+        },
+    "Fannin" :
+        {
+        },
+    "Fayette" :
+        {
+        },
+    "Fisher" :
+        {
+        },
+    "Floyd" :
+        {
+            "county-wide-polling" : 2013
+        },
+    "Foard" :
+        {
+        },
+    "Fort Bend" :
+        {
+            "county-wide-polling" : 2016
+        },
+    "Franklin" :
+        {
+        },
+    "Freestone" :
+        {
+        },
+    "Frio" :
+        {
+        },
+    "Gaines" :
+        {
+            "county-wide-polling" : 2012
+        },
+    "Galveston" :
+        {
+            "county-wide-polling" : 2012
+        },
+    "Garza" :
+        {
+        },
+    "Gillespie" :
+        {
+        },
+    "Glasscock" :
+        {
+        },
+    "Goliad" :
+        {
+        },
+    "Gonzales" :
+        {
+        },
+    "Gray" :
+        {
+        },
+    "Grayson" :
+        {
+            "county-wide-polling" : 2014
+        },
+    "Gregg" :
+        {
+            "county-wide-polling" : 2017
+        },
+    "Grimes" :
+        {
+            "county-wide-polling" : 2017
+        },
+    "Guadalupe" :
+        {
+            "county-wide-polling" : 2017
+        },
+    "Hale" :
+        {
+        },
+    "Hall" :
+        {
+        },
+    "Hamilton" :
+        {
+        },
+    "Hansford" :
+        {
+        },
+    "Hardeman" :
+        {
+        },
+    "Hardin" :
+        {
+        },
+    "Harris" :
+        {
+        },
+    "Harrison" :
+        {
+        },
+    "Hartley" :
+        {
+        },
+    "Haskell" :
+        {
+        },
+    "Hays" :
+        {
+        },
+    "Hemphill" :
+        {
+        },
+    "Henderson" :
+        {
+        },
+    "Hidalgo" :
+        {
+            "county-wide-polling" : 2018
+        },
+    "Hill" :
+        {
+        },
+    "Hockley" :
+        {
+        },
+    "Hood" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "Hopkins" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "Houston" :
+        {
+        },
+    "Howard" :
+        {
+        },
+    "Hudspeth" :
+        {
+        },
+    "Hunt" :
+        {
+        },
+    "Hutchinson" :
+        {
+        },
+    "Irion" :
+        {
+        },
+    "Jack" :
+        {
+            "county-wide-polling" : 2018
+        },
+    "Jackson" :
+        {
+        },
+    "Jasper" :
+        {
+        },
+    "Jeff Davis" :
+        {
+        },
+    "Jefferson" :
+        {
+            "county-wide-polling" : 2014
+        },
+    "Jim Hogg" :
+        {
+        },
+    "Jim Wells" :
+        {
+        },
+    "Johnson" :
+        {
+        },
+    "Jones" :
+        {
+        },
+    "Karnes" :
+        {
+        },
+    "Kaufman" :
+        {
+            "county-wide-polling" : 2018
+        },
+    "Kendall" :
+        {
+        },
+    "Kenedy" :
+        {
+        },
+    "Kent" :
+        {
+        },
+    "Kerr" :
+        {
+        },
+    "Kimble" :
+        {
+        },
+    "King" :
+        {
+        },
+    "Kinney" :
+        {
+        },
+    "Kleberg" :
+        {
+        },
+    "Knox" :
+        {
+        },
+    "La Salle" :
+        {
+        },
+    "Lamar" :
+        {
+        },
+    "Lamb" :
+        {
+        },
+    "Lampasas" :
+        {
+            "county-wide-polling" : 2014
+        },
+    "Lavaca" :
+        {
+        },
+    "Lee" :
+        {
+            "county-wide-polling" : 2016
+        },
+    "Leon" :
+        {
+        },
+    "Liberty" :
+        {
+        },
+    "Limestone" :
+        {
+        },
+    "Lipscomb" :
+        {
+        },
+    "Live Oak" :
+        {
+        },
+    "Llano" :
+        {
+        },
+    "Loving" :
+        {
+        },
+    "Lubbock" :
+        {
+            "county-wide-polling" : 2012
+        },
+    "Lynn" :
+        {
+        },
+    "Madison" :
+        {
+            "county-wide-polling" : 2013
+        },
+    "Marion" :
+        {
+        },
+    "Martin" :
+        {
+        },
+    "Mason" :
+        {
+        },
+    "Matagorda" :
+        {
+        },
+    "Maverick" :
+        {
+        },
+    "McCulloch" :
+        {
+        },
+    "McLennan" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "McMullen" :
+        {
+        },
+    "Medina" :
+        {
+            "county-wide-polling" : 2016
+        },
+    "Menard" :
+        {
+        },
+    "Midland" :
+        {
+            "county-wide-polling" : 2012
+        },
+    "Milam" :
+        {
+            "county-wide-polling" : 2016
+        },
+    "Mills" :
+        {
+        },
+    "Mitchell" :
+        {
+        },
+    "Montague" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "Montgomery" :
+        {
+        },
+    "Moore" :
+        {
+        },
+    "Morris" :
+        {
+        },
+    "Motley" :
+        {
+        },
+    "Nacogdoches" :
+        {
+        },
+    "Navarro" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "Newton" :
+        {
+        },
+    "Nolan" :
+        {
+        },
+    "Nueces" :
+        {
+            "county-wide-polling" : 2017
+        },
+    "Ochiltree" :
+        {
+        },
+    "Oldham" :
+        {
+        },
+    "Orange" :
+        {
+        },
+    "Palo Pinto" :
+        {
+            "county-wide-polling" : 2016
+        },
+    "Panola" :
+        {
+        },
+    "Parker" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "Parmer" :
+        {
+        },
+    "Pecos" :
+        {
+        },
+    "Polk" :
+        {
+        },
+    "Potter" :
+        {
+            "county-wide-polling" : 2016
+        },
+    "Presidio" :
+        {
+        },
+    "Rains" :
+        {
+        },
+    "Randall" :
+        {
+            "county-wide-polling" : 2014
+        },
+    "Reagan" :
+        {
+        },
+    "Real" :
+        {
+        },
+    "Red River" :
+        {
+        },
+    "Reeves" :
+        {
+        },
+    "Refugio" :
+        {
+        },
+    "Roberts" :
+        {
+        },
+    "Robertson" :
+        {
+        },
+    "Rockwall" :
+        {
+        },
+    "Runnels" :
+        {
+        },
+    "Rusk" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "Sabine" :
+        {
+        },
+    "San Augustine" :
+        {
+        },
+    "San Jacinto" :
+        {
+            "county-wide-polling" : 2016
+        },
+    "San Patricio" :
+        {
+            "county-wide-polling" : 2018
+        },
+    "San Saba" :
+        {
+        },
+    "Schleicher" :
+        {
+        },
+    "Scurry" :
+        {
+        },
+    "Shackelford" :
+        {
+        },
+    "Shelby" :
+        {
+        },
+    "Sherman" :
+        {
+        },
+    "Smith" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "Somervell" :
+        {
+        },
+    "Starr" :
+        {
+        },
+    "Stephens" :
+        {
+        },
+    "Sterling" :
+        {
+        },
+    "Stonewall" :
+        {
+        },
+    "Sutton" :
+        {
+        },
+    "Swisher" :
+        {
+            "county-wide-polling" : 2014
+        },
+    "Tarrant" :
+        {
+        },
+    "Taylor" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "Terrell" :
+        {
+        },
+    "Terry" :
+        {
+        },
+    "Throckmorton" :
+        {
+            "county-wide-polling" : 2017
+        },
+    "Titus" :
+        {
+        },
+    "Tom Green" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "Travis" :
+        {
+            "county-wide-polling" : 2012
+        },
+    "Trinity" :
+        {
+        },
+    "Tyler" :
+        {
+        },
+    "Upshur" :
+        {
+            "county-wide-polling" : 2017
+        },
+    "Upton" :
+        {
+        },
+    "Uvalade" :
+        {
+        },
+    "Val Verde" :
+        {
+        },
+    "Van Zandt" :
+        {
+        },
+    "Victoria" :
+        {
+            "county-wide-polling" : 2014
+        },
+    "Walker" :
+        {
+        },
+    "Waller" :
+        {
+        },
+    "Ward" :
+        {
+        },
+    "Washington" :
+        {
+        },
+    "Webb" :
+        {
+        },
+    "Wharton" :
+        {
+            "county-wide-polling" : 2015
+        },
+    "Wheeler" :
+        {
+        },
+    "Wichita" :
+        {
+            "county-wide-polling" : 2018
+        },
+    "Wilbarger" :
+        {
+        },
+    "Willacy" :
+        {
+        },
+    "Williamson" :
+        {
+            "county-wide-polling" : 2014
+        },
+    "Wilson" :
+        {
+        },
+    "Winkler" :
+        {
+        },
+    "Wise" :
+        {
+        },
+    "Wood" :
+        {
+        },
+    "Yoakum" :
+        {
+        },
+    "Young" :
+        {
+            "county-wide-polling" : 2016
+        },
+    "Zapata" :
+        {
+        },
+    "Zavala" :
+        {
+        }
+}
