@@ -10,7 +10,7 @@
         },
     "Aransas" :
         {
-            "county-wide-polling" : 2016
+            "county-wide-polling" : "in (2016)"
         },
     "Archer" :
         {
@@ -59,11 +59,11 @@
         },
     "Brazoria" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "Brazos" :
         {
-            "county-wide-polling" : 2016
+            "county-wide-polling" : "in (2016)"
         },
     "Brewster" :
         {
@@ -91,7 +91,7 @@
         },
     "Callahan" :
         {
-            "county-wide-polling" : 2014
+            "county-wide-polling" : "in (2014)"
         },
     "Cameron" :
         {
@@ -131,7 +131,7 @@
         },
     "Collin" :
         {
-            "county-wide-polling" : 2013
+            "county-wide-polling" : "in (2013)"
         },
     "Collingsworth" :
         {
@@ -153,7 +153,7 @@
         },
     "Coryell" :
         {
-            "county-wide-polling" : 2014
+            "county-wide-polling" : "in (2014)"
         },
     "Cottle" :
         {
@@ -181,7 +181,7 @@
         },
     "Deaf Smith" :
         {
-            "county-wide-polling" : 2018
+            "county-wide-polling" : "in (2018)"
         },
     "Delta" :
         {
@@ -191,7 +191,7 @@
         },
     "DeWitt" :
         {
-            "county-wide-polling" : 2018
+            "county-wide-polling" : "in (2018)"
         },
     "Dickens" :
         {
@@ -207,11 +207,11 @@
         },
     "Eastland" :
         {
-            "county-wide-polling" : 2013
+            "county-wide-polling" : "in (2013)"
         },
     "Ector" :
         {
-            "county-wide-polling" : 2016
+            "county-wide-polling" : "in (2016)"
         },
     "Edwards" :
         {
@@ -224,7 +224,7 @@
         },
     "Erath" :
         {
-            "county-wide-polling" : 2012
+            "county-wide-polling" : "in (2012)"
         },
     "Falls" :
         {
@@ -240,14 +240,14 @@
         },
     "Floyd" :
         {
-            "county-wide-polling" : 2013
+            "county-wide-polling" : "in (2013)"
         },
     "Foard" :
         {
         },
     "Fort Bend" :
         {
-            "county-wide-polling" : 2016
+            "county-wide-polling" : "in (2016)"
         },
     "Franklin" :
         {
@@ -260,11 +260,11 @@
         },
     "Gaines" :
         {
-            "county-wide-polling" : 2012
+            "county-wide-polling" : "in (2012)"
         },
     "Galveston" :
         {
-            "county-wide-polling" : 2012
+            "county-wide-polling" : "in (2012)"
         },
     "Garza" :
         {
@@ -286,19 +286,19 @@
         },
     "Grayson" :
         {
-            "county-wide-polling" : 2014
+            "county-wide-polling" : "in (2014)"
         },
     "Gregg" :
         {
-            "county-wide-polling" : 2017
+            "county-wide-polling" : "in (2017)"
         },
     "Grimes" :
         {
-            "county-wide-polling" : 2017
+            "county-wide-polling" : "in (2017)"
         },
     "Guadalupe" :
         {
-            "county-wide-polling" : 2017
+            "county-wide-polling" : "in (2017)"
         },
     "Hale" :
         {
@@ -341,7 +341,7 @@
         },
     "Hidalgo" :
         {
-            "county-wide-polling" : 2018
+            "county-wide-polling" : "in (2018)"
         },
     "Hill" :
         {
@@ -351,11 +351,11 @@
         },
     "Hood" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "Hopkins" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "Houston" :
         {
@@ -377,7 +377,7 @@
         },
     "Jack" :
         {
-            "county-wide-polling" : 2018
+            "county-wide-polling" : "in (2018)"
         },
     "Jackson" :
         {
@@ -390,7 +390,7 @@
         },
     "Jefferson" :
         {
-            "county-wide-polling" : 2014
+            "county-wide-polling" : "in (2014)"
         },
     "Jim Hogg" :
         {
@@ -409,7 +409,7 @@
         },
     "Kaufman" :
         {
-            "county-wide-polling" : 2018
+            "county-wide-polling" : "in (2018)"
         },
     "Kendall" :
         {
@@ -449,14 +449,14 @@
         },
     "Lampasas" :
         {
-            "county-wide-polling" : 2014
+            "county-wide-polling" : "in (2014)"
         },
     "Lavaca" :
         {
         },
     "Lee" :
         {
-            "county-wide-polling" : 2016
+            "county-wide-polling" : "in (2016)"
         },
     "Leon" :
         {
@@ -481,14 +481,14 @@
         },
     "Lubbock" :
         {
-            "county-wide-polling" : 2012
+            "county-wide-polling" : "in (2012)"
         },
     "Lynn" :
         {
         },
     "Madison" :
         {
-            "county-wide-polling" : 2013
+            "county-wide-polling" : "in (2013)"
         },
     "Marion" :
         {
@@ -510,25 +510,25 @@
         },
     "McLennan" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "McMullen" :
         {
         },
     "Medina" :
         {
-            "county-wide-polling" : 2016
+            "county-wide-polling" : "in (2016)"
         },
     "Menard" :
         {
         },
     "Midland" :
         {
-            "county-wide-polling" : 2012
+            "county-wide-polling" : "in (2012)"
         },
     "Milam" :
         {
-            "county-wide-polling" : 2016
+            "county-wide-polling" : "in (2016)"
         },
     "Mills" :
         {
@@ -538,7 +538,7 @@
         },
     "Montague" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "Montgomery" :
         {
@@ -557,7 +557,7 @@
         },
     "Navarro" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "Newton" :
         {
@@ -567,7 +567,7 @@
         },
     "Nueces" :
         {
-            "county-wide-polling" : 2017
+            "county-wide-polling" : "in (2017)"
         },
     "Ochiltree" :
         {
@@ -580,14 +580,14 @@
         },
     "Palo Pinto" :
         {
-            "county-wide-polling" : 2016
+            "county-wide-polling" : "in (2016)"
         },
     "Panola" :
         {
         },
     "Parker" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "Parmer" :
         {
@@ -600,7 +600,7 @@
         },
     "Potter" :
         {
-            "county-wide-polling" : 2016
+            "county-wide-polling" : "in (2016)"
         },
     "Presidio" :
         {
@@ -610,7 +610,7 @@
         },
     "Randall" :
         {
-            "county-wide-polling" : 2014
+            "county-wide-polling" : "in (2014)"
         },
     "Reagan" :
         {
@@ -641,7 +641,7 @@
         },
     "Rusk" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "Sabine" :
         {
@@ -651,11 +651,11 @@
         },
     "San Jacinto" :
         {
-            "county-wide-polling" : 2016
+            "county-wide-polling" : "in (2016)"
         },
     "San Patricio" :
         {
-            "county-wide-polling" : 2018
+            "county-wide-polling" : "in (2018)"
         },
     "San Saba" :
         {
@@ -677,7 +677,7 @@
         },
     "Smith" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "Somervell" :
         {
@@ -699,14 +699,14 @@
         },
     "Swisher" :
         {
-            "county-wide-polling" : 2014
+            "county-wide-polling" : "in (2014)"
         },
     "Tarrant" :
         {
         },
     "Taylor" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "Terrell" :
         {
@@ -716,18 +716,18 @@
         },
     "Throckmorton" :
         {
-            "county-wide-polling" : 2017
+            "county-wide-polling" : "in (2017)"
         },
     "Titus" :
         {
         },
     "Tom Green" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "Travis" :
         {
-            "county-wide-polling" : 2012
+            "county-wide-polling" : "in (2012)"
         },
     "Trinity" :
         {
@@ -737,7 +737,7 @@
         },
     "Upshur" :
         {
-            "county-wide-polling" : 2017
+            "county-wide-polling" : "in (2017)"
         },
     "Upton" :
         {
@@ -753,7 +753,7 @@
         },
     "Victoria" :
         {
-            "county-wide-polling" : 2014
+            "county-wide-polling" : "in (2014)"
         },
     "Walker" :
         {
@@ -772,14 +772,14 @@
         },
     "Wharton" :
         {
-            "county-wide-polling" : 2015
+            "county-wide-polling" : "in (2015)"
         },
     "Wheeler" :
         {
         },
     "Wichita" :
         {
-            "county-wide-polling" : 2018
+            "county-wide-polling" : "in (2018)"
         },
     "Wilbarger" :
         {
@@ -789,7 +789,7 @@
         },
     "Williamson" :
         {
-            "county-wide-polling" : 2014
+            "county-wide-polling" : "in (2014)"
         },
     "Wilson" :
         {
@@ -808,7 +808,7 @@
         },
     "Young" :
         {
-            "county-wide-polling" : 2016
+            "county-wide-polling" : "in (2016)"
         },
     "Zapata" :
         {
