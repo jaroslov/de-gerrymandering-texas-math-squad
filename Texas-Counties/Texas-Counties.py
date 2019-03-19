@@ -12,6 +12,7 @@ if __name__=="__main__":
     parser.add_argument('-o', '--output', help="The name of the output file", required=True)
     parser.add_argument('-i', '--info', help="Which set of facts to export", required=True)
     parser.add_argument('-t', '--title', help="Optional title")
+    parser.add_argument('-a', '--auto-format-contact', action='store_true', help="Whether or not to automatically format the contact info")
 
     args        = parser.parse_args()
 
@@ -43,7 +44,10 @@ if __name__=="__main__":
             theText.append(xlink)
             itsText.append(theText)
 
-            paragraph       = info['contact'].split('\n')
+            if args.auto_format_contact:
+                paragraph   = textwrap.wrap(info['contact'].replace('\n', ' '), width=36)
+            else:
+                paragraph   = info['contact'].split('\n')
             instrs          = info['instructions'].replace('\n', ' ')
             instrs          = textwrap.wrap(instrs, width=36)
             paragraph       += ['']
