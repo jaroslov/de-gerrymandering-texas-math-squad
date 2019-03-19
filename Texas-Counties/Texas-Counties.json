@@ -1,819 +1,1307 @@
 {
-    "Anderson" :
-        {
-        },
-    "Andrews" :
-        {
-        },
-    "Angelina" :
-        {
-        },
-    "Aransas" :
-        {
-            "county-wide-polling" : "in (2016)"
-        },
-    "Archer" :
-        {
-        },
-    "Armstrong" :
-        {
-        },
-    "Atascosa" :
-        {
-        },
-    "Austin" :
-        {
-        },
-    "Bailey" :
-        {
-        },
-    "Bandera" :
-        {
-        },
-    "Bastrop" :
-        {
-        },
-    "Baylor" :
-        {
-        },
-    "Bee" :
-        {
-        },
-    "Bell" :
-        {
-        },
-    "Bexar" :
-        {
-        },
-    "Blanco" :
-        {
-        },
-    "Borden" :
-        {
-        },
-    "Bosque" :
-        {
-        },
-    "Bowie" :
-        {
-        },
-    "Brazoria" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "Brazos" :
-        {
-            "county-wide-polling" : "in (2016)"
-        },
-    "Brewster" :
-        {
-        },
-    "Briscoe" :
-        {
-        },
-    "Brooks" :
-        {
-        },
-    "Brown" :
-        {
-        },
-    "Burleson" :
-        {
-        },
-    "Burnet" :
-        {
-        },
-    "Caldwell" :
-        {
-        },
-    "Calhoun" :
-        {
-        },
-    "Callahan" :
-        {
-            "county-wide-polling" : "in (2014)"
-        },
-    "Cameron" :
-        {
-        },
-    "Camp" :
-        {
-        },
-    "Carson" :
-        {
-        },
-    "Cass" :
-        {
-        },
-    "Castro" :
-        {
-        },
-    "Chambers" :
-        {
-        },
-    "Cherokee" :
-        {
-        },
-    "Childress" :
-        {
-        },
-    "Clay" :
-        {
-        },
-    "Cochran" :
-        {
-        },
-    "Coke" :
-        {
-        },
-    "Coleman" :
-        {
-        },
-    "Collin" :
-        {
-            "county-wide-polling" : "in (2013)"
-        },
-    "Collingsworth" :
-        {
-        },
-    "Colorado" :
-        {
-        },
-    "Comal" :
-        {
-        },
-    "Comanche" :
-        {
-        },
-    "Concho" :
-        {
-        },
-    "Cooke" :
-        {
-        },
-    "Coryell" :
-        {
-            "county-wide-polling" : "in (2014)"
-        },
-    "Cottle" :
-        {
-        },
-    "Crane" :
-        {
-        },
-    "Crockett" :
-        {
-        },
-    "Crosby" :
-        {
-        },
-    "Culberson" :
-        {
-        },
-    "Dallam" :
-        {
-        },
-    "Dallas" :
-        {
-        },
-    "Dawson" :
-        {
-        },
-    "Deaf Smith" :
-        {
-            "county-wide-polling" : "in (2018)"
-        },
-    "Delta" :
-        {
-        },
-    "Denton" :
-        {
-        },
-    "DeWitt" :
-        {
-            "county-wide-polling" : "in (2018)"
-        },
-    "Dickens" :
-        {
-        },
-    "Dimmit" :
-        {
-        },
-    "Donley" :
-        {
-        },
-    "Duval" :
-        {
-        },
-    "Eastland" :
-        {
-            "county-wide-polling" : "in (2013)"
-        },
-    "Ector" :
-        {
-            "county-wide-polling" : "in (2016)"
-        },
-    "Edwards" :
-        {
-        },
-    "El Paso" :
-        {
-        },
-    "Ellis" :
-        {
-        },
-    "Erath" :
-        {
-            "county-wide-polling" : "in (2012)"
-        },
-    "Falls" :
-        {
-        },
-    "Fannin" :
-        {
-        },
-    "Fayette" :
-        {
-        },
-    "Fisher" :
-        {
-        },
-    "Floyd" :
-        {
-            "county-wide-polling" : "in (2013)"
-        },
-    "Foard" :
-        {
-        },
-    "Fort Bend" :
-        {
-            "county-wide-polling" : "in (2016)"
-        },
-    "Franklin" :
-        {
-        },
-    "Freestone" :
-        {
-        },
-    "Frio" :
-        {
-        },
-    "Gaines" :
-        {
-            "county-wide-polling" : "in (2012)"
-        },
-    "Galveston" :
-        {
-            "county-wide-polling" : "in (2012)"
-        },
-    "Garza" :
-        {
-        },
-    "Gillespie" :
-        {
-        },
-    "Glasscock" :
-        {
-        },
-    "Goliad" :
-        {
-        },
-    "Gonzales" :
-        {
-        },
-    "Gray" :
-        {
-        },
-    "Grayson" :
-        {
-            "county-wide-polling" : "in (2014)"
-        },
-    "Gregg" :
-        {
-            "county-wide-polling" : "in (2017)"
-        },
-    "Grimes" :
-        {
-            "county-wide-polling" : "in (2017)"
-        },
-    "Guadalupe" :
-        {
-            "county-wide-polling" : "in (2017)"
-        },
-    "Hale" :
-        {
-        },
-    "Hall" :
-        {
-        },
-    "Hamilton" :
-        {
-        },
-    "Hansford" :
-        {
-        },
-    "Hardeman" :
-        {
-        },
-    "Hardin" :
-        {
-        },
-    "Harris" :
-        {
-        },
-    "Harrison" :
-        {
-        },
-    "Hartley" :
-        {
-        },
-    "Haskell" :
-        {
-        },
-    "Hays" :
-        {
-        },
-    "Hemphill" :
-        {
-        },
-    "Henderson" :
-        {
-        },
-    "Hidalgo" :
-        {
-            "county-wide-polling" : "in (2018)"
-        },
-    "Hill" :
-        {
-        },
-    "Hockley" :
-        {
-        },
-    "Hood" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "Hopkins" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "Houston" :
-        {
-        },
-    "Howard" :
-        {
-        },
-    "Hudspeth" :
-        {
-        },
-    "Hunt" :
-        {
-        },
-    "Hutchinson" :
-        {
-        },
-    "Irion" :
-        {
-        },
-    "Jack" :
-        {
-            "county-wide-polling" : "in (2018)"
-        },
-    "Jackson" :
-        {
-        },
-    "Jasper" :
-        {
-        },
-    "Jeff Davis" :
-        {
-        },
-    "Jefferson" :
-        {
-            "county-wide-polling" : "in (2014)"
-        },
-    "Jim Hogg" :
-        {
-        },
-    "Jim Wells" :
-        {
-        },
-    "Johnson" :
-        {
-        },
-    "Jones" :
-        {
-        },
-    "Karnes" :
-        {
-        },
-    "Kaufman" :
-        {
-            "county-wide-polling" : "in (2018)"
-        },
-    "Kendall" :
-        {
-        },
-    "Kenedy" :
-        {
-        },
-    "Kent" :
-        {
-        },
-    "Kerr" :
-        {
-        },
-    "Kimble" :
-        {
-        },
-    "King" :
-        {
-        },
-    "Kinney" :
-        {
-        },
-    "Kleberg" :
-        {
-        },
-    "Knox" :
-        {
-        },
-    "La Salle" :
-        {
-        },
-    "Lamar" :
-        {
-        },
-    "Lamb" :
-        {
-        },
-    "Lampasas" :
-        {
-            "county-wide-polling" : "in (2014)"
-        },
-    "Lavaca" :
-        {
-        },
-    "Lee" :
-        {
-            "county-wide-polling" : "in (2016)"
-        },
-    "Leon" :
-        {
-        },
-    "Liberty" :
-        {
-        },
-    "Limestone" :
-        {
-        },
-    "Lipscomb" :
-        {
-        },
-    "Live Oak" :
-        {
-        },
-    "Llano" :
-        {
-        },
-    "Loving" :
-        {
-        },
-    "Lubbock" :
-        {
-            "county-wide-polling" : "in (2012)"
-        },
-    "Lynn" :
-        {
-        },
-    "Madison" :
-        {
-            "county-wide-polling" : "in (2013)"
-        },
-    "Marion" :
-        {
-        },
-    "Martin" :
-        {
-        },
-    "Mason" :
-        {
-        },
-    "Matagorda" :
-        {
-        },
-    "Maverick" :
-        {
-        },
-    "McCulloch" :
-        {
-        },
-    "McLennan" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "McMullen" :
-        {
-        },
-    "Medina" :
-        {
-            "county-wide-polling" : "in (2016)"
-        },
-    "Menard" :
-        {
-        },
-    "Midland" :
-        {
-            "county-wide-polling" : "in (2012)"
-        },
-    "Milam" :
-        {
-            "county-wide-polling" : "in (2016)"
-        },
-    "Mills" :
-        {
-        },
-    "Mitchell" :
-        {
-        },
-    "Montague" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "Montgomery" :
-        {
-        },
-    "Moore" :
-        {
-        },
-    "Morris" :
-        {
-        },
-    "Motley" :
-        {
-        },
-    "Nacogdoches" :
-        {
-        },
-    "Navarro" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "Newton" :
-        {
-        },
-    "Nolan" :
-        {
-        },
-    "Nueces" :
-        {
-            "county-wide-polling" : "in (2017)"
-        },
-    "Ochiltree" :
-        {
-        },
-    "Oldham" :
-        {
-        },
-    "Orange" :
-        {
-        },
-    "Palo Pinto" :
-        {
-            "county-wide-polling" : "in (2016)"
-        },
-    "Panola" :
-        {
-        },
-    "Parker" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "Parmer" :
-        {
-        },
-    "Pecos" :
-        {
-        },
-    "Polk" :
-        {
-        },
-    "Potter" :
-        {
-            "county-wide-polling" : "in (2016)"
-        },
-    "Presidio" :
-        {
-        },
-    "Rains" :
-        {
-        },
-    "Randall" :
-        {
-            "county-wide-polling" : "in (2014)"
-        },
-    "Reagan" :
-        {
-        },
-    "Real" :
-        {
-        },
-    "Red River" :
-        {
-        },
-    "Reeves" :
-        {
-        },
-    "Refugio" :
-        {
-        },
-    "Roberts" :
-        {
-        },
-    "Robertson" :
-        {
-        },
-    "Rockwall" :
-        {
-        },
-    "Runnels" :
-        {
-        },
-    "Rusk" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "Sabine" :
-        {
-        },
-    "San Augustine" :
-        {
-        },
-    "San Jacinto" :
-        {
-            "county-wide-polling" : "in (2016)"
-        },
-    "San Patricio" :
-        {
-            "county-wide-polling" : "in (2018)"
-        },
-    "San Saba" :
-        {
-        },
-    "Schleicher" :
-        {
-        },
-    "Scurry" :
-        {
-        },
-    "Shackelford" :
-        {
-        },
-    "Shelby" :
-        {
-        },
-    "Sherman" :
-        {
-        },
-    "Smith" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "Somervell" :
-        {
-        },
-    "Starr" :
-        {
-        },
-    "Stephens" :
-        {
-        },
-    "Sterling" :
-        {
-        },
-    "Stonewall" :
-        {
-        },
-    "Sutton" :
-        {
-        },
-    "Swisher" :
-        {
-            "county-wide-polling" : "in (2014)"
-        },
-    "Tarrant" :
-        {
-        },
-    "Taylor" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "Terrell" :
-        {
-        },
-    "Terry" :
-        {
-        },
-    "Throckmorton" :
-        {
-            "county-wide-polling" : "in (2017)"
-        },
-    "Titus" :
-        {
-        },
-    "Tom Green" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "Travis" :
-        {
-            "county-wide-polling" : "in (2012)"
-        },
-    "Trinity" :
-        {
-        },
-    "Tyler" :
-        {
-        },
-    "Upshur" :
-        {
-            "county-wide-polling" : "in (2017)"
-        },
-    "Upton" :
-        {
-        },
-    "Uvalade" :
-        {
-        },
-    "Val Verde" :
-        {
-        },
-    "Van Zandt" :
-        {
-        },
-    "Victoria" :
-        {
-            "county-wide-polling" : "in (2014)"
-        },
-    "Walker" :
-        {
-        },
-    "Waller" :
-        {
-        },
-    "Ward" :
-        {
-        },
-    "Washington" :
-        {
-        },
-    "Webb" :
-        {
-        },
-    "Wharton" :
-        {
-            "county-wide-polling" : "in (2015)"
-        },
-    "Wheeler" :
-        {
-        },
-    "Wichita" :
-        {
-            "county-wide-polling" : "in (2018)"
-        },
-    "Wilbarger" :
-        {
-        },
-    "Willacy" :
-        {
-        },
-    "Williamson" :
-        {
-            "county-wide-polling" : "in (2014)"
-        },
-    "Wilson" :
-        {
-        },
-    "Winkler" :
-        {
-        },
-    "Wise" :
-        {
-        },
-    "Wood" :
-        {
-        },
-    "Yoakum" :
-        {
-        },
-    "Young" :
-        {
-            "county-wide-polling" : "in (2016)"
-        },
-    "Zapata" :
-        {
-        },
-    "Zavala" :
-        {
-        }
+    "Anderson": {
+        "contact": "Casey Brown (Elections Administrator) -\n(903) 723-7438 option 3\ncbrown@co.anderson.tx.us",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to confirm availability",
+        "url": "http://www.co.anderson.tx.us/page/anderson.Elections"
+    },
+    "Andrews": {
+        "contact": "Graciela Mendoza (Elections Administrator) - (432) 524-1463, gmendoza@co.andrews.tx.us",
+        "instructions": "You will be required to participate in a training program prescribed by the Secretary of State before receiving your appointment.\nThis training is available during regular business hours at the Election Administrator's office. If an evening session is required, it is by appointment only. To schedule an evening training session, please contact Gracie Mendoza at 432-524-1463.",
+        "url": "https://www.andrewscountytax.com/#/registration"
+    },
+    "Angelina": {
+        "contact": "Connie J. Brown (Elections Administrator) - (936) 671-5117, cbrown@angelinacounty.net",
+        "instructions": "no set schedule, date differs by month, call to inquire\nspecific training to their county",
+        "url": "http://www.angelinacounty.net/elections/"
+    },
+    "Aransas": {
+        "contact": "Michele Bennett (Elections Administrator) - (361) 729-7431",
+        "county-wide-polling": "in (2016)",
+        "instructions": "no set schedule and requires 3 - 5 people for training, if you can get a small group together for training, call 1 wk in advance to schedule training, the are more than willing to work with a group.",
+        "url": "https://www.aransascountytx.gov/electionadmin/"
+    },
+    "Archer": {
+        "contact": "Vicki Wright (Elections Administrator) - (940) 574-2645",
+        "instructions": "Call to make appointment (Wasn't encouraging as they said they have never had anyone do voter registration. There are 6000 eligible voters and 4000 of them are registered.)",
+        "url": "http://www.co.archer.tx.us/page/archer.Elections"
+    },
+    "Armstrong": {
+        "contact": "Jamie Craig (Tax Assessor Collector) - (806) 553-2860",
+        "instructions": "CLERK@CO.ARMSTRONG.TX.US",
+        "url": "http://www.co.armstrong.tx.us/page/armstrong.Elections"
+    },
+    "Atascosa": {
+        "contact": "Janice Rupel, 830-769-1472",
+        "instructions": "Please call to schedule appt.",
+        "url": "http://www.atascosacounty.texas.gov/page/atascosa.County.Assessor.Collector"
+    },
+    "Austin": {
+        "contact": "Kim Rinn (Tax Assessor Collector) - (979) 865-8633\nkrinn@austincounty.com OR votenow@austincounty.com",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to confirm availability",
+        "url": "https://www.austincounty.com/page/austin.Elections"
+    },
+    "Bailey": {
+        "contact": "Robin Dickerson (corrected)\n300 South 1st Street, Suite #200\nMuleshoe, Texas 79347\nPhone: 806-272-3044 Fax: 806-272-3538",
+        "instructions": "Did not return call\nplease call for direction",
+        "url": "http://www.co.bailey.tx.us/page/bailey.County.Clerk"
+    },
+    "Bandera": {
+        "contact": "Gwenda Tschirhart (Tax Assessor Collector) - (830) 796-8146\nelections@banderacounty.org",
+        "instructions": "They indicated that you must be a county resident to register voters.\nCall to make appt.",
+        "url": "https://www.banderacounty.org/departments/ElectionAdministrator.htm"
+    },
+    "Bastrop": {
+        "contact": "Bridgette Escobedo (Elections Administrator) - (512) 581-7160",
+        "instructions": "2nd Wed of every month at 10 AM unless there is a scheduling conflict. please call to comfirm",
+        "url": "https://www.bastropvotes.org/voter-information-2/volunteer-deputy-registrars/"
+    },
+    "Baylor": {
+        "contact": "Jeanette Holub (Tax Assessor Collector) - (940) 889-3169\n*Chris Jakubicek does Election duties for King, Baylor, Cottle, and Knox counties - (940) 889-3322\nbcclerk@srcaccess.net",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.baylorcountytexas.com/officials/Clerk.htm"
+    },
+    "Bee": {
+        "contact": "Laura Warnix (Elections Administrator) - (361) 621-1519",
+        "instructions": "2nd Tues of every month @10a.m. Bee County Elections Administration Office, 107 S. St. Mary's St., Beeville, TX call 361 621-1519 to reserve a seat or email elections@co.bee.tx.us Laura Warnix, Elections Administrator",
+        "url": "http://www.co.bee.tx.us/page/bee.ElectionAdministrator"
+    },
+    "Bell": {
+        "contact": "Melinda Luedecke (Elections Administrator) - (254) 933-5774",
+        "instructions": "The dates for training each month will be posted on our home page: http://www.bellcountytx.com/departments/elections/index.php",
+        "url": "http://www.bellcountytx.com/departments/elections/bell_county_volunteer_deputy_registrar_procedures.php"
+    },
+    "Bexar": {
+        "contact": "Jacque Callanen (Elections Administrator) - (210) 335-8683\n",
+        "instructions": "https://www.bexar.org/calendar.aspx",
+        "url": "https://www.bexar.org/1568/Elections-Department"
+    },
+    "Blanco": {
+        "contact": "Jennifer Wilson\n101 E. Cypress\nJohnson City, Texas 78636\n830-868-7357",
+        "instructions": "Call to schedule appt.\nSuzi 830-868-7178",
+        "url": "http://www.co.blanco.tx.us/page/blanco.County.Clerk"
+    },
+    "Borden": {
+        "contact": "Benny Ray Allison (Sheriff/Tax Assessor Collector)- (806) 756-4311",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nPlease call a week ahead so the Sherriff will have supplies on hand",
+        "url": "http://www.co.borden.tx.us/page/borden.Elections"
+    },
+    "Bosque": {
+        "contact": "Crystal Denman (Elections Administrator) - (254) 435-6650\nelections@bosquecounty.us",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to confirm availability",
+        "url": "http://www.bosquecounty.us/elections/"
+    },
+    "Bowie": {
+        "contact": "George A. Stegall (Elections Administrator)\n710 James Bowie Drive\nNew Boston, TX\n Phone: (903) 628-6810",
+        "instructions": "During office hours, no appt needed. Fill out paper work, look at their booklet, if you have questions ask then, no test. they will certify you, and give your registration forms.",
+        "url": "http://www.co.bowie.tx.us/page/bowie.Elections"
+    },
+    "Brazoria": {
+        "contact": "Ro'Vin Garrett (Tax Assessor Collector) - (979) 864-1320\nCclerkElections@brazoria-county.com\nhttps://www.facebook.com/BrazoriaCountyElections/",
+        "county-wide-polling": "in (2015)",
+        "instructions": "Kristen - Kathy has the info\nVDR training -1st thurs - 6pm\n(show up 15 min early at the west annex (no classes on holiday)\n",
+        "url": "https://www.brazoriacountyclerk.net/recorder/content/Elections/HomePage.htm"
+    },
+    "Brazos": {
+        "contact": "Trudy Hancock (Elections Administrator) - (979) 361-5770\nthancock@brazoscountytx.gov",
+        "county-wide-polling": "in (2016)",
+        "instructions": "classes or the third thursday of every month\nmust call to register 979-361-5770\n5:45 - 6:45 (arrive 15 min in advance)\nexam after training",
+        "url": "http://brazoscountytx.gov/index.aspx?NID=117\n"
+    },
+    "Brewster": {
+        "contact": "Lora Nussbaum (Elections Adminstrator)\n432-837-6230\nelectoin.admin@co.brewster.tx.us",
+        "instructions": "Training Guide SOS\nPrint Test - complete, Lora will score & certify\nplease call ahead to confirm availability",
+        "url": "http://www.brewstercountytx.com/vote/\n\nhttp://www.brewstercountytx.com/offices/elections-administrator/"
+    },
+    "Briscoe": {},
+    "Brooks": {
+        "contact": "Anna M. Garcia (Elections Administrator) -\n(361) 325-5670 ext. 369/368",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to confirm availability",
+        "url": "http://www.co.brooks.tx.us/default.aspx?Brooks_County/Elections"
+    },
+    "Brown": {},
+    "Burleson": {
+        "contact": "\nPaula Bartnesky (Elections Administrator) - (979) 567-2000\nelectadmin@burlesoncounty.org",
+        "instructions": "SOS online powerpoint/training\nPaula will help you get paperwork signed to become deputized at your convinience.\nShe is available 8 am - 5 pm Monday - Friday (Closed for lunch 12-1 pm). Calling the day before to schedule an appointment so that she is in the office when you arrive. ",
+        "url": "http://co.burleson.tx.us/government/elections/"
+    },
+    "Burnet": {
+        "contact": "Doug Ferguson (Elections Administrator) - (512) 715-5288",
+        "instructions": "Burnet County offers ONLINE training to become a Volunteer Deputy Registrar.\nhttp://www.burnetcountytexas.org/upload/page/0157/docs/NEW%20volunteer-deputy-registrar-training.pdf\nRead through the material and when you feel adequately educated, come by our office to take the “open book” exam, and receive your certificate of appointment and supply packet. Our office is located at 106 W. Washington St., Burnet, west of the courthouse square and next to Happy Scoops Ice Cream, open 8-5, Mon-Fri. Call our office if you have any questions, at (512) 715-5288.\n",
+        "url": "http://www.burnetcountytexas.org/page/elect.vdr"
+    },
+    "Caldwell": {
+        "contact": "Pam Ohlendorf (Elections Administrator) - (512) 668-4347\npamela.ohlendorf@co.caldwell.tx.us",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.caldwell.tx.us/page/caldwell.ElectionsOffice"
+    },
+    "Calhoun": {
+        "contact": "Dora Garcia (Elections Administrator) - (361) 553-4440\ndora.garcia@calhouncotx.org",
+        "instructions": "SOS guide\ntake a written test, grade & pass\ncertified same day\nno appt needed\n",
+        "url": "http://www.calhouncotx.org/elect.html\n\nhttp://www.calhouncoelections.org/index.html"
+    },
+    "Callahan": {
+        "contact": "Tammy T. Walker (Tax Assessor Collector) - (325) 854-5820\nhttps://www.facebook.com/callahancounty.org/?ref=bookmarks",
+        "county-wide-polling": "in (2014)",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.callahan.tx.us/page/callahan.Election"
+    },
+    "Cameron": {
+        "contact": "Remi Garza (Elections Administrator) - (956) 544-0809\nelections@co.cameron.tx.us",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.cameron.tx.us/Elections/"
+    },
+    "Camp": {
+        "contact": "Gale Burns (Tax Assessor Collector) - (903) 856-3391\n",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nno appt necessary",
+        "url": "http://www.co.camp.tx.us/page/camp.Elections"
+    },
+    "Carson": {
+        "contact": "Jackie (Voter Registrar) 806-537-3412",
+        "instructions": "Per Jackie, review training and complete test on SOS website. They will score & certifyOnce you have passed the exam, you bring your certificate to her and she will issue you the VDR supplies. Please call ahead.\n(side note - Jackie said they have only ever had 2 volunteer registrars and that they don't really do much.)",
+        "url": "http://www.co.carson.tx.us/page/carson.Home"
+    },
+    "Cass": {
+        "contact": "Angela Young - Tax Assessor (903)756-5513",
+        "instructions": "Training Guide SOS\nPrint Test - complete the test at the office, they will score & certify\nno appt necessary",
+        "url": "http://www.co.cass.tx.us/page/cass.County.Assessor.Collector"
+    },
+    "Castro": {
+        "contact": "Pam Rickert - Voter Registrar (806) 647-5336",
+        "instructions": "Training Guide SOS\nPrint Test - complete text at office, they will score & certify\nNo appt necessary, Pam's office is located in the courthouse on the 1st floor - nw side of the building.",
+        "url": "http://www.co.castro.tx.us/page/castro.County.Assessor.Collector"
+    },
+    "Chambers": {
+        "contact": "Camie - Voter Registrar\nTax Assessor-Collector\nOffice: 409-267-2420\n404 Washington Avenue\nAnahuac, Texas 77514",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call to schedule appt with Carrie",
+        "url": "http://www.co.chambers.tx.us/page/tax_assessor"
+    },
+    "Cherokee": {
+        "contact": "Elections Office\nMs. Becky\nP.O. Box 420 Rusk, Texas 75785\nPhone: 903-683-2350",
+        "instructions": "Please come to office, they conduct on site training 10 - 15 min\ncomplete paper work\n(call ahead to make sure someone is avail)",
+        "url": "http://www.co.cherokee.tx.us/ips/cms/countyoffices/countyClerk.html"
+    },
+    "Childress": {
+        "contact": "District and County Clerk\nBarbara Spitzer\n100 Avenue East NW\nBox 4\nChildress, Texas 79201\nTelephone: 940-937-6143",
+        "instructions": "Does NOT have a formal process in place and according to the state they do not need a process.\nRecommended that they call the SOS office and put what processe into place.",
+        "url": "http://www.childresscountytexas.us/County_Officials/District_and_County_Clerk.htm"
+    },
+    "Clay": {
+        "contact": "Elections Administrator\nVal McClain\nCourthouse Annex\n214 N. Main Street, Henrietta, Texas 76365\nEmail: clayea@claycountytx.com\nPhone (940) 264-8683",
+        "instructions": "Training in completed in office followed by exam\nappt required",
+        "url": "https://www.co.clay.tx.us/electionsadmin"
+    },
+    "Cochran": {
+        "contact": "Elections Administrator\nCheryl J. Butler\nRoom 201 Courthouse\n100 North Main Street\nMorton, Texas 79346\nPhone: 806-266-5181\nFax: 806-266-9027\ncheryl.butler@co.cochran.tx.us",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.cochran.tx.us/page/cochran.County.Assessor.Collector"
+    },
+    "Coke": {
+        "contact": "County Tax Assessor-Collector\nJosie Dean\n13 East 7th Street\nRobert Lee, TX 76945\nPhone: 325-453-2614",
+        "instructions": "The are not sure of process\nPlease call for specific instructions",
+        "url": "http://www.co.coke.tx.us/page/coke.County.Clerk"
+    },
+    "Coleman": {
+        "contact": " Voter Registration\n Jamie Trammell, Tax Assessor-Collector / Voter Registrar\n 100 W. Liveoak Street, Suite 104\n Coleman, Texas 76834\nPhone: (325) 625-2153",
+        "instructions": "Training Guide SOS\nPrint Test - complete the test at the office, they will score & certify\nby appt",
+        "url": "http://www.co.coleman.tx.us/page/coleman.Elections"
+    },
+    "Collin": {
+        "contact": "Bruce R. Sherbet (Elections Administrator) - (972) 547-1990 (option 2)",
+        "county-wide-polling": "in (2013)",
+        "instructions": "Training in office (20-30 min) Mon - Thurs 1 - 4p.m.\nby appt\n",
+        "url": "https://www.collincountytx.gov/elections/Pages/volunteer_deputy_registrar.aspx"
+    },
+    "Collingsworth": {
+        "contact": "County Clerk\nJackie Johnson\n800 W. Avenue, Box 10\nWellington, TX 79095\nPhone: 806-447-2408",
+        "instructions": "No VDR Class schedules available. County is small. 1900 (apprx) registered voters.\nGenarah Manuel, 800 West Ave, Box 2, Wellington 79095, 806-447-5606 is the county voter registration official. Please call for details",
+        "url": "http://www.co.collingsworth.tx.us/page/collingsworth.County.Clerk"
+    },
+    "Colorado": {
+        "contact": "Kimberly Menke, County Clerk\nJean Perkins, Chief Deputy and Early Voting Clerk\nColorado County Courthouse Annex\n318 Spring Street, Room 103\nColumbus, Texas 78934\nPhone: (979) 732-2155 I called this department and was referred back to Mary Jane as she is the voter registrar",
+        "instructions": "No VDR Class schedule shown on website.\nTraining Guide SOS\nTax Assessor-Collector\nMary Jane Poenitzsch\n318 Spring St. Ste. 102 Columbus 78934\n(979) 732-2710 Phone\n (979) 732-9622 FAX ",
+        "url": "http://www.co.colorado.tx.us/page/colorado.Elections"
+    },
+    "Comal": {
+        "contact": "Bobbie Koepp (County Clerk) - (830) 221-1352; Donna Dandridge (Voter Registrar) - dandrd@co.comal.tx.us; Cynthia Jaqua (Elections Coordinator) - jaquac@co.comal.tx.us; 830-221-1352",
+        "instructions": "Training in office, 3rd Tuesday of each month at 10 a.m. Classes at the Comal County Elections Office.",
+        "url": "http://www.co.comal.tx.us/elections.htm"
+    },
+    "Comanche": {
+        "contact": "COMANCHE COUNTY Tax Assessor-Collector Grace Everhart 101 W. Central Avenue Comanche 76442 (325) 356-3101 Phone (325) 356-5790 FAX",
+        "instructions": "Training in Office.\nby appt only",
+        "url": "http://www.comanchecountytexas.net/"
+    },
+    "Concho": {
+        "contact": "County Clerk\nPhyllis F. Lovell\n152 N. Roberts\nPaint Rock, Texas 76866\n325-732-4322",
+        "instructions": "Training in office - with registrar come into office to register.\nby appt only",
+        "url": "http://www.co.concho.tx.us/page/concho.County.Clerk"
+    },
+    "Cooke": {
+        "contact": "County Tax Assessor-Collector Brandy Ann Carr\n112 South Dixon\nGainesville, Texas 76240\nPhone: (940) 668-5500, Option 8",
+        "instructions": "No VDR class schedule. One on one training only. Come to the County Tax Assessor's office to take traing and take the test for certification. ",
+        "url": "http://www.co.cooke.tx.us/page/cooke.TAC"
+    },
+    "Coryell": {
+        "contact": "Tax Assessor-Collector Justin K. Carothers P.O. Box 6, Gatesville 76528 (254) 248-3144 Phone (254) 865-2519 FAX",
+        "county-wide-polling": "in (2014)",
+        "instructions": "Please call for specific instructions",
+        "url": "https://www.coryellcountytax.com/#/registration"
+    },
+    "Cottle": {},
+    "Crane": {
+        "contact": "Judy Crumine-Tax Assessor 201 W 6th Street Room 111 County Courthouse Crane, TX 79731 432-5582622 ",
+        "instructions": "Training in Office.\nby appt only",
+        "url": "http://www.co.crane.tx.us/page/crane.County.Clerk"
+    },
+    "Crockett": {
+        "contact": "Tax Assessor and Voter Registrar Michelle Medley PO Box Drawer H 909 Avenue D, Annex Building Ozona, TX 76943 325-392-2674",
+        "instructions": "County is very small\nNo mail delivery in county as Ozona is the only town in the county.\nNo VDR classes. No VDRs in the county.\nDo not know processMichelle Medley does not know the process for training and certifying .\nBy Appointment only",
+        "url": "http://www.ozona.com/directoryListings/index/county-officials"
+    },
+    "Crosby": {
+        "contact": "Tax Assessor-Collector Anna R. Rodriguez 201 W. Aspen, Suite 100 Crosbyton 79322 (806) 675-2311 Phone (806) 675-2516 FAX",
+        "instructions": "County is small\nAnna Rodriquez is the only person certified to certify VDRs\nby appt only.",
+        "url": "http://www.co.crosby.tx.us/page/crosby.County.Clerk"
+    },
+    "Culberson": {
+        "contact": "Tax Assessor-Collector\nAmalia Hernandez\nP.O. Box 668 Van Horn, Culberson County Courthouse\n300 La Caverna 79855\n(432) 283-2130\nPhone (432) 283-1939 FAX",
+        "instructions": "County is small\nAmalia Hernandez is the voter registrar.\nTraining is by appt. only Amalia",
+        "url": "http://www.co.culberson.tx.us/page/culberson.County.Clerk"
+    },
+    "Dallam": {
+        "contact": "Tax Collector/Assessor\nJami Parr\nP.O. Box 1299\nDalhart, Tx. 79022\n(806) 244-2801\nE-Mail:taxac@dallam.org",
+        "instructions": "County is small\nJamie Parr is the voter registrar and runs a small office.\nTraining by appt only\n(They need to review process for certification)",
+        "url": "http://www.dallam.org/county/tax.shtml"
+    },
+    "Dallas": {
+        "contact": "Elections Administrator Toni Pippins-Poole 2377 North Stemmons Frwy, Suite 820 Dallas 75207 (214) 819-6300 Phone (214) 819-6301 FAX",
+        "instructions": "Training Guide SOS, print test - complete at office OR you can attend in office training\n2019 training schedule not posted yet.\ncall ahead",
+        "url": "https://www.dallascountyvotes.org/training-and-education/volunteer-deputy-registrar-program/"
+    },
+    "Dawson": {
+        "contact": "Tax Assessor-Collector Sylvia Ortiz P.O. Drawer, 502 N 1st Street 1268 Lamesa 79331-1268 (806) 872-7181 Phone (806) 872-9643 FAX",
+        "instructions": "Sylvia Ortiz is the voter registrar. Training in office by appt only",
+        "url": "http://www.ci.lamesa.tx.us/index.aspx?NID=78"
+    },
+    "DeWitt": {
+        "contact": "Melissa Alcazar (Elections Administrator) - (361) 275-0859",
+        "county-wide-polling": "in (2018)",
+        "instructions": "Training Guide SOS, print test - complete at office\ncall ahead M-F 8AM-4PM",
+        "url": "dewittcounty.org "
+    },
+    "Deaf Smith": {
+        "contact": "Rachel Garman\nCounty Clerk / Voter Registrar\n235 East 3rd Street, Room 203\nHereford, TX 79045\nPhone: 806-363-7077",
+        "county-wide-polling": "in (2018)",
+        "instructions": "No VDR training process in place\nPlease call for specific instructions",
+        "url": "http://www.co.deaf-smith.tx.us/page/deafsmith.County.Clerk"
+    },
+    "Delta": {
+        "contact": "Jane Jones (Elections Administrator) - (903)395-4400 Ext. 222",
+        "instructions": "Only offer VDR training at election time. Must call or email so they can inform you of when classes are taking place. ",
+        "url": "http://deltacountytx.com/elections.html"
+    },
+    "Denton": {
+        "contact": "Frank Phillips - (Elections Administrator) - (940) 349-3200",
+        "instructions": "Request appt online via website.\nElections Dept. will deputize via walk in M-F 8-4 PM excluding holidays and election cycle. ",
+        "url": "https://www.votedenton.com/"
+    },
+    "Dickens": {
+        "contact": "Becky Hill (Distrcit & County Clerk) - (806) 623-5531",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.dickens.tx.us/page/dickens.County.Clerk"
+    },
+    "Dimmit": {
+        "contact": "Mary Ellen Sandoval (Tax Assessor Collector) - (830) 876-9904 ext 1 ",
+        "instructions": "no process in place",
+        "url": "http://www.dimmitcounty.org/departments/tax-assessor-collector/"
+    },
+    "Donley": {
+        "contact": "Linda Darlene Crump (Tax Assessor Collector) - (806) 874-2193",
+        "instructions": "SOS Training Guide, when ready go to office, take test, pass, no appt necessary",
+        "url": "http://www.co.donley.tx.us/page/donley.County.Assessor.Collector"
+    },
+    "Duval": {
+        "contact": "Erica O. Gonzalez (Elections Administrator) - (361) 279-6278",
+        "instructions": "Trainig Guide SOS, Complete Test and take to county office\nplease call ahead to confirm they are ready for certifing volunteers\nUNSURE OF NEXT STEPS WILL CALL BACK\n",
+        "url": "http://www.co.duval.tx.us/default.aspx?name=Elections"
+    },
+    "Eastland": {
+        "contact": "Joint Elections Administrator\nSummer Olvera\n100 W. Main, Suite 104,\nEastland, Texas 76448\nPhone: (254) 629-6051 ",
+        "county-wide-polling": "in (2013)",
+        "instructions": "Training Guide SOS Print Test - to complete in office, they will score & certify please call ahead to confirm availability\n M-F 8-4",
+        "url": "http://www.eastlandcountytexas.com/page/eastland.Joint.Elections.Administrator"
+    },
+    "Ector": {
+        "contact": "Ector County Elections Administrator\nLisa Sertuche\nelizabeth.sertuche@ectorcountytx.gov\n 1010 East Eighth Street, Suite 101\nOdessa, TX 79761\nOffice: (432) 498-4030",
+        "county-wide-polling": "in (2016)",
+        "instructions": "Training in office Tuesdays and Thursdays between 9-11 AM.\nNo appointment needed. ",
+        "url": "http://www.co.ector.tx.us/page/ector.Elections"
+    },
+    "Edwards": {
+        "contact": "(830) 683-6122",
+        "instructions": "Would not give any information. Asked what party I was affiliated with and told me to contact the party chair for Edwards County. ",
+        "url": "http://www.co.edwards.tx.us/default.aspx?Edwards_County/Elections"
+    },
+    "El Paso": {
+        "contact": "Lisa Wise (Elections Administrator) - (915) 546-2154",
+        "instructions": "https://el-paso-county-elections.s3.amazonaws.com/documents/files/000/002/197/original/Cycle_1_VDR_Training_Class_Schedule_2019_2.pdf?1545061783",
+        "url": "https://epcountyvotes.com/see_more/contact_us"
+    },
+    "Ellis": {
+        "contact": "972-825-5195",
+        "instructions": "Training in office Tuesday and Thursday at 10 a.m., excluding holidays and the election cycle (30 days before or 14 days after Election Day).\nLimited space, please call to reserve a spot",
+        "url": "https://co.ellis.tx.us/335/Poll-Worker-Volunteer-Deputy-Registrar-P"
+    },
+    "Erath": {
+        "contact": "Lana Stevens - Voter Registrar\n320 West College Street\nStephenville, Texas 76401\nPhone: 254-965-7708",
+        "county-wide-polling": "in (2012)",
+        "instructions": "Training in office (15 - 20 min)\ncertification done\nby appt - please call\n(not in January please busy with taxes)",
+        "url": "http://co.erath.tx.us/voterreg.html"
+    },
+    "Falls": {
+        "contact": "Elections\nNicket Taylor\nElection Administrator\nRoom 109\n883-1521",
+        "instructions": "Training Guide SOS Print Test - to complete in office, they will score & certify please call ahead to confirm availability\nWednesdays 8-4 for all test",
+        "url": "http://www.co.falls.tx.us/page/falls.Elections"
+    },
+    "Fannin": {
+        "contact": "Tammy Biggar\nFannin County Clerk\n800 E. 2nd Street\nBonham, TX 75418\n(903) 583-7488 office",
+        "instructions": "Please call and talk to Tammy or Jill to schedule appt.\nORemail elections@fanninco.net for info. ",
+        "url": "http://www.co.fannin.tx.us/page/fannin.Elections"
+    },
+    "Fayette": {
+        "contact": "Terri Hefner (Elections Administrator) - (979) 968-6563",
+        "instructions": "Training Guide SOS Print Test - to complete in office, they will score & certify\nno appt necessary",
+        "url": "http://www.co.fayette.tx.us/page/fayette.Elections"
+    },
+    "Fisher": {
+        "contact": "VOTER Registration\nJonnye Gibson, Voter Registrar\n325-776-2181",
+        "instructions": "Need to come into office (at 112 N Concho @ courthouse) and fill out form then they will be in touch w next steps on training and exam",
+        "url": "http://www.co.fisher.tx.us/page/fisher.VOTERRegistration"
+    },
+    "Floyd": {
+        "contact": "Delia Suarez\nTax Assessor\n105 South Main Street, Room 116\nFloydada, TX 79235\n806-983-4908",
+        "county-wide-polling": "in (2013)",
+        "instructions": "Need to contact tax office to get information on becoming a VDR. Phone number is 806-983-4908 (need to call back; not available currently)",
+        "url": "http://www.co.floyd.tx.us/page/floyd.County.Assessor.Collector"
+    },
+    "Foard": {
+        "contact": "County Clerk\nDebra Hopkins\n101 South Main\nP. O. Box 539\nCrowell, Texas 79227\nTelephone 940.684.1365",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.foardcountytexas.us/County_Officials/Clerk.htm"
+    },
+    "Fort Bend": {
+        "contact": "Veronica Hernandez\n281-341-8670",
+        "county-wide-polling": "in (2016)",
+        "instructions": "Please call for specific instructions",
+        "url": "https://www.fortbendcountytx.gov/government/departments/county-services/elections-voter-registration"
+    },
+    "Franklin": {
+        "contact": "Sue Ann Harper\nCounty Tax Assessor-Collector, Voter Registrar\nwww.franklincountytaxoffice.com\n208 South Highway 37\nMt. Vernon, TX 75457\nTax & Voter Registration:\nPhone: 903-537-2358 ",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.franklin.tx.us/page/franklin.County.Assessor.Collector"
+    },
+    "Freestone": {
+        "contact": "Lisa Foree, RTA - Ask for Audra\nTax Assessor-Collector\nFreestone County\n112 East Main Street\nFairfield, TX 75840\nPhone: 903-389-2336",
+        "instructions": "Call Audra to schedule appointment.\nShe will get your paperwork and set up",
+        "url": "http://www.co.freestone.tx.us/page/freestone.County.Assessor.Collector"
+    },
+    "Frio": {
+        "contact": "County Elections Administrator, Carlos Segura, at (830) 334-3975.",
+        "instructions": "Male first appt.. At th first appt the registrar will provide information about the times and places at which the training is offered.\nMake appt with Carlos Segura, at (830) 334-3975. • If you are eligible, as the voter registrar, Mr. Segura will issue you a certificate of appointment and give you a receipt book.T",
+        "url": "http://www.co.frio.tx.us/page/frio.Elections"
+    },
+    "Gaines": {
+        "contact": "Patricia Roberson\nElections Administrator\n432-758-4041\n101 S. Main St. Rm 206\nSeminole, TX 79360",
+        "county-wide-polling": "in (2012)",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.gaines.tx.us/page/gaines.Elections"
+    },
+    "Galveston": {
+        "contact": " Kristi Saludis, Senior Voter Registration Specialist\n Responsible for voter registration functions, volunteer deputy registrar training and election support.\n (409) 766-2280 or (888) 976-2280 ",
+        "county-wide-polling": "in (2012)",
+        "instructions": "Training in office, 3rd Thursday of the month ,2-3 p.m.\nNo need to call ahead of time",
+        "url": "http://www.galvestoncountytx.gov/to/Pages/VoterRegistrationInformation.aspx"
+    },
+    "Garza": {
+        "contact": "Jim Plummer, District and County Clerk\njames.plummer@co.garza.tx.us\n Lina Rodriguez, Chief Deputy and Deputy District Clerk\nlina.rodriguez@co.garza.tx.us\nCourthouse 1st Floor,\n300 West Main Street, Post, TX 79356\nPhone: 806-495-4430",
+        "instructions": "Please call Jim Plummer for specific instructions",
+        "url": "http://www.garzacounty.net/countyclerk.html"
+    },
+    "Gillespie": {
+        "contact": "Delores Barrientes, Chief Deputy and Voter Registration dbarrientes@gillespiecounty.org\nBarbara Williams, Voter Registration Assistant bwilliams@gillespiecounty.org\n830-997-6519\nVicki Schmidt extension 73711",
+        "instructions": "Training in office. call Vicki Schmidt for appt. call for additional details",
+        "url": "http://www.gillespiecounty.org/page/election_info"
+    },
+    "Glasscock": {
+        "contact": "Ernestina \"Tina\" Flores\n432-354-2489\ntinaflores@co.glasscock.tx.us",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.glasscock.tx.us/page/glasscock.Elections"
+    },
+    "Goliad": {
+        "contact": "Vicki Flores\n361 645-1241\nvflores@goliadcountytx.gov\n",
+        "instructions": "Trainign Guide SOS, go to office, and attend the class at the end of the month\ncall to confirm date/time",
+        "url": "http://www.co.goliad.tx.us/page/goliad.Elections"
+    },
+    "Gonzales": {
+        "contact": "Crystal Cedillo\n830-672-2841\ntac@co.gonzales.tx.us\nccedillo@co.gonzales.tx.us",
+        "instructions": "1. Fill out and submit the Application for Appointment to the Voter Registrar (at link on left)\n2. Receive \"Training for Texas Volunteer Deputy Registrars\" as prescribed by the Secretary of State on the 3rd Thursday of each month at 4:00 P.M. at the Gonzales County Tax Office, 427 Saint George, Suite 100., Gonzales, TX 78629.\n\n3. Receive your Certificate of Appointment, copies of the training material, a receipt book, and voter registration applications (20). ***Please note, more applications will be provided upon request.",
+        "url": "http://www.co.gonzales.tx.us/page/gonzales.ElectionandVoterRegistrationNews"
+    },
+    "Gray": {
+        "contact": "Randa Hiett, Elections Administrator\n(806) 669-8068\nRanda.hiett@graycch.com",
+        "instructions": "Meet with Randa at Gray County Courthouse (right) to review some training and get required materials. ",
+        "url": "http://www.co.gray.tx.us/page/gray.Elections"
+    },
+    "Grayson": {
+        "contact": "Deana Patterson\nElections Adminstration\n115 West Houston Street\nSherman, TX 75090\nEmail: elections@co.grayson.tx.us\nPhone: 903-893-VOTE (903-893-8683)",
+        "county-wide-polling": "in (2014)",
+        "instructions": "Training in office by appt.\ncall in advance",
+        "url": "http://www.co.grayson.tx.us/page/elec.home"
+    },
+    "Gregg": {
+        "contact": "Kathryn Nealy\nElections Administrator\n903-758-6181\nGregg County\n101 East Methvin, Ste 112\nLongview, Texas 75601\n\n",
+        "county-wide-polling": "in (2017)",
+        "instructions": "Traiing in office, followed by test (20 min)\nplease calll in advance",
+        "url": "https://www.greggcountyvotes.com/"
+    },
+    "Grimes": {
+        "contact": "Rebecca Duff\nVoter Registrar/Elections Administrator\n936-873-4424\n100 Main Street,\nAnderson, TX 77830\nGrimes County Courthouse, First Floor",
+        "county-wide-polling": "in (2017)",
+        "instructions": "By appt only",
+        "url": ""
+    },
+    "Guadalupe": {
+        "contact": "Lisa Adam\nElections Administrator/Voter Registrar\n215 S. Milam\nSeguin, Texas\n78155\n830-303-6363",
+        "county-wide-polling": "in (2017)",
+        "instructions": "Training in office (45 min)\n2nd wed of the month\nplease call to confirm availability",
+        "url": "http://www.co.guadalupe.tx.us/elections/"
+    },
+    "Hale": {
+        "contact": "Tax Assessor-Collector\nRoland Nash\n521 Broadway, Courthouse Annex Plainview 79072\n(806) 291-5276 Phone",
+        "instructions": "Training Class in office\nexam\n30 min\nmake appt in advance\nTues & Thurs by appt",
+        "url": "http://www.halecounty.org/index.php"
+    },
+    "Hall": {
+        "contact": "District and County Clerk\nRaye Bailey\n512 Main St., Ste. 8\nMemphis, Texas 79245\nTelephone 806-259-2627",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.hallcountytexas.us/"
+    },
+    "Hamilton": {
+        "contact": "Terry Payne Short\nAddress: 102 N. Rice, Ste. 110, Hamilton, TX 76531\nOffice Phone: 254-386-1230\nFax: 254-386-1233\nEmail: taxassessor@hamiltoncountytx.org",
+        "instructions": "Training Guide SOS Print Test - to complete in office, they will score & certify\nplease call in advance",
+        "url": "http://www.hamiltoncountytx.org/"
+    },
+    "Hansford": {
+        "contact": "Janet Torres - County Clerk\n15 Northwest Court\nSpearman, Texas 79081\nPhone: 806-659-4110",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.hansford.tx.us/page/hansford.County.Clerk"
+    },
+    "Hardeman": {
+        "contact": "District / County Clerk\nEllen London\nDistrict / County Clerk\nEllen London\nTelephone: (940) 663-2961\nCounty Courthouse\n300 South Main\nQuanah, TX 79252-0030\n\n",
+        "instructions": "Very low population county do not currently have process in place. They will contact SOS about what to do\nPlease do SOS Training and bring printed out exam to office (MUST CALL TO MAKE APPT)",
+        "url": "http://www.hardemancountytexas.us/"
+    },
+    "Hardin": {
+        "contact": "Tax Assessor-Collector\nDebra Yancy or Audrea Gilbert\nHardin County Tax Assessor-Collector\nHardin County Courthouse\n300 West Monroe Street\nP. O. Box 2260\nKountze, Texas 77625\n(409) 246-5180 Office",
+        "instructions": "Training in office (short)\nby appt. only call after Feb. 15",
+        "url": "http://www.co.hardin.tx.us/page/hardin.County.Clerk"
+    },
+    "Harris": {
+        "contact": "Ann Harris Bennett\n713-274-8000",
+        "instructions": "please us this link to view:\n",
+        "url": "https://www.hctax.net/Voter/Deputy"
+    },
+    "Harrison": {
+        "contact": "Kathy Duskey – Deputy Clerk\nHarrison County Elections Office\nP.O. Box 8409, Marshall, TX 75671\nOffice – 903-935-4822;",
+        "instructions": "Training is offered on a regular basis, except during election cycles.\nTraining sessions last approximately 1 hour at the Harrison County Elections Office, 415 East Burleson Street, Marshall, Texas 75670.\nMust call to confirm dates/times and reserve a seat.",
+        "url": "http://harrisoncountytexas.org/elec-vdr/"
+    },
+    "Hartley": {
+        "contact": "HARTLEY COUNTY\nTAX ASSESOR-COLLECTOR/VOTER REGISTRAR\nFRANKY SCOTT\nPO BOX 89\nCHANNING, TX 79018\nCHANNING PHONE 806.235.3142\nDALHART PHONE 806.244.2031",
+        "instructions": "\"Training Guide SOS Print Test - to complete in office, they will score & certify\nplease call in advance\"\nthey will contact the SOS office to determine what steps they would need to do to complete certification\nCall wk in advance to confirm appt so they can follow through",
+        "url": "http://www.co.hartley.tx.us/page/hartley.County.Clerk"
+    },
+    "Haskell": {
+        "contact": "County Tax Assessor-Collector\nConnie Benton\nPhone: 940-864-2181\nPO Box 725\nHaskell Texas 79521\n",
+        "instructions": "Call for details",
+        "url": "http://www.co.haskell.tx.us/page/haskell.County.Assessor.Collector"
+    },
+    "Hays": {
+        "contact": "Elections Administrator / Voter Registrar\nJennifer Anderson\n712 South Stagecoach Trail\nSuite 1012\nSan Marcos, TX 78666-5999\n Phone:\n(512) 393-7310",
+        "instructions": "On-demand training; just show up and they'll give you the info.",
+        "url": "http://www.co.hays.tx.us/elections.aspx"
+    },
+    "Hemphill": {
+        "contact": "County Tax Assessor - Collector\nDebra L. Ford\n400 Main Street, Suite 204\nCanadian, TX 79014\nOffice Hours: Monday - Friday\n8:00 to 12:00 1:00 to 5:00\nPhone: 806-323-6661",
+        "instructions": "\"Training Guide SOS Print Test - to complete in office, they will score & certify\nplease call in advance 5 days in advance as they will need to call SOS for directiones, they only certified someone 1 other time.",
+        "url": "http://www.co.hemphill.tx.us/page/hemphill.County.Assessor.Collector"
+    },
+    "Henderson": {
+        "contact": "Denise Hernandez\nElection Administrator\nPhone: (903) 675-6149\n201 J East Larkin\nAthens, Texas 75751",
+        "instructions": "Training in office, 3rd Wed of the month usually 2pm\ncall 1 week ahead to register so they have materials for you ",
+        "url": "http://www.henderson-county.com/departments/voter-registration"
+    },
+    "Hidalgo": {
+        "contact": "Yvonne Ràmon\n101 S 10th Ave.\nEdinburg, TX 78539\nPhone:\n(956) 318-2570",
+        "county-wide-polling": "in (2018)",
+        "instructions": " You may call the HIDALGO COUNTY ELECTIONS DEPARTMENT at 956-318-2570 or email your applications to Belinda Sagredo or to Illiana Espiritu or by fax at 956-393-2039 for any questions and/or confirmation. Elections Training Facility located at 317 N. Closner Blvd., Edinburg, TX",
+        "url": "https://www.hidalgocounty.us/1506/Volunteer-Deputy-Information"
+    },
+    "Hill": {
+        "contact": "Election Administrator\nAaron Torres atorres@co.hill.tx.us\nP. O. Box 725\nHillsboro, TX 76645\nPhone: 254-582-4072",
+        "instructions": "Training Guide SOS Print Test - to complete in office, they will score & certify\nBy appt. 1 to 2 weeks in advance to request\n",
+        "url": "http://www.co.hill.tx.us/page/hill.County.Clerk"
+    },
+    "Hockley": {
+        "contact": "Cheryl Smart\n624 Avenue H, Ste 103\nLevelland, Texas 79336\nPhone: 806-894-1105\nFax: 806-894-1104\ncsmart@hockleycounty.org",
+        "instructions": "Training Guide SOS or Cheryl has training material in office\nIn office test\nplease call in advance",
+        "url": "http://www.co.hockley.tx.us/page/hockley.ElectionsHome"
+    },
+    "Hood": {
+        "contact": "Jenise Crickett Miller\nCounty Voter Registrar\njmmiller@co.hood.tx.us\nPhone: (817) 408-2525",
+        "county-wide-polling": "in (2015)",
+        "instructions": "\"Training Guide SOS Print Test - to complete in office, they will score & certify\nplease call in advance 8am-5pm.",
+        "url": "http://www.co.hood.tx.us/783/Deputy-Voter-Registrar"
+    },
+    "Hopkins": {
+        "contact": "Debbie Pogue Jenkins\nPhone: (903) 438-4063\n128 Jefferson, Suite D\nSulphur Springs, TX 75482",
+        "county-wide-polling": "in (2015)",
+        "instructions": "Training Guide SOS Print Test - to complete in office, they will score & certify\nplease call in advance",
+        "url": "http://www.hopkinscountytx.org/page/hopkins.Elections"
+    },
+    "Houston": {
+        "contact": "Cynthia L. Lum\nTel: (936) 544-3255 ext 243\nclum@co.houston.tx.us or election@co.houston.tx.us",
+        "instructions": "No schedule yet for 2019\nplease call",
+        "url": "\nhttp://www.co.houston.tx.us/page/houston.Elections"
+    },
+    "Howard": {
+        "contact": "Jodi Duck\n300 Main\nBig Spring, Texas 79720\nPhone: 432-264-2273\nEmail: HCVotes@gmail.com jodiduck.ea@gmail.com",
+        "instructions": "No regular schedule for classes. Try to give one for the public and pick a day a month. She goes to party meetings.",
+        "url": "http://www.co.howard.tx.us/page/howard.Election.Information"
+    },
+    "Hudspeth": {
+        "contact": "Patricia Rose - 915-369-2331",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.hudspethcountytexas.us/County_Officials/Tax_Assessor_Collector.htm"
+    },
+    "Hunt": {
+        "contact": "Tiffanie 903-454-5467",
+        "instructions": "Call to Schedule appt with Tiffanice, she will assist",
+        "url": "http://www.huntcounty.net/index.aspx?NID=898"
+    },
+    "Hutchinson": {
+        "contact": "Carrie - 806-878-4005",
+        "instructions": "Call Carrie to schedule training - open M-Th 8-6 & they will work with you to find a convenient time",
+        "url": "http://www.co.hutchinson.tx.us/page/hutchinson.County.Assessor.Collector"
+    },
+    "Irion": {
+        "contact": "Joyce (voter registrar) - 325-835-7771 ",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.irion.tx.us/page/irion.County.Assessor.Collector"
+    },
+    "Jack": {
+        "contact": "Ronda (Deputy Clerk) 940-567-2352",
+        "county-wide-polling": "in (2018)",
+        "instructions": "Call to schedule appt with Ronda. No exam; she goes over all paperwork",
+        "url": "http://www.jackcounty.org/tac/"
+    },
+    "Jackson": {
+        "contact": "Monica (Tax Assessor- Collector) 361-782-3473",
+        "instructions": "\"Training Guide SOS, call and schedule appt with Monica (or Lupe).\nMust call in advance so they can get the exam materials",
+        "url": "https://newtools.cira.state.tx.us/page/jackson.County.Assessor.Collector"
+    },
+    "Jasper": {
+        "contact": "Sheila & Chrysti (voter registrars) 409-384-2632",
+        "instructions": "Use study guide on SOS site (or they can give you one) and then come in and take test. Open M-F 8-4:30 - just call first to make sure one of them is in the office",
+        "url": "http://www.co.jasper.tx.us/page/jasper.County.Clerk"
+    },
+    "Jeff Davis": {
+        "contact": "Penny 432-426-3962",
+        "instructions": "Use study guide on SOS site and then call Penny to set up appt to take the test. It doesn't take long but they are a small office so sometimes gets busy.",
+        "url": "http://www.co.jeff-davis.tx.us/page/jeffdavis.County.Assessor.Collector"
+    },
+    "Jefferson": {
+        "contact": "Voter Registration - Alicia Montel\n409-835-8689",
+        "county-wide-polling": "in (2014)",
+        "instructions": "Traing twice a month\n2nd Thurs 2pm appt needed\n4th Thurs 10 a.m. appt needed\nOR walk in - review SOS Training guide, come in for test, no appt necessary",
+        "url": "https://jeffcotax.com/voter-info/"
+    },
+    "Jim Hogg": {
+        "contact": "Norma (Tax Assessor - Collector) 361-527-3237",
+        "instructions": "Get materials from SOS site and then schedule appointment to take exam - NO APPTS will be scheduled until December 2019 because no elections in Jim Hogg County until 2020; they are small county so residents go into tax office to register",
+        "url": "https://co.jim-hogg.tx.us/index.php/departments/county-tax-assessor-collector"
+    },
+    "Jim Wells": {
+        "contact": "Erma - 361-668-5711 (ext 6) note: Tonie is her boss so you could talk to her as well but she's often busy",
+        "instructions": "Training in house (short video) then complete exam\nCall to schedule appointment",
+        "url": "http://www.co.jim-wells.tx.us/default.aspx?name=co.elections.administration"
+    },
+    "Johnson": {
+        "contact": "Volunteer Deputy Voter Registrar - 817-556-6197",
+        "instructions": "Call to schedule appointment - appointments will be scheduled on Thursdays from 9 - 11:30 or 1:30 to 4",
+        "url": "http://www.johnsoncountytx.org/departments/elections-office"
+    },
+    "Jones": {
+        "contact": "Gloria (Tax Assessor Collector) 325-823-2437",
+        "instructions": "Training Guide SOS Print Test - to complete in office, they will score & certify\nplease call in advance to schedule testing",
+        "url": "http://www.co.jones.tx.us/page/jones.Elections"
+    },
+    "Karnes": {
+        "contact": "Sarah (Elections Admin) Elizabeth (Deputy Clerk) 830-780-2246",
+        "instructions": "Come in to fill in paperwork",
+        "url": "http://www.co.karnes.tx.us/page/karnes.Elections"
+    },
+    "Kaufman": {
+        "contact": "Lauren main # 469-376-4595 direct 469-376-4578",
+        "county-wide-polling": "in (2018)",
+        "instructions": "They have classes every Tuesday at 10 am. Pls call in advance to let them know you are coming",
+        "url": "https://www.kaufmancounty.net/elections/about/"
+    },
+    "Kendall": {
+        "contact": "Contact Kendall County office at 830-331-8701 Stacy Decker or Rebecca Singer",
+        "instructions": "Call to schedule class.",
+        "url": "http://www.co.kendall.tx.us/default.aspx?Kendall_County/Elections.VolunteerDeputyRegistrars"
+    },
+    "Kenedy": {
+        "contact": "Brian - 361-294-5255",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.kenedy.tx.us/page/kenedy.County.Assessor.Collector"
+    },
+    "Kent": {
+        "contact": "Brenda - 806-237-3746",
+        "instructions": "No one has ever been a VDR there - if you want to then call Brenda and schedule a time to come in",
+        "url": "http://www.kentcountytexas.us/"
+    },
+    "Kerr": {
+        "contact": "Bob - 830-896-9032 (main line & ask for Bob) or Nadine (elections coordinator)",
+        "instructions": "Please call if interested; they are very helpful & eager to have VDRs. Offer courses - late February next; Nadine is emailing me more info",
+        "url": "http://www.co.kerr.tx.us/tax/"
+    },
+    "Kimble": {
+        "contact": "County Clerk\nHaydee Torres\n501 Main St\nJunction, Texas 76849\n325.446.3353",
+        "instructions": "Just complete the Tx SOS training and exam then take completed\nexam to Haydee for materials. Office open 9-5, closed for lunch 12-1pm",
+        "url": "http://co.kimble.tx.us/page/Kimble.County.Clerk"
+    },
+    "King": {
+        "contact": "County Clerk\nJammye D. Timmons\n800 South Baker\nP.O. Box 135\nGuthrie, Texas 79236\nTelephone 806.596.4412\n\n",
+        "instructions": "King County does not have VDRs as they are a very small county of 200 people and 'everyone eligible is already registered.'",
+        "url": "http://www.kingcountytexas.us/County_Officials/Clerk.htm"
+    },
+    "Kinney": {},
+    "Kleberg": {
+        "contact": "Voter Registrar\nMelissa T Garcia\n361.595.8542",
+        "instructions": "Training session at the courthouse in Kingsville required;no classes scheduled at this time.Office\nopen 8-5 please call ahead",
+        "url": "http//co.kleberg.tx.us/page/kleburg.Elections"
+    },
+    "Knox": {
+        "contact": "Tax Assessor/Voter Registrar\nMitzi Welch\n940.459.2411",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to schedule an appt",
+        "url": "http//www.knoxcountytexas.org"
+    },
+    "La Salle": {},
+    "Lamar": {
+        "contact": "Elections Admin/Voter Registrar\nTricia Johnson\nLamar City Services Building\n231 Lamar, Paris TX 75460\n903.782.1116",
+        "instructions": "To become a VDR make an appointment with\nMs Johnson anytime. Office hours:8-4:30pm\nLunch hour 11:30-12:30",
+        "url": "http//www.co.lamar.tx.us/page/lamar.Elections"
+    },
+    "Lamb": {
+        "contact": "Voter Registrar\nBrenda Goheen\n806.385.4222 ext 230",
+        "instructions": "Please call for specific instructions",
+        "url": ""
+    },
+    "Lampasas": {
+        "contact": "Deputy Elections Administrator\nSusie Bays-Miller\n407 Pecan St Lampasas TX 76550\n512.556.8271 ext 206\n\n\n",
+        "county-wide-polling": "in (2014)",
+        "instructions": "Training Guide SOS\ncall for appointment to take exam. Lunch hour is 12:30-1pm",
+        "url": "http//co.lampasas.tx.us/page/lampasas.Elections"
+    },
+    "Lavaca": {
+        "contact": "Election Administrator\nChristine Brown\n361.798.3594",
+        "instructions": "Study SOS training guide. Exams held monthly, check website for schedule",
+        "url": "http://www.co.lavaca.tx.us/page/lavaca.Elections"
+    },
+    "Lee": {
+        "contact": "Election Administrator\nCarla Arldt.\n843 E Industry Ste B\nGiddings, TX 78940\n979.540.2731",
+        "county-wide-polling": "in (2016)",
+        "instructions": "Training Guide SOS\nTest completeed in office they will score & certify\nplease call ahead to confirm availability",
+        "url": "http//co.lee.tx.us/page/lee.Elections"
+    },
+    "Leon": {
+        "contact": "Donna Golden 903-536-4469",
+        "instructions": "Training Guid on SOS\nTake test in office; make an appointment with Donna so she'll have everything ready and make sure someone is in the office",
+        "url": "http://www.co.leon.tx.us/page/leon.Elections"
+    },
+    "Liberty": {
+        "contact": "Dolores 936-336-4528",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.liberty.tx.us/page/liberty.Elections"
+    },
+    "Limestone": {
+        "contact": "254-729-4997",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.limestone.tx.us/page/limestone.Elections"
+    },
+    "Lipscomb": {
+        "contact": "Gailen Weingamer 806-862-2911",
+        "instructions": "Unsure about training or reciprocity, have never had VDRs; will call me back after checking with SOS office about what to do",
+        "url": "http://www.co.lipscomb.tx.us/page/lipscomb.ElectionInformation"
+    },
+    "Live Oak": {
+        "contact": "Voter Registrar\nMary Gonzales\nP. O. Box 280\nGeorge West, Texas 78022\nPhone: 361-449-2733 Ext. 1034",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.live-oak.tx.us/page/liveoak.Elections"
+    },
+    "Llano": {
+        "contact": "Cindy Ware\nElections Administrator\n1447A East Hwy 71\nLlano, Texas 78643\nPhone: 325-247-5425",
+        "instructions": "Training class in office\nLast Tuesday of the month - 10 a.m.\nplease call ahead to make appt to attend",
+        "url": "http://www.co.llano.tx.us/page/llano.Elections"
+    },
+    "Loving": {
+        "contact": "Contacted Mozelle Carr, county clerk",
+        "instructions": "Sheriff Chris Busse is the voter registrar and should be contacted for more info. His number is 432-377-2411",
+        "url": "http://www.lovingcountytexas.com/CountyOfficials/clerk.htm"
+    },
+    "Lubbock": {
+        "contact": "I contacted Roxzine Stinson, but she said any staff member can help.",
+        "county-wide-polling": "in (2012)",
+        "instructions": "Training 5 days a week from 8-4pm. Schedule a date and time and staff will have a computer set up and ready when applicant comes in. ",
+        "url": "https://www.votelubbock.org/elections-office/contacting-us/"
+    },
+    "Lynn": {
+        "contact": "County Tax Assessor - Collector\nDonna Willis\n1521 Ave. J\nP.O. Box 1205\nTahoka, Texas 79373\nPhone: 806-561-4112",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.lynn.tx.us/page/lynn.County.Clerk"
+    },
+    "Madison": {
+        "contact": "ELECTIONS ADMINISTRATOR\nEarl C. Parker\n101 W. Main Street, Rm. 121\nMadisonville, Texas 77864\nPhone: 936-349-0132",
+        "county-wide-polling": "in (2013)",
+        "instructions": "Come in and training course 1 - 1:15\ntake quick exam\nthen certified\nMAKEK APPT IN ADVANCE\n",
+        "url": "http://www.co.madison.tx.us/page/madison.County.Clerk"
+    },
+    "Marion": {
+        "contact": "County Tax Accessor/Collector\nKaren Jones\n119 W Lafayette Street, Suite 5\nJefferson, TX 75657\nPhone: 903-665-3281",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.marion.tx.us/page/marion.County.Clerk"
+    },
+    "Martin": {
+        "contact": "Helen Floyd\nElections Administrator\nPhone: 432-607-3580\n110 W School Street\nStanton, TX 79782-1009",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.martin.tx.us/158/Elections-Administration-Office"
+    },
+    "Mason": {
+        "contact": "County Tax Assessor-Collector\nJames \"Buster\" Nixon\nP.O. Box 391\nMason, Tx 76856\nPhone: 325-347-6937",
+        "instructions": "SOS Trainig Guide\nPrint Exam - (may have their own)\ncertification\nCALL AHEAD -- they were not open to certifiying people, it's up to the sheriff",
+        "url": "http://www.co.mason.tx.us/page/mason.County.Assessor.Collector"
+    },
+    "Matagorda": {
+        "contact": "challmark@co.matagorda.tx.us. 979-244-7680 ",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.matagorda.tx.us/page/matagorda.Elections"
+    },
+    "Maverick": {
+        "contact": "Sara Montemayor County clerk (830) 773-2829. sara.montemayor@co.maverick.tx.us. co.clerk@co.maverick.tx.us",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.maverick.tx.us/page/maverick.Elections"
+    },
+    "McCulloch": {
+        "contact": "County Clerk\nCHRISTINE JONES- PATTERSON\nAddress: 101 N. High, Brady TX 76825\nPhone: 325-597-2400 Ext. 2",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.mcculloch.tx.us/page/mcculloch.County.Clerk"
+    },
+    "McLennan": {
+        "contact": "Judy Knapek (pending return call)\nKaty E. Van Wolfe kathy.vanwolfe@co.mclennan.tx.us 254-757-5043",
+        "county-wide-polling": "in (2015)",
+        "instructions": "The applicant needs to go in, complete form, they will review packet with applicant, then be issued a certificate good for two years\napplication to become VDR:\nhttps://www.co.mclennan.tx.us/DocumentCenter/View/784/Deputy-Registrar-Information-PDF?bidId=",
+        "url": "https://www.co.mclennan.tx.us/337/Elections"
+    },
+    "McMullen": {
+        "contact": "Kendra Mergele\nElection Clerk\nPhone: 361-274-3215\nE-mail: Kendra.Mergele@mcmullencounty.org",
+        "instructions": "Training Guide SOS\nCall Kendra - county is working on a process with the Secretary of State. ",
+        "url": "http://www.mcmullencounty.org/county-clerk/"
+    },
+    "Medina": {
+        "contact": "Nell Seewald (Elections Clerk) - (830) 741-6009, gaynell.seewald@medinacounytexas.org",
+        "county-wide-polling": "in (2016)",
+        "instructions": " If you need to attend a DVR class, class time is 10:00 AM\nTest only is 10:45 AM\nCall to confirm schedule by contacting the Elections Office, when signing up for either you will need to provide: Name, DOB, and telephone number",
+        "url": "http://www.medinacountytexas.org/page/medina.Elections"
+    },
+    "Menard": {
+        "contact": "County Clerk\nChristy Eggleston\n206 E. San Saba\nMenard, TX 76859\nMailing Address:\nP O Box 1038\nMenard, TX 76859\nPhone: 325-396-4682",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.menard.tx.us/page/menard.County.Clerk"
+    },
+    "Midland": {
+        "contact": "Beth Shock 432-688-4890",
+        "county-wide-polling": "in (2012)",
+        "instructions": "Contact Beth Shock for appt. Watch their slide show or watch on line SOS website Appt required ",
+        "url": "https://www.co.midland.tx.us/328/Elections-Office"
+    },
+    "Milam": {
+        "contact": "254-697-2664 milamcountyelections@milamcounty.net",
+        "county-wide-polling": "in (2016)",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.milamcounty.net/elections.html"
+    },
+    "Mills": {
+        "contact": "Lori King at Tax Office - 325-648-3879",
+        "instructions": "Please call for specifics. Lori researching plans to researching process via SOS.\nTraining Guide prior to contacting",
+        "url": "http://www.co.mills.tx.us/page/mills.County.Clerk"
+    },
+    "Mitchell": {
+        "contact": "Sylvia Clinton (Tax Assessor) at Voter Registrar's Office 325-728-2606",
+        "instructions": "Training Guide SOS\nCall Slyvia to schedule appt.Office is open 8:00 - 4:30 Monday through Friday. ",
+        "url": "http://www.mitchellcountytexas.us/"
+    },
+    "Montague": {
+        "contact": "Ginger Wall\nElections Administrator\nP.O. Box 158\n11339 State Hwy 59 N\nMontague, Texas 76251\n\nPhone: 940-894-2540",
+        "county-wide-polling": "in (2015)",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.montague.tx.us/page/montague.Elections"
+    },
+    "Montgomery": {
+        "contact": "Suzie Harvey\nElections Administrator/Voter Registrar\n9159 Airport Road, Conroe, Texas 77303\n936-539-7843",
+        "instructions": "Training Guide SOS\nTest completed in office\nplease call ahead to confirm availability",
+        "url": "http://legacy.mctx.org/election/VDR.asp"
+    },
+    "Moore": {
+        "contact": "County Tax Assessor-Collector\nNikki McDonald\n Moore County Tax Office\nPO Box 616\n500 S. Dumas Ave.\nDumas, TX 79029-0616\n806-935-2175",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to confirm availability",
+        "url": "http://www.co.moore.tx.us/page/moore.Elections"
+    },
+    "Morris": {
+        "contact": "Kim Thomasson -Tax Assessor-Collector/Voter Registrar Phone (903) 645-2446 Fax (903) 645-5351 Email - kim.thomasson@co.morris.tx.us",
+        "instructions": "Training Guide SOS\ncall/email Kim Thomasson to make an appt to take test",
+        "url": "www.co.morris.tx.us"
+    },
+    "Motley": {
+        "contact": "Jana Marshall - Tax Assessor-Collector Phone (806) 347-2252 Fax (806) 347-2220 Email - motleycotac@yahoo.com P.O. Box 727, Matador, Texas 79244",
+        "instructions": "Call/email to make an appt., come in see video/ go over training guide",
+        "url": "motleycountytexas.us"
+    },
+    "Nacogdoches": {
+        "contact": "Todd Stallings - Elections Administrator Phone (936) 560-7825 Fax (936) 560-7838 Email: tstallings@co.nacogdoches.tx.us",
+        "instructions": "Call/email to make an appt., come in see video/ go over training guide",
+        "url": "ci.nacogdoches.tx.us"
+    },
+    "Navarro": {
+        "contact": "Daniel Teed - Elections Administrator Phone (903) 875-3330 Fax (903) 875-3331 Email: dteed@navarrocounty.org",
+        "county-wide-polling": "in (2015)",
+        "instructions": "Training Guide SOS\nTest completed in office\nplease call ahead to confirm availability",
+        "url": "co.navarro.tx.us"
+    },
+    "Newton": {
+        "contact": "Melissa J. Burks - Tax Assessor - Collector Phone (409) 379-4241, (409) 379-5341 Fax (409) 379- 5944 Email: melissa.burks@co.newton.tx.us ",
+        "instructions": "Call/email to make appt\nIn office to review SOS guide/watch video",
+        "url": "co.newton.tx.us"
+    },
+    "Nolan": {
+        "contact": "Kathy Bowen - Tax Assessor-Collector/Voter Registrar Phone (325) 235-3271 Email: Kathy.Bowen@co.nolan.tx.us ",
+        "instructions": "Training Guide SOS\ncall/email/ to set up appt. and go over guide and take test and materials",
+        "url": "co.nolan.tx.us "
+    },
+    "Nueces": {
+        "contact": "Tax Assessor-Collector Kevin Kieschnic 901 Leopard, Ste. 301 Corpus Christi 78401 (361) 888-0404 Phone(361) 888-0339 FAX",
+        "county-wide-polling": "in (2017)",
+        "instructions": "You just need to show up either 8am -11am or 2pm - 4pm and read a PowerpPoint. A packet will be given to you. There is no need for appointment.",
+        "url": "http://www.nuecesco.com/county-services/tax-assessor-collector/voter-registration"
+    },
+    "Ochiltree": {
+        "contact": "County Clerk Stacey Brown\n511 S. Main Perryton, Texas 79070\nPhone (806) 435-8039\nFax (806) 435-2081\n*Cassi Laxton\nCounty Clerk Email: c.laxton@ochiltree.net\ncountyclerk@ochiltree.net ",
+        "instructions": "Call/Email/Come in person to collect Application/Training supplies",
+        "url": "co.ochiltree.tx.us"
+    },
+    "Oldham": {
+        "contact": "Tax Assessor- Collector Linda Brown P.O. Box 211 Vega,Texas 79092-0211 Phone (806) 267-2280 FAX (806) 267-2671 ",
+        "instructions": "Please call for specific instructions",
+        "url": "www.co.oldham.tx.us"
+    },
+    "Orange": {
+        "contact": "Elections Administrator Tina Jo Barrow 123 South 6th Street Orange 77630 Phone (409) 882-7973, (888) 868-3839 Fax (409) 670-4176 *Donna Alford - Asst. Elections Office Administrator email: alford@co.orange.tx.us, orangecountyelections@yahoo.com",
+        "instructions": "Trainign Guide SOS\nSchedule an appointment with Donna to take a test.",
+        "url": "www.co.orange.tx.us"
+    },
+    "Palo Pinto": {
+        "contact": "Elections Administrator\nLaura Watkins\nP.O. Box 275 Palo Pinto, Texas 76484 Email: Laura.watkins@co.palo-pinto.tx.us\n(940) 659-1217 Phone (940) 659-1212\n1-888-965-1548 FAX",
+        "county-wide-polling": "in (2016)",
+        "instructions": "Call Laura Watkins to make appt.\nReview/watch a slide show and you will be given a packet",
+        "url": "www.co.palo-pinto.tx.us"
+    },
+    "Panola": {
+        "contact": "Elections Administrator - Cheyenne Lampley 522 W. College St., Carthage, Texas 75633 Phone (903) 693-0370 Fax (903) 693-7283 Email: cheyenne.lampley@co.panola.tx.us",
+        "instructions": "Cheyenne does the training - you just need to call ahead to see if she is there. There are no formal times or dates. She will ask you questions to test if you know the material.",
+        "url": "www.co.panola.tx.us "
+    },
+    "Parker": {
+        "contact": "lori.williams@parkercountytx.com",
+        "county-wide-polling": "in (2015)",
+        "instructions": "no appt necessary office hours are 8am-5pm m-f",
+        "url": "https://www.parkercountytx.com/118/Elections"
+    },
+    "Parmer": {
+        "contact": "Tax Assessor Awnya Sanchez 806-481-3845",
+        "instructions": "They don’t know, it’s never been done. She said if you live there she can put you in touch with Tracy Ellis once you are actually in Fiona. She said the teachers and the principal are the folks that register people.",
+        "url": "Parmercounty.org"
+    },
+    "Pecos": {
+        "contact": "Marina 432-336-3386 ",
+        "instructions": "Call Marina and make an appointment to go in and read their handbook. She will then administer the test and certify you.",
+        "url": "Pecostax.org"
+    },
+    "Polk": {
+        "contact": "Tammy 936-327-6801 ",
+        "instructions": "Training Guide SOS\nTest in offie\nCall ahead to make sure Tammy is avail",
+        "url": "Co.polk.tx.us"
+    },
+    "Potter": {
+        "contact": "Melynn Huntley 806-379-2299",
+        "county-wide-polling": "in (2016)",
+        "instructions": "They have training classes, They do NOT have reciprocity with their neighboring Randall County. Easier to take the training in Potter, then go over to Randall Co., where they DO have reciprocity so you only have to take the class once.\nplease call for appt.",
+        "url": "Mypottercounty.com"
+    },
+    "Presidio": {
+        "contact": "“Flor” through the county clerk’s office 432-729-4812",
+        "instructions": "Please call for specifics instructions\nRegistrar only works during elections",
+        "url": "Co.presidio.tx.us"
+    },
+    "Rains": {
+        "contact": "Sandy Sims in County Clerk’s Office 903-473-5000 ext 109",
+        "instructions": "Call to let Sandy know you want the materials,\nMust go pick them up. When ready, call and make appt. to take test in office. ",
+        "url": "Co.rains.tx.us"
+    },
+    "Randall": {
+        "contact": "Elections administrator Shannon Lackey 806-468-5510",
+        "county-wide-polling": "in (2014)",
+        "instructions": "Super helpful, glad to help anybody who wants to be a VDR. Take the class in Potter County first (as they have no reciprocity), then go to Randall Co., and get certified in Randall. Or if you want, she will set up a class for you and administer the test to you in Randall.",
+        "url": "Randallcounty.com"
+    },
+    "Reagan": {
+        "contact": "Cynthia Aguilar 325-884-2131",
+        "instructions": "No process in place, please call for specific instructions",
+        "url": "Reagancountytexas.us"
+    },
+    "Real": {
+        "contact": "Donna Brice, Assessor. 830-232-6210",
+        "instructions": "Must be a resident of the county.\nTraining Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to confirm availability\nIf you are a VDR in another county they have reciprocity",
+        "url": "Co.real.tx.us"
+    },
+    "Red River": {
+        "contact": "Shawn Weemes, County Clerk 903-427-2401 ",
+        "instructions": "1) Go in person and fill out a Request for Appointment to be a VDR. 2) Then take the test and get certified.",
+        "url": "Co.red-river.tx.us"
+    },
+    "Reeves": {
+        "contact": "Stella in assessor’s office 432-445-5473 Not in 1/22/19 call back 1/23/19",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to confirm availability",
+        "url": "Reevescountytexas.net"
+    },
+    "Refugio": {
+        "contact": "Rachel Garcia, Elections Administrator - 361-526-2151; rachael.garcia@co.refugio.tx.us",
+        "instructions": "Refugio has a VDR application that is specific to the county.Contact Rachael Garcia @ 361.526.2151 to make an appt; no scheduled classes at this time. Office is clesed for lunch 12-1pm",
+        "url": "http://www.co.refugio.tx.us/page/refugio.Elections"
+    },
+    "Roberts": {
+        "contact": "Hether Williams, Tax Assessor-Collector 806-868-3611",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.robertscountytexas.us/"
+    },
+    "Robertson": {
+        "contact": "Stephanie Sanders, County Clerk 979-282-4130; Rebekah Callaway is Votar Registrar, 979.828.5726",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.robertson.tx.us/page/robertson.County.Clerk"
+    },
+    "Rockwall": {
+        "contact": "Tracy Inlow - 972) 204-6203 to make an appointment to take the exam.",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to confirm availability",
+        "url": "https://www.rockwallvotes.com/volunteer-deputy-registrar-training/"
+    },
+    "Runnels": {
+        "contact": "Voter Registrar's Office - 325-365-5027 Election Administrator is Shana at 325.365.2633",
+        "instructions": "Make appt with Shana\nTraining Guide SOS\nBring Printed copy of Test complete, they will score & certify\nplease call ahead to confirm availability.",
+        "url": "http://www.co.runnels.tx.us/page/runnels.Elections"
+    },
+    "Rusk": {
+        "contact": "Kaitlin Smith, EA\n204 N. Main St.\nHenderson, TX 75652\nPhone: 903-657-0321",
+        "county-wide-polling": "in (2015)",
+        "instructions": "SOS Training Guide\nno test, file application and certificaiton\nopen m-th please call ahead (no Fridays)",
+        "url": "http://www.co.rusk.tx.us/page/rusk.Elections"
+    },
+    "Sabine": {
+        "contact": "Andie Dutton\n213 Market Street - P.O. Box 310\nHemphill, TX 75948\nPhone: 409-787-2257\nFax: 409-787-4753\n(works in tax assessor-collector office)",
+        "instructions": "call to make an appointment.",
+        "url": "http://www.co.sabine.tx.us/page/sabine.County.Assessor.Collector"
+    },
+    "San Augustine": {
+        "contact": " Elections Administrator\nKelly Camp\n elections@co.san-augustine.tx.us\nOffice: 936-275-0989\nSan Augustine County Courthouse\n100 W Columbia\nSan Augustine, Tx 75972",
+        "instructions": "at this time no formal process\nthey will work to establish that after Feb 15th\nplease call ahead to make an appt & determine if they can do certifications",
+        "url": "http://www.co.san-augustine.tx.us/elections.html"
+    },
+    "San Jacinto": {
+        "contact": "Elections Office: (936) 653-5804",
+        "county-wide-polling": "in (2016)",
+        "instructions": "45 min training, held one time per month (next is 2/12/19 at 2:00 pm). Can call office at (936) 653-5804 to ask about monthly schedule. ",
+        "url": "http://www.co.san-jacinto.tx.us/page/sanjacinto.Elections"
+    },
+    "San Patricio": {
+        "contact": "Elections Office: 361-364-6121, pam.hill@co.san-patricio.tx.us",
+        "county-wide-polling": "in (2018)",
+        "instructions": "Volunteer Deputy Registrar Classes are offered the 3rd Tuesday of every month @ 10 AM in The Elections Office, 410 W. Market St. Sinton, Texas. Call our office at 361-364-6121 to schedule. (Suggested to call one week in advance to let them know how many will attend so they can prepare paperwork.)",
+        "url": "http://www.co.san-patricio.tx.us/page/sanpatricio.Elections"
+    },
+    "San Saba": {
+        "contact": "Tax Office: 325-372-5325",
+        "instructions": "Can stop by office to take the test any day Monday through Friday 8am - 11am or 1pm - 4pm.",
+        "url": "http://www.co.san-saba.tx.us/page/sansaba.County.Assessor.Collector"
+    },
+    "Schleicher": {
+        "contact": "Rosemary Adame - Elections Admin 325.853.2302, schleicherelections@co.schleicher.tx.us",
+        "instructions": "At this time, they do not have a VDR process in place. Rosemary (Elections Admin) is contacting the Secretary of State for more information and following up ASAP.\nPlease call for specifics",
+        "url": "http://www.schleichercountytexas.us/County_Officials/Elections_Administrator.htm"
+    },
+    "Scurry": {
+        "contact": "County Clerk's Office, 325-573-5332, melody.appleton@co.scurry.tx.us",
+        "instructions": "Can complete test and paperwork any day in person. Open Tuesday - Friday 8:00 am - 5:00 pm.",
+        "url": "http://www.co.scurry.tx.us/page/scurry.County.Clerk"
+    },
+    "Shackelford": {
+        "contact": "Tax Office, 325-762-9420",
+        "instructions": "Review training and paperwork provided by SOS on website, then attend a training in person at the Tax Office. Trainings are ONLY offered 2-3 months prior to each election date.",
+        "url": "http://www.co.shackelford.tx.us/page/shackelford.Tax.Assessor"
+    },
+    "Shelby": {
+        "contact": "County Tax Assessor - Collector\nDebora Riley\n936-598-5340\nShelby County\n200 San Augustine Street Box C\nCenter, Texas 75935",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.shelby.tx.us/page/shelby.County.Clerk"
+    },
+    "Sherman": {
+        "contact": "Clerk's Office - Laura Rogers 806-366-2371\nlaurarogers@co.sherman.tx.us",
+        "instructions": "At this time, they do not have a VDR process in place. Laura Rogers (County Clerk) said that because they are a small county they have never registered VDRs.\nPlease call ahead",
+        "url": "http://www.co.sherman.tx.us/page/sherman.County.Clerk"
+    },
+    "Smith": {
+        "contact": "Karen Nelson\nElections Administrator\n903-590-4777",
+        "county-wide-polling": "in (2015)",
+        "instructions": "They have a power point package you review, ask any related questions you may. you will then be certifiied\nM - Th",
+        "url": "https://www.smith-county.com/government/departments/elections"
+    },
+    "Somervell": {
+        "contact": "Elections Administrator\nChristine Covey - 254-897-9470\nelections@co.somervell.tx.us",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.somervell.co/additional-offices/elections/"
+    },
+    "Starr": {
+        "contact": "Rogelio Moralez\nVoter Registrar\n956-716-4800 ext 8116",
+        "instructions": "Bring ID and you must be registered to vote in Starr County.\nPlease call for training dates",
+        "url": "http://www.co.starr.tx.us/page/starr.Elections"
+    },
+    "Stephens": {
+        "contact": "Christie Latham\nCounty Tax Assessor\n254-559-2732\ncjl@texasisp.com",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.stephens.tx.us/page/stephens.Elections; http://www.co.stephens.tx.us/page/stephens.County.Assessor.Collector"
+    },
+    "Sterling": {
+        "contact": "County Clerk\nJerri McCutchen\nDeputy County Clerk(s)\nSonya Venzor\nBox 55\nSterling City, TX 76951\nPhone: 325-378-5191",
+        "instructions": "No process in place\nTraining Guide SOS\nplease call for specific instructions",
+        "url": "http://www.co.sterling.tx.us/page/sterling.County.Clerk"
+    },
+    "Stonewall": {
+        "contact": "Tax Assessor-Collector\nJim Ward\nP.O. Box N Aspermont\n79502\n(940) 989-2633 Phone\n(940) 989-2715 FAX",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.stonewallcountytexas.us/Officials/District_County_Clerk.htm"
+    },
+    "Sutton": {
+        "contact": "Kathy Marshall\n300 E. Oak, Suite 1, Sonora 76950\n(325) 387-2342 Phone\n(325) 387-5166 FAX",
+        "instructions": "Training Guide SOS\nTest completed in office\nplease call ahead to confirm availability",
+        "url": "http://www.smartvoter.org/tx/stn/"
+    },
+    "Swisher": {
+        "contact": "Elections Administrator\nRichelle Culifer\nCourthouse, 119 S. Maxwell Ave., Room 107, Tulia 79088\n(806) 995-2363 Phone\n(806) 995-4121 FAX",
+        "county-wide-polling": "in (2014)",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.swisher.tx.us/page/swisher.Elections"
+    },
+    "Tarrant": {
+        "contact": "817-831-8683\nvoterregistration@tarrantcounty.com",
+        "instructions": "Regular business days (Mon-Fri) between 8am and 4:30pm no appointment necessary. Training on most Thursday evenings from 5pm to 6pm but an appointment must be made witth contact Nickie Weaver at 817-831-6453 no later than 4 p.m. on Wednesday. Group training is also available for your organization/groups. If you are interested in a Volunteer Deputy Registrar group training, please email us at VDRRegistration@tarrantcounty.com",
+        "url": "http://access.tarrantcounty.com/en/elections/education-and-training/Volunteer-Deputy-Registrar/VDR-How-to-Become-a-Volunteer-Deputy-Registrar.html"
+    },
+    "Taylor": {
+        "contact": "Elections Administrator\nFreda Ragan\nP.O. Box 3318, Abilene 79604\n(325) 674-1216 Phone\n(325) 674-1340 FAX",
+        "county-wide-polling": "in (2015)",
+        "instructions": "Come to office, fill out paperwork. Go through a small training session, give packet. Open 8-5pm. Working on adjusting training. Thinking about offering training once every 2 weeks.",
+        "url": "https://www.taylorcountytexas.org/213/Registering-to-Vote"
+    },
+    "Terrell": {
+        "contact": " (432)-345-2391\nMinerva\nCounty Clerks office",
+        "instructions": "Small community, please come by the office and we will register you.",
+        "url": "http://www.co.terrell.tx.us/page/terrell.County.Clerk"
+    },
+    "Terry": {
+        "contact": "Elections Administrator\nKrystal Valentin\n507 W. Main, Brownfield 79316\n(806) 637-3806 Phone\nkvalentin@terrycounty.org",
+        "instructions": "Training Guide SOS (Or they can provide class)\nCome in and take the test.\nplease call ahead to confirm availability.",
+        "url": "http://www.co.terry.tx.us/page/terry.Elections"
+    },
+    "Throckmorton": {
+        "contact": "Elections Administrator\nEva Duke\nP.O. Box 339 Throckmorton 76483\n(940) 849-8825 Phone\n(940) 849-3032 FAX",
+        "county-wide-polling": "in (2017)",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.throckmortoncountytexas.us/County_Officials/Elections_Administrator.htm"
+    },
+    "Titus": {
+        "contact": "Krissy Lytle - Elections Administrator\n(Corner of Madison and Alabama)\n110 S. Madison Suite C\nMt. Pleasant, TX 75455\nPhone: 903.575.0902\nFax: 903.575.1117",
+        "instructions": "New elections administrator- Unsure of process. They've had trainings and done the online SOS training in that county. Waiting for new person to decide.",
+        "url": "http://www.co.titus.tx.us/county_elections/county_elections.html"
+    },
+    "Tom Green": {
+        "contact": "Vona Hudson\n113 W. Beauregard Ave. San Angelo 76903\n(325) 659-6541 Phone\n(325) 657-9226 FAX",
+        "county-wide-polling": "in (2015)",
+        "instructions": "Classes 1x a month- Feb. 20th @3:30/ March 20th @5:30 Call ahead to find out when classes are and put your name on schedule. Working on putting up online training.",
+        "url": "http://www.co.tom-green.tx.us/default.aspx?name=ele.ElectionsHome"
+    },
+    "Travis": {
+        "contact": "Matt Flores\nmatt.flores@traviscountytx.gov\n(512) 854-3976",
+        "county-wide-polling": "in (2012)",
+        "instructions": "Sign up for Jan classes here: https://docs.google.com/forms/d/e/1FAIpQLSdszZ0chagYgcw8IoSHwyxcWE8Gti3uKFGsPFqdKPrOmLq0Yg/viewform?fbclid=IwAR3CwA2d2gIOpK69cEi77YITZ-xkDmKlTA9rDmdM4xYrm6hlxcvJVCeD9z0 After January, 3rd Thursday of each month (?) at 10:30am, 2:30pm, and 6:30pm. 1st Saturday of month at 10:30am. Remote Classes for 20 or more- contact us at (512) 854-9473",
+        "url": "https://tax-office.traviscountytx.gov/voters/volunteers"
+    },
+    "Trinity": {
+        "contact": "Priscilla Rasbeary\nElections Administrator\n219 W. 1st St.\nGroveton, TX 75845\nPhone: 936-642-3959 ",
+        "instructions": "Training Guide SOS\nPrint Test - complete in office. They will score & certify\nplease call ahead to confirm availability",
+        "url": "http://www.co.trinity.tx.us/page/trinity.Elections2"
+    },
+    "Tyler": {
+        "contact": "Donece Gregory\n116 S. Charlton\nWoodville, TX 75979\n409-283-2281",
+        "instructions": "In office training\nplease call for appt",
+        "url": "http://www.co.tyler.tx.us/page/tyler.County.Clerk"
+    },
+    "Upshur": {
+        "contact": "Lory Harle\nUpshur County Court House, 2nd Floor\n100 West Tyler\nGilmer, TX 75644\n903-680-8506",
+        "county-wide-polling": "in (2017)",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to confirm availability",
+        "url": "http://www.countyofupshur.com/page/elections"
+    },
+    "Upton": {
+        "contact": "Mary Martha Arana\nUpton County Elections Administrator & Voter Registrar\nP.O. Box 65\nCourthouse Annex\n1000 N. Rankin Street\nRankin, Texas 79778\nPhone: 432-693-2014",
+        "instructions": "SOS Training Guide\nExam in office\nDeputized on site, certification and registration cards will be given",
+        "url": "http://www.co.upton.tx.us/page/upton.elections"
+    },
+    "Uvalde": {
+        "contact": "Elections Administrator\nMelissa M. Jones\n#2 Courthouse Square,\nUvalde 78801\n(830) 591-2724 ext. 265\nPhone M-F 8-5",
+        "instructions": "Contact Becky, make appt for VDR training in house\ncertificate issued, supplies given",
+        "url": "http://uvaldecounty.com/index.php/county/electionsadministrator/elections-office-contact-info?fbclid=IwAR0NClhBFGbRb0HxMnMXhyDtiG0FJTc25Bqihyf3vSAzU05BGZFqIrvYcYY"
+    },
+    "Val Verde": {
+        "contact": "Honorable Generosa (Janie) Gracia-Ramon, County Clerk 400 Pecan Street, 1st floor, Del Rio TX 78840",
+        "instructions": "Please call for specific instructions",
+        "url": "https://valverdecounty.texas.gov/153/County-Clerk"
+    },
+    "Van Zandt": {
+        "contact": "Shannon Myers 903-567-6503\nVan Zandt County Courthouse\n121 E Dallas St\nCanton, TX 75103\n",
+        "instructions": "per clerk - no training, just go into office an pick up a packet of information to begin (strongly suggest doing the SOS training guide)",
+        "url": "http://www.vanzandtcounty.org/page/vanzandt.Elections"
+    },
+    "Victoria": {
+        "contact": "Elections Administrator\nVicki Vogel\n2805 N. Navarro St., Ste 500, Victoria 77901-3947\n(361) 576-0124 Phone",
+        "county-wide-polling": "in (2014)",
+        "instructions": "walk-in during business hours, watch a slide show, take a short exam, become certified",
+        "url": "http://vctx.org/index.php/dept/elections"
+    },
+    "Walker": {
+        "contact": "Susan Mitchell\nDeputy Voter Registrar\nPhone936-436-4959Fax936-436-4961Emailwalkervr@co.walker.tx.us",
+        "instructions": "CLASSES FOR 2019 & 2020 LOCATED WEBLINK\nTo register for a class, please complete the Request for Appointment and return the completed form to the Voter Registration Office at the Walker County Annex in Room 114 or send it to walkervr@co.walker.tx.us no later than 5:00pm the day before the training class you are attending.",
+        "url": "https://www.co.walker.tx.us/department/division.php?structureid=251"
+    },
+    "Waller": {
+        "contact": "Elections Administrator\nChristy A. Eason\n816 Wilkins St., Hempstead 77445\n(979) 826-7643 Phone",
+        "instructions": "Training classes for VDR’s will be scheduled the third Friday of each month at the Elections Office. There will be a training at 10am and another at 3pm. In addition, online training is available 24/7 on the SOS website. https://www.sos.texas.gov/elections/forms/volunteer-deputy-registrar-training.pdf\nTraining for large groups will be by appointment.",
+        "url": "http://www.co.waller.tx.us/page/Front%20Page"
+    },
+    "Ward": {
+        "contact": "Tax Assessor-Collector\nVicki Heflin\nP.O. Box 290 Monahans 79756\n(432) 943-2546",
+        "instructions": "please call for specficis",
+        "url": "http://www.wardcountytax.org/contact.htm"
+    },
+    "Washington": {
+        "contact": "Carol Jackson\nCounty Clerk/Voter Registrar 100 E. Main, Ste 105\nBrenham, TX 77833\nphone 979-277-6200 x-5311",
+        "instructions": "\"Training Guide SOS\nCall Carol Jackson's office to confirm she is in the office go in to take exam during office hours.\nthey will score and & certify",
+        "url": "http://www.co.washington.tx.us/page/washington.Elections"
+    },
+    "Webb": {
+        "contact": "1110 Washington St. Suite 103\nLaredo TX 78040\n956-523-4050\ndirect question to person who answer the phone",
+        "instructions": "IMPORTANT NOTICE:\nAny person wishing to get \"Deputized\" MUST submit a \"Request for Appointment As A Volunteer Deputy Registrar in Webb County\". At least TWO (2) DAYS in advance of the Scheduled Deputation date.\nRequest: http://www.sos.state.tx.us/elections/forms/bw2-1.pdf\nVDVR Guide: http://www.sos.state.tx.us/elections/pamphlets/deputy.shtml\n2019 Deputation Schedule: pending update",
+        "url": "http://webbcounty.com/ElectionsAdministration/VolunteerDeputyVoterRegistrars/"
+    },
+    "Wharton": {
+        "contact": "Cindy Richter\n315 E. Milam St., Suite 103\nP.O. Box 390\nWharton, Texas 77488\nPhone: (979) 532-0193",
+        "county-wide-polling": "in (2015)",
+        "instructions": "Review in office or take home power point presentation for review\nTest in office, they will score and certify\nPlease call to confirm staff member is avail.",
+        "url": "http://www.co.wharton.tx.us/page/wharton.Elections"
+    },
+    "Wheeler": {
+        "contact": "Lewis Scott Porter (Scott)\nWheeler County Courthouse\n401 Main Street\nP. O. Box 1060\nWheeler, TX 79096\nPhone: 806-826-3131",
+        "instructions": "Please call for specific instructions",
+        "url": "http://www.co.wheeler.tx.us/page/wheeler.County.Assessor.Collector"
+    },
+    "Wichita": {
+        "contact": "Lori Bohannon\n900 7th Street, Room 250\nWichita Falls, Texas 76301\nPhone: (940)766-8100 Option 1 , Option 7\nFax: (940)716-8554\nEmail: Lori.Bohannon@co.wichita.tx.us",
+        "county-wide-polling": "in (2018)",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to confirm availability",
+        "url": "http://www.co.wichita.tx.us/County_Clerk/index.html"
+    },
+    "Wilbarger": {
+        "contact": "Maria Trejo\n1700 Wilbarger, Room 17\nVernon, TX 76384\nPhone: (940) 552-9341\n",
+        "instructions": "Call to confirm Maria is avail\nWill need to get packet, review materials, exam (she was not clear on the whether there is an exam of not, I asked twice)",
+        "url": "http://www.co.wilbarger.tx.us/page/wilbarger.County.Assessor.Collector"
+    },
+    "Willacy": {
+        "contact": "Mary Hope Barrera\nElections Administrator\n190 N. 3rd St.\nRaymondville, Texas 78580\nOffice (956) 689-2387",
+        "instructions": "Training Guide SOS\nTest in office, they will score & certify\nClosed during lunch.\nRecommend calling aheadBest to call ahead, no appt is needed.",
+        "url": "http://www.co.willacy.tx.us/page/willacy.Elections"
+    },
+    "Williamson": {
+        "contact": "Christopher J. Davis - cjdavis@wilco.org - (512) 943-1630",
+        "county-wide-polling": "in (2014)",
+        "instructions": "Training classes are offered the first and third Tuesday of each month at 2:00pm and 6:00pm. No classes will be offered during Early Voting or on Election Day. All classes are conducted at our offices in Georgetown located at 301 SE Inner Loop, Ste. 104 in Georgetown. https://www.sos.state.tx.us/elections/pamphlets/deputy.shtml",
+        "url": "https://www.wilco.org/Departments/Elections/Voter-Registration/Volunteer-Deputy-Registrar"
+    },
+    "Wilson": {
+        "contact": "Voter Registrar/ Election Administrator\nOlga Marrero\n1103 4th St.\nBuilding B, Ste. 101\nFloresville, TX 78114\nPhone: 830-393-7380",
+        "instructions": "review SOS Training Guide\nadd'l traning required at the office, then exam\nthere are no current trainig sessions scheduled at this time, please call to inquire",
+        "url": "http://www.co.wilson.tx.us/page/wilson.Elections"
+    },
+    "Winkler": {
+        "contact": "Minerva Soltero - Tax Assessor-Collector\n100 E. Winkler\n1st Floor Courthouse\nKermit, Texas 79745\n(432) 586-3465",
+        "instructions": "call 3 - 4 days in advance to make sure Minerva will be avail. will need to complete forms, get certified, done.",
+        "url": "http://www.co.winkler.tx.us/page/winkler.County.Assessor.Collector"
+    },
+    "Wise": {
+        "contact": "Sabra Srader, 940-626-4453 or 940-626-3656\nelections@co.wise.tx.us",
+        "instructions": "call to schedule appt.\nhttp://www.co.wise.tx.us/Election/DVR%20Training.pdf",
+        "url": "http://www.co.wise.tx.us/default.htm?Election.htm"
+    },
+    "Wood": {
+        "contact": "Laura Wise\n903-763-2400 option 1\n100 S. Main St.\n(Intersection of SH 154 and SH 37)\nQuitman, Texas 75783\n(903) 763-1236\n(4th floor)",
+        "instructions": "go into office, watch video, take a short test.\nwill take 35-45 min\nplease call ahead to confirm there is someone is avail.",
+        "url": "https://elections.mywoodcounty.com/elections-office/contact-us/"
+    },
+    "Yoakum": {
+        "contact": "County Tax Assessor - Collector\nJan Parrish\nYoakum County Courthouse\nP. O. Box 250\nPlains, TX 79355806-456-7491 ext. 4",
+        "instructions": "Training Guide SOS\nPrint Test - complete, they will score & certify\nplease call ahead to confirm availability",
+        "url": "http://www.co.yoakum.tx.us/page/yoakum.County.Clerk"
+    },
+    "Young": {
+        "contact": "Lauren Sullivan\nElections Administrator\nAddress: 516 Fourth Street B-1\nGraham, Texas, 76450\nPhone: 940-521-9483\nEmail: l.sullivan@youngcounty.org",
+        "county-wide-polling": "in (2016)",
+        "instructions": "come by office, 2 page application (basic info)\nSOS training guide, ceritification completed\nsmart to call ahead just to confirm she is in the office",
+        "url": "http://www.co.young.tx.us/page/young.Elections"
+    },
+    "Zapata": {
+        "contact": "Tax Assessor-Collector\nLuis Lauro Gonzalez\n200 E. 7th Avenue Ste. #226, Zapata 78076\n(956) 765-9971 Phone",
+        "instructions": "Training Guide SOS\nPrint Test - complete\nBring completed test in during office hours, they score & certify\nplease call to confirm staff member avail.",
+        "url": "http://www.co.zapata.tx.us/page/zapata.County.Assessor.Collector"
+    },
+    "Zavala": {
+        "contact": "Michelle Bonilla\nCounty Clerk\nZavala County Courthouse\n200 E. Uvalde St.\nCrystal City, TX 78839\nOffice Phone: 830-374-2331",
+        "instructions": "print and complete exam on Sec. of State website\nbring it in during office hours, they will grade, upon passsing they will have you take an pledge of oah and certifiy you",
+        "url": "http://www.co.zavala.tx.us/page/County%20Tax%20AssessorCollector"
+    }
 }
