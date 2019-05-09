@@ -45,7 +45,11 @@ if __name__=="__main__":
             itsText.append(theText)
 
             if args.auto_format_contact:
-                paragraph   = textwrap.wrap(info['contact'].replace('\n', ' '), width=36)
+                paragraph   = [ ]
+                opara       = info['contact'].split('\n')
+                for para in opara:
+                    para    = textwrap.wrap(para, width=36)
+                    paragraph.extend(para)
             else:
                 paragraph   = info['contact'].split('\n')
             instrs          = info['instructions'].replace('\n', ' ')
