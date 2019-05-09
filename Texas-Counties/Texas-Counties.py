@@ -53,7 +53,6 @@ if __name__=="__main__":
             paragraph       += ['']
             paragraph       += instrs
 
-
             for II,subcontact in enumerate(paragraph):
                 theContact      = ET.Element("{http://www.w3.org/2000/svg}text")
                 theContact.text = subcontact

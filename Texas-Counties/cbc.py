@@ -5,10 +5,11 @@ import json
 
 oldTCJ  = json.loads(open('Texas-Counties.json').read())
 
-with open('cbc.csv', 'rb') as csvfile:
+with open('cbc2.csv', 'rb') as csvfile:
     rd = csv.reader(csvfile)
     for row in rd:
         theCounty   = ' '.join(row[0].split(' ')[:-1])
+        print theCounty
         newData = '%(link)s"'%{
                             'link'      : row[1],
                         }

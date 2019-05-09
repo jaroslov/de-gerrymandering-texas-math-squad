@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="314.67px" id="svg5598" version="1.1" viewBox="0 0 321.782 314.67" width="721.782px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" y="0px">
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="2000px" id="svg5598" version="1.1" width="2000px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" y="0px">
     <style type="text/css">
         path {
           fill          : #FFFFFF;
@@ -57,7 +57,7 @@
             }
         ]]>
     </script>
-    <g id="layer1" transform="translate(-372.57928,-299.86126)">
+    <g id="layer1" transform="scale(2 2) translate(-200 -299.86126)">
         <text class="map_title" id="map_title" x="250" y="340">Map Title</text>
         <g>
             <title id="title_TX_Bowie">Bowie</title>
