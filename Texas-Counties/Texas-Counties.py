@@ -40,29 +40,44 @@ if __name__=="__main__":
             theText.set('y', '384')
             xlink.set('xlink:href', info['url'])
             xlink.text      = county
-            xlink.set('text-decoration', 'underline')
+            xlink.set('fill', 'blue')
             theText.append(xlink)
             itsText.append(theText)
 
-            if args.auto_format_contact:
-                paragraph   = [ ]
-                opara       = info['contact'].split('\n')
-                for para in opara:
-                    para    = textwrap.wrap(para, width=36)
-                    paragraph.extend(para)
-            else:
-                paragraph   = info['contact'].split('\n')
-            instrs          = info['instructions'].replace('\n', ' ')
-            instrs          = textwrap.wrap(instrs, width=36)
-            paragraph       += ['']
-            paragraph       += instrs
-
-            for II,subcontact in enumerate(paragraph):
-                theContact      = ET.Element("{http://www.w3.org/2000/svg}text")
-                theContact.text = subcontact
+            if False:
+                theContact      = ET.Element("{http://www.w3.org/2000/svg}foreignObject")
                 theContact.set('x', '600')
-                theContact.set('y', '%s'%(400+10*II))
+                theContact.set('y', '%s'%(400))
+
+                theTable        = ET.Element("table")
+                theTable.attrib['xmlns']    = "http://www.w3.org/1999/xhtml"
+                theRow          = ET.Element("tr")
+                thePerson       = ET.Element("p")
+                thePerson.text  = info['contact']
+                theRow.append(thePerson)
+                theTable.append(theRow)
+                theContact.append(theTable)
                 itsText.append(theContact)
+            else:
+                if args.auto_format_contact:
+                    paragraph   = [ ]
+                    opara       = info['contact'].split('\n')
+                    for para in opara:
+                        para    = textwrap.wrap(para, width=36, break_long_words=True)
+                        paragraph.extend(para)
+                else:
+                    paragraph   = info['contact'].split('\n')
+                instrs          = info['instructions'].replace('\n', ' ')
+                instrs          = textwrap.wrap(instrs, width=36, break_long_words=True)
+                paragraph       += ['']
+                paragraph       += instrs
+
+                for II,subcontact in enumerate(paragraph):
+                    theContact      = ET.Element("{http://www.w3.org/2000/svg}text")
+                    theContact.text = subcontact
+                    theContact.set('x', '600')
+                    theContact.set('y', '%s'%(400+10*II))
+                    itsText.append(theContact)
             #itsText.text    = county + ' ' + str(info[args.info])
     TXML.write(args.output)
 

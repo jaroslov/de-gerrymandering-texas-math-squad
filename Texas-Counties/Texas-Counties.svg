@@ -24,6 +24,11 @@
             fill: #00F;
             text-decoration: underline;
         }
+
+        a:visited {
+            fill: #808;
+            text-decoration: underline;
+        }
     </style>
     <script type="text/ecmascript"><![CDATA[
             function changebg(evt) {
